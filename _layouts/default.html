@@ -27,6 +27,8 @@
   <link rel="stylesheet" href={{ "/libs/external/skeleton/normalize.css" | prepend: site.baseurl }}>
   <link rel="stylesheet" href={{ "/libs/external/skeleton/skeleton.css" | prepend: site.baseurl }}>
   <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
+  <link rel="stylesheet" href={{ "/libs/custom/teaching.css" | prepend: site.baseurl }}>
+
 
   <!-- JQuery
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -76,8 +78,11 @@
             <p>{{ site.data.main_info.title }}</p>
             <p>{{ site.data.main_info.email }}</p>
             <p>
-              <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
+              <!-- <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>  -->
+              <span onclick="window.open('{{ site.data.main_info.youtube }}')" style="cursor: pointer">
+                <i class="fa fa-youtube" aria-hidden="true"></i>
               </span>
 
               <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
@@ -97,17 +102,21 @@
     </section>
 
     <div class="navbar-spacer"></div>
-    <nav class="navbar">
-      <div class="container">
-        <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-          <!--<li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li>-->
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li>
-        </ul>
-      </div>
-    </nav>
+<nav class="navbar">
+  <div class="container">
+    <ul class="navbar-list">
+      <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li> -->
+      <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
+      <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#teaching" | prepend: site.baseurl }}>Teaching</a></li>
+      <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#data-science-lab" | prepend: site.baseurl }}>Data Science Lab</a></li>
+      <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#prospective-students" | prepend: site.baseurl }}>Prospective Students</a></li>
+      <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Vita</a></li> -->
+      <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#news" | prepend: site.baseurl }}>News</a></li>
+    </ul>
+  </div>
+</nav>
+
+    
 
     {{ content}}
 
@@ -132,6 +141,11 @@
           <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
             <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
           </span>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns" style="text-align: center; font-size: 0.8em; margin-top: 10px; color: #555;">
+          Based on the template by <a href="https://msaveski.com/" target="_blank" style="color: #007bff; text-decoration: none;">Martin Saveski</a>.
         </div>
       </div>
     </div>
