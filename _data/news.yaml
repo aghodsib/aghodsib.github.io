@@ -4,9 +4,11 @@
     - Generative AI and Large Language Models (STAT 946)
 
 - date: New paperes 
-  description: "Our team is presenting three papers at NeurIPS 2024. We are thrilled to share our research advancements at this prestigious conference!"
+  description: |
+    - Our lab is presenting three papers at NeurIPS 2024. 
+    - Our paper GraphPI "Efficient Protein Inference with Graph Neural Networks" has been accepted in the Journal of Proteome Research.
 
-- date: December 2024
-  description: "We are hiring Master's and PhD students! Learn more about our research projects and application process on the [Prospective Students](#prospective-students) page."
+- date: Positions
+  description: "We are seeking passionate and motivated Master's and PhD students to join our research projects. Learn more on the [Prospective Students](#prospective-students) page."
 
 
