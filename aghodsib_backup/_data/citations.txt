@@ -1,0 +1,2516 @@
+@article{ghodsi2006nonlinear,
+  title={Nonlinear dimensionality reduction with side information},
+  author={Ghodsi Boushehri, Ali},
+  year={2006},
+  publisher={University of Waterloo}
+}
+
+@inproceedings{ghodsi2013information,
+  title={Information-centric networking--Ready for the real world?(Dagstuhl Seminar 12361)},
+  author={Ghodsi, Ali and Ohlman, B{\"o}rje and Ott, J{\"o}rg and Solis, Ignacio and W{\"a}hlisch, Matthias},
+  booktitle={Dagstuhl Reports},
+  volume={2},
+  number={9},
+  year={2013},
+  organization={Schloss Dagstuhl-Leibniz-Zentrum fuer Informatik}
+}
+
+@inproceedings{chemtob1991post,
+  title={POST ASPHYXIAL (AX) INCREASES IN THROMBOXANE (TX) COMPROMISE RENAL, ILEAL AND COLON BLOOD-FLOW (RBF, IBF, CBF) IN NEWBORN (NB) PIGS},
+  author={CHEMTOB, S and GHODSI, A and BARNA, T and BEHARRY, K and CUZZANI, O and VARMA, DR and ARANDA, JV},
+  booktitle={PEDIATRIC RESEARCH},
+  volume={29},
+  number={4},
+  pages={A58--A58},
+  year={1991},
+  organization={WILLIAMS \& WILKINS 351 WEST CAMDEN ST, BALTIMORE, MD 21201-2436}
+}
+
+@inproceedings{chemtob1991prostanoids,
+  title={PROSTANOIDS (PG-TX) HAVE A MAJOR ROLE IN POST ASPHYXIAL (AX) CHANGES IN RETINAL BLOOD-FLOW (RBF) AUTOREGULATION (AR) IN NEWBORN (NB) PIGS},
+  author={CHEMTOB, S and GHODSI, A and BARNA, T and CUZZANI, O and BEHARRY, K and VARMA, DR and ARANDA, JV},
+  booktitle={PEDIATRIC RESEARCH},
+  volume={29},
+  number={4},
+  pages={A207--A207},
+  year={1991},
+  organization={WILLIAMS \& WILKINS 351 WEST CAMDEN ST, BALTIMORE, MD 21201-2436}
+}
+
+@inproceedings{chemtob1991prostanoids,
+  title={PROSTANOIDS CONTRIBUTE SIGNIFICANTLY TO THE CHANGES IN RETINAL BLOOD-FLOW (RBF) AUTOREGULATION FOLLOWING ASPHYXIA (AX) OF THE NEWBORN PIG},
+  author={CHEMTOB, S and GHODSI, A and BARNA, T},
+  booktitle={INVESTIGATIVE OPHTHALMOLOGY \& VISUAL SCIENCE},
+  volume={32},
+  number={4},
+  pages={864--864},
+  year={1991},
+  organization={LIPPINCOTT-RAVEN PUBL 227 EAST WASHINGTON SQ, PHILADELPHIA, PA 19106}
+}
+
+@article{ghodsi20133,
+  title={3.12 ICN evaluation: Why and How?},
+  author={Ghodsi, Ali and Ohlman, B{\"o}rje and Ott, J{\"o}rg and Solis, Ignacio and W{\"a}hlisch, Matthias},
+  journal={Information-centric networking--Ready for the real world?},
+  pages={9},
+  year={2013}
+}
+
+@article{esemi,
+  title={Semi-Supervised Representation Learning based on Probabilistic Labeling},
+  author={E Banijamali, A Ghodsi}
+}
+
+@article{citation-7,
+  title={Semi-supervised Dictionary Learning Based on Hilbert-Schmidt Independence Criterion}
+}
+
+@article{greedy,
+  title={Greedy column subset selection for large-scale data sets}
+}
+
+@article{gkolmogorov,
+  title={Kolmogorov complexity vector: A novel data representation},
+  author={G Yang, A Ghodsi}
+}
+
+@article{supervised,
+  title={Supervised dictionary learning and sparse representation-a review}
+}
+
+@article{advances,
+  title={Advances in projection of climate change impacts using supervised nonlinear dimensionality reduction techniques}
+}
+
+@article{dimension,
+  title={A dimension-independent generalization bound for kernel supervised principal component analysis}
+}
+
+@article{learning,
+  title={Learning the structure of sum-product networks via an SVD-based algorithm}
+}
+
+@article{manifold,
+  title={Manifold unfolding by Isometric Patch Alignment with an application in protein structure determination}
+}
+
+@article{citation-15,
+  title={A fast greedy algorithm for generalized column subset selection}
+}
+
+@article{distributed,
+  title={Distributed column subset selection on mapreduce}
+}
+
+@article{discriminative,
+  title={Discriminative functional analysis of human movements}
+}
+
+@article{kernelized,
+  title={Kernelized supervised dictionary learning}
+}
+
+@article{efficient,
+  title={Efficient greedy feature selection for unsupervised learning}
+}
+
+@article{determining,
+  title={Determining protein structures from NOESY distance constraints by semidefinite programming}
+}
+
+@article{citation-21,
+  title={Low Dimensional Localized Clustering (LDLC)}
+}
+
+@article{adapting,
+  title={Adapting component analysis}
+}
+
+@article{detecting,
+  title={Detecting change-points in time series by maximum mean discrepancy of ordinal pattern distributions}
+}
+
+@article{supervised,
+  title={Supervised texture classification using a novel compression-based similarity measure}
+}
+
+@article{efficient,
+  title={An efficient greedy method for unsupervised feature selection}
+}
+
+@article{supervised,
+  title={Supervised priPrincipal component analysis: Visualization, classification and regression on subspaces and submanifolds}
+}
+
+@article{tachyon,
+  title={Tachyon: Reliable, memory speed storage for cluster computing frameworks}
+}
+
+@article{zhu2006automatic,
+  title={Automatic dimensionality selection from the scree plot via the use of profile likelihood},
+  author={Zhu, Mu and Ghodsi, Ali},
+  journal={Computational Statistics \& Data Analysis},
+  volume={51},
+  number={2},
+  pages={918--930},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@article{ghodsi2006dimensionality,
+  title={Dimensionality reduction a short tutorial},
+  author={Ghodsi, Ali},
+  journal={Department of Statistics and Actuarial Science, Univ. of Waterloo, Ontario, Canada},
+  volume={37},
+  number={38},
+  pages={2006},
+  year={2006}
+}
+
+@article{barshan2011supervised,
+  title={Supervised principal component analysis: Visualization, classification and regression on subspaces and submanifolds},
+  author={Barshan, Elnaz and Ghodsi, Ali and Azimifar, Zohreh and Jahromi, Mansoor Zolghadri},
+  journal={Pattern Recognition},
+  volume={44},
+  number={7},
+  pages={1357--1371},
+  year={2011},
+  publisher={Pergamon}
+}
+
+@inproceedings{ghodsi2013choosy,
+  title={Choosy: Max-min fair sharing for datacenter jobs with constraints},
+  author={Ghodsi, Ali and Zaharia, Matei and Shenker, Scott and Stoica, Ion},
+  booktitle={Proceedings of the 8th ACM European Conference on Computer Systems},
+  pages={365--378},
+  year={2013}
+}
+
+@article{ghodsi2003automatic,
+  title={Automatic basis selection techniques for RBF networks},
+  author={Ghodsi, Ali and Schuurmans, Dale},
+  journal={Neural Networks},
+  volume={16},
+  number={5-6},
+  pages={809--816},
+  year={2003},
+  publisher={Pergamon}
+}
+
+@inproceedings{bowling2005action,
+  title={Action respecting embedding},
+  author={Bowling, Michael and Ghodsi, Ali and Wilkinson, Dana},
+  booktitle={Proceedings of the 22nd international conference on Machine learning},
+  pages={65--72},
+  year={2005}
+}
+
+@inproceedings{bhattacharya2013hierarchical,
+  title={Hierarchical scheduling for diverse datacenter workloads},
+  author={Bhattacharya, Arka A and Culler, David and Friedman, Eric and Ghodsi, Ali and Shenker, Scott and Stoica, Ion},
+  booktitle={Proceedings of the 4th annual Symposium on Cloud Computing},
+  pages={1--15},
+  year={2013}
+}
+
+@inproceedings{alipanahi2008distance,
+  title={Distance metric learning vs. fisher discriminant analysis},
+  author={Alipanahi, Babak and Biggs, Michael and Ghodsi, Ali and others},
+  booktitle={Proceedings of the 23rd national conference on Artificial intelligence},
+  volume={2},
+  pages={598--603},
+  year={2008}
+}
+
+@article{bailis2016scalable,
+  title={Scalable atomic visibility with RAMP transactions},
+  author={Bailis, Peter and Fekete, Alan and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  journal={ACM Transactions on Database Systems (TODS)},
+  volume={41},
+  number={3},
+  pages={1--45},
+  year={2016},
+  publisher={ACM New York, NY, USA}
+}
+
+@inproceedings{ghodsi2003self,
+  title={Self-correcting broadcast in distributed hash tables},
+  author={Ghodsi, Ali and Onana Alima, Luc and El-Ansary, Sameh and Brand, Per and Haridi, Seif},
+  booktitle={15th International Conference Parallel and Distributed Computing and Systems (PDCS'2003)},
+  year={2003}
+}
+
+@inproceedings{bailis2012potential,
+  title={The potential dangers of causal consistency and an explicit solution},
+  author={Bailis, Peter and Fekete, Alan and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  booktitle={Proceedings of the Third ACM Symposium on Cloud Computing},
+  pages={1--7},
+  year={2012}
+}
+
+@article{farahat2013efficient,
+  title={Efficient greedy feature selection for unsupervised learning},
+  author={Farahat, Ahmed K and Ghodsi, Ali and Kamel, Mohamed S},
+  journal={Knowledge and information systems},
+  volume={35},
+  pages={285--310},
+  year={2013},
+  publisher={Springer-Verlag}
+}
+
+@inproceedings{bowling2007subjective,
+  title={Subjective localization with action respecting embedding},
+  author={Bowling, Michael and Wilkinson, Dana and Ghodsi, Ali and Milstein, Adam},
+  booktitle={Robotics Research: Results of the 12th International Symposium ISRR},
+  pages={190--202},
+  year={2007},
+  organization={Springer Berlin Heidelberg}
+}
+
+@inproceedings{biggs2008nonnegative,
+  title={Nonnegative matrix factorization via rank-one downdate},
+  author={Biggs, Michael and Ghodsi, Ali and Vavasis, Stephen},
+  booktitle={Proceedings of the 25th International Conference on Machine learning},
+  pages={64--71},
+  year={2008}
+}
+
+@inproceedings{farahat2011efficient,
+  title={An efficient greedy method for unsupervised feature selection},
+  author={Farahat, Ahmed K and Ghodsi, Ali and Kamel, Mohamed S},
+  booktitle={2011 IEEE 11th International Conference on Data Mining},
+  pages={161--170},
+  year={2011},
+  organization={IEEE}
+}
+
+@inproceedings{alima2003multicast,
+  title={Multicast in Overlay Networks},
+  author={Alima, Luc Onana and Ghodsi, Ali and Brand, Per and Haridi, Seif},
+  booktitle={International Conference On Principles Of Distributed Systems},
+  pages={83--95},
+  year={2003},
+  organization={Springer Berlin Heidelberg Berlin, Heidelberg}
+}
+
+@inproceedings{shafaat2007handling,
+  title={Handling network partitions and mergers in structured overlay networks},
+  author={Shafaat, Tallat M and Ghodsi, Ali and Haridi, Seif},
+  booktitle={Seventh IEEE International Conference on Peer-to-Peer Computing (P2P 2007)},
+  pages={132--139},
+  year={2007},
+  organization={IEEE}
+}
+
+@inproceedings{ananthanarayanan2012let,
+  title={Why let resources idle? Aggressive cloning of jobs with Dolly},
+  author={Ananthanarayanan, Ganesh and Ghodsi, Ali and Shenker, Scott and Stoica, Ion},
+  booktitle={4th USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 12)},
+  year={2012}
+}
+
+@article{gangeh2013kernelized,
+  title={Kernelized supervised dictionary learning},
+  author={Gangeh, Mehrdad J and Ghodsi, Ali and Kamel, Mohamed S},
+  journal={IEEE Transactions on Signal Processing},
+  volume={61},
+  number={19},
+  pages={4753--4767},
+  year={2013},
+  publisher={IEEE}
+}
+
+@inproceedings{farahat2011novel,
+  title={A novel greedy algorithm for Nystr{\"o}m approximation},
+  author={Farahat, Ahmed and Ghodsi, Ali and Kamel, Mohamed},
+  booktitle={Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics},
+  pages={269--277},
+  year={2011},
+  organization={JMLR Workshop and Conference Proceedings}
+}
+
+@inproceedings{ghodsi2005low,
+  title={Low-bandwidth topology maintenance for robustness in structured overlay networks},
+  author={Ghodsi, Ali and Alima, Luc Onana and Haridi, Seif},
+  booktitle={Proceedings of the 38th Annual Hawaii International Conference on System Sciences},
+  pages={302a--302a},
+  year={2005},
+  organization={IEEE}
+}
+
+@inproceedings{shafaat2008practical,
+  title={A practical approach to network size estimation for structured overlays},
+  author={Shafaat, Tallat M and Ghodsi, Ali and Haridi, Seif},
+  booktitle={International Workshop on Self-Organizing Systems},
+  pages={71--83},
+  year={2008},
+  organization={Springer Berlin Heidelberg Berlin, Heidelberg}
+}
+
+@inproceedings{panda2013cap,
+  title={Cap for networks},
+  author={Panda, Aurojit and Scott, Colin and Ghodsi, Ali and Koponen, Teemu and Shenker, Scott},
+  booktitle={Proceedings of the second ACM SIGCOMM workshop on Hot topics in software defined networking},
+  pages={91--96},
+  year={2013}
+}
+
+@article{shafaat2009dealing,
+  title={Dealing with network partitions in structured overlay networks},
+  author={Shafaat, Tallat M and Ghodsi, Ali and Haridi, Seif},
+  journal={Peer-to-Peer Networking and Applications},
+  volume={2},
+  pages={334--347},
+  year={2009},
+  publisher={Springer US}
+}
+
+@inproceedings{shafaat2008key,
+  title={Key-based consistency and availability in structured overlay networks},
+  author={Shafaat, Tallat M and Sch{\"u}tt, Thorsten and Moser, Monika and Haridi, Seif and Ghodsi, Ali and Reinefeld, Alexander},
+  booktitle={Proceedings of the 17th international symposium on High performance distributed computing},
+  pages={235--236},
+  year={2008}
+}
+
+@inproceedings{zaharia2011datacenter,
+  title={The datacenter needs an operating system},
+  author={Zaharia, Matei and Hindman, Benjamin and Konwinski, Andy and Ghodsi, Ali and Joseph, Anthony D and Katz, Randy and Shenker, Scott and Stoica, Ion},
+  booktitle={3rd USENIX Workshop on Hot Topics in Cloud Computing (HotCloud 11)},
+  year={2011}
+}
+
+@inproceedings{jernberg2006doh,
+  title={Doh: A content delivery peer-to-peer network},
+  author={Jernberg, Jimmy and Vlassov, Vladimir and Ghodsi, Ali and Haridi, Seif},
+  booktitle={Euro-Par 2006 Parallel Processing: 12th International Euro-Par Conference, Dresden, Germany, August 28--September 1, 2006. Proceedings 12},
+  pages={1026--1039},
+  year={2006},
+  organization={Springer Berlin Heidelberg}
+}
+
+@inproceedings{ghodsi2010dominant,
+  title={Dominant resource fairness: Fair allocation of heterogeneous resources in datacenters},
+  author={Ghodsi, Ali and Zaharia, Matei and Hindman, Benjamin and Konwinski, Andrew and Shenker, Scott and Stoica, Ion},
+  booktitle={Proc. of NSDI},
+  year={2010}
+}
+
+@article{li2013tachyon,
+  title={Tachyon: Memory throughput i/o for cluster computing frameworks},
+  author={Li, Haoyuan and Ghodsi, Ali and Zaharia, Matei and Baldeschwieler, Eric and Shenker, Scott and Stoica, Ion},
+  journal={memory},
+  volume={18},
+  number={1},
+  year={2013}
+}
+
+@inproceedings{farahat2013distributed,
+  title={Distributed column subset selection on mapreduce},
+  author={Farahat, Ahmed K and Elgohary, Ahmed and Ghodsi, Ali and Kamel, Mohamed S},
+  booktitle={2013 IEEE 13th International Conference on Data Mining},
+  pages={171--180},
+  year={2013},
+  organization={IEEE}
+}
+
+@inproceedings{he2010rare,
+  title={Rare class classification by support vector machine},
+  author={He, He and Ghodsi, Ali},
+  booktitle={2010 20th International Conference on Pattern Recognition},
+  pages={548--551},
+  year={2010},
+  organization={IEEE}
+}
+
+@article{alipanahi2011guided,
+  title={Guided locally linear embedding},
+  author={Alipanahi, Babak and Ghodsi, Ali},
+  journal={Pattern recognition letters},
+  volume={32},
+  number={7},
+  pages={1029--1035},
+  year={2011},
+  publisher={North-Holland}
+}
+
+@inproceedings{friedman2014strategyproof,
+  title={Strategyproof allocation of discrete jobs on multiple machines},
+  author={Friedman, Eric and Ghodsi, Ali and Psomas, Christos-Alexandros},
+  booktitle={Proceedings of the fifteenth ACM conference on Economics and computation},
+  pages={529--546},
+  year={2014}
+}
+
+@inproceedings{ghodsi2007improving,
+  title={Improving Embeddings by Flexible Exploitation of Side Information.},
+  author={Ghodsi, Ali and Wilkinson, Dana F and Southey, Finnegan},
+  booktitle={IJCAI},
+  pages={810--816},
+  year={2007}
+}
+
+@article{alipanahi2013determining,
+  title={Determining protein structures from NOESY distance constraints by semidefinite programming},
+  author={Alipanahi, Babak and Krislock, Nathan and Ghodsi, Ali and Wolkowicz, Henry and Donaldson, Logan and Li, Ming},
+  journal={Journal of Computational Biology},
+  volume={20},
+  number={4},
+  pages={296--310},
+  year={2013},
+  publisher={Mary Ann Liebert, Inc. 140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA}
+}
+
+@inproceedings{gangeh2011dictionary,
+  title={Dictionary learning in texture classification},
+  author={Gangeh, Mehrdad J and Ghodsi, Ali and Kamel, Mohamed S},
+  booktitle={Image Analysis and Recognition: 8th International Conference, ICIAR 2011, Burnaby, BC, Canada, June 22-24, 2011. Proceedings, Part I 8},
+  pages={335--343},
+  year={2011},
+  organization={Springer Berlin Heidelberg}
+}
+
+@inproceedings{montresor2009towards,
+  title={Towards robust peer counting},
+  author={Montresor, Alberto and Ghodsi, Ali},
+  booktitle={2009 IEEE Ninth International Conference on Peer-to-Peer Computing},
+  pages={143--146},
+  year={2009},
+  organization={IEEE}
+}
+
+@article{crankshaw2014missing,
+  title={The missing piece in complex analytics: Low latency, scalable model management and serving with velox},
+  author={Crankshaw, Daniel and Bailis, Peter and Gonzalez, Joseph E and Li, Haoyuan and Zhang, Zhao and Franklin, Michael J and Ghodsi, Ali and Jordan, Michael I},
+  journal={arXiv preprint arXiv:1409.3809},
+  year={2014}
+}
+
+@inproceedings{hindman2009nexus,
+  title={Nexus: A common substrate for cluster computing},
+  author={Hindman, Benjamin and Konwinski, Andrew and Zaharia, Matei and Ghodsi, Ali and Joseph, Anthony D and Shenker, Scott and Stoica, Ion},
+  booktitle={Workshop on Hot Topics in Cloud Computing},
+  year={2009}
+}
+
+@inproceedings{bailis2013hat,
+  title={$\{$HAT$\}$, Not $\{$CAP$\}$: Towards Highly Available Transactions},
+  author={Bailis, Peter and Fekete, Alan and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  booktitle={14th Workshop on Hot Topics in Operating Systems (HotOS XIV)},
+  year={2013}
+}
+
+@inproceedings{skogh2006fast,
+  title={Fast freenet: Improving freenet performance by preferential partition routing and file mesh propagation},
+  author={Skogh, H-E and Haeggstrom, Jonas and Ghodsi, Ali and Ayani, Rassul},
+  booktitle={Sixth IEEE International Symposium on Cluster Computing and the Grid (CCGRID'06)},
+  volume={2},
+  pages={8--pp},
+  year={2006},
+  organization={IEEE}
+}
+
+@article{trunfio2008implementing,
+  title={Implementing dynamic querying search in k-ary DHT-based overlays},
+  author={Trunfio, Paolo and Talia, Domenico and Ghodsi, Ali and Haridi, Seif},
+  journal={Grid Computing: Achievements and Prospects},
+  pages={275--286},
+  year={2008},
+  publisher={Springer US}
+}
+
+@inproceedings{bailis2015feral,
+  title={Feral concurrency control: An empirical investigation of modern application integrity},
+  author={Bailis, Peter and Fekete, Alan and Franklin, Michael J and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  booktitle={Proceedings of the 2015 ACM SIGMOD International Conference on Management of Data},
+  pages={1327--1342},
+  year={2015}
+}
+
+@article{armbrust2015scaling,
+  title={Scaling spark in the real world: performance and usability},
+  author={Armbrust, Michael and Das, Tathagata and Davidson, Aaron and Ghodsi, Ali and Or, Andrew and Rosen, Josh and Stoica, Ion and Wendell, Patrick and Xin, Reynold and Zaharia, Matei},
+  journal={Proceedings of the VLDB Endowment},
+  volume={8},
+  number={12},
+  pages={1840--1843},
+  year={2015},
+  publisher={VLDB Endowment}
+}
+
+@article{sinn2012detecting,
+  title={Detecting change-points in time series by maximum mean discrepancy of ordinal pattern distributions},
+  author={Sinn, Mathieu and Ghodsi, Ali and Keller, Karsten},
+  journal={arXiv preprint arXiv:1210.4903},
+  year={2012}
+}
+
+@article{farahat2015greedy,
+  title={Greedy column subset selection for large-scale data sets},
+  author={Farahat, Ahmed K and Elgohary, Ahmed and Ghodsi, Ali and Kamel, Mohamed S},
+  journal={Knowledge and Information Systems},
+  volume={45},
+  pages={1--34},
+  year={2015},
+  publisher={Springer London}
+}
+
+@misc{ghodsi2005self,
+  title={A self-stabilizing network size estimation gossip algorithm for peer-to-peer systems},
+  author={Ghodsi, Ali and El-Ansary, Sameh and Krishnamurthy, Supriya and Haridi, Seif},
+  year={2005},
+  publisher={Swedish Institute of Computer Science}
+}
+
+@article{ghodsi2007exploiting,
+  title={Exploiting the synergy between gossiping and structured overlays},
+  author={Ghodsi, Ali and Haridi, Seif and Weatherspoon, Hakim},
+  journal={ACM SIGOPS Operating Systems Review},
+  volume={41},
+  number={5},
+  pages={61--66},
+  year={2007},
+  publisher={ACM}
+}
+
+@article{southey2002regularized,
+  title={Regularized greedy importance sampling},
+  author={Southey, Finnegan and Schuurmans, Dale and Ghodsi, Ali},
+  journal={Advances in Neural Information Processing Systems},
+  volume={15},
+  year={2002}
+}
+
+@article{xin2014graysort,
+  title={Graysort on apache spark by databricks},
+  author={Xin, Reynold and Deyhim, Parviz and Ghodsi, Ali and Meng, Xiangrui and Zaharia, Matei},
+  journal={GraySort Competition},
+  pages={65},
+  year={2014}
+}
+
+@article{gangeh2014multiview,
+  title={Multiview supervised dictionary learning in speech emotion recognition},
+  author={Gangeh, Mehrdad J and Fewzee, Pouria and Ghodsi, Ali and Kamel, Mohamed S and Karray, Fakhri},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
+  volume={22},
+  number={6},
+  pages={1056--1068},
+  year={2014},
+  publisher={IEEE}
+}
+
+@article{samadani2013discriminative,
+  title={Discriminative functional analysis of human movements},
+  author={Samadani, Ali-Akbar and Ghodsi, Ali and Kuli{\'c}, Dana},
+  journal={Pattern Recognition Letters},
+  volume={34},
+  number={15},
+  pages={1829--1839},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@misc{friedman2011strategyproofness,
+  title={Strategyproofness, Leontief economies and the Kalai-Smorodinsky solution},
+  author={Friedman, Eric J and Ghodsi, Ali and Shenker, Scott and Stoica, Ion},
+  year={2011},
+  publisher={Manuscript}
+}
+
+@article{shafaat2008consistency,
+  title={On consistency of data in structured overlay networks},
+  author={Shafaat, Tallat M and Moser, Monika and Ghodsi, Ali and Sch{\"u}tt, Thorsten and Haridi, Seif and Reinefeld, Alexander},
+  journal={Grid Computing: Achievements and Prospects},
+  pages={249--260},
+  year={2008},
+  publisher={Springer US}
+}
+
+@article{weatherspoon2007gossiping,
+  title={Gossiping over storage systems is practical},
+  author={Weatherspoon, Hakim and Miranda, Hugo and Iwanicki, Konrad and Ghodsi, Ali and Busnel, Yann},
+  journal={ACM SIGOPS Operating Systems Review},
+  volume={41},
+  number={5},
+  pages={75--81},
+  year={2007},
+  publisher={ACM}
+}
+
+@inproceedings{ghodsi2005tangent,
+  title={Tangent-corrected embedding},
+  author={Ghodsi, Ali and Huang, Jiayuan and Southey, Finnegan and Schuurmans, Dale},
+  booktitle={2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)},
+  volume={1},
+  pages={518--525},
+  year={2005},
+  organization={IEEE}
+}
+
+@article{gangeh2015supervised,
+  title={Supervised dictionary learning and sparse representation-a review},
+  author={Gangeh, Mehrdad J and Farahat, Ahmed K and Ghodsi, Ali and Kamel, Mohamed S},
+  journal={arXiv preprint arXiv:1502.05928},
+  year={2015}
+}
+
+@inproceedings{alima2004position,
+  title={Position paper: Self-. properties in distributed k-ary structured overlay networks},
+  author={Alima, Luc Onana and Haridi, Seif and Ghodsi, Ali and El-Ansary, Sameh and Brand, Per},
+  booktitle={Proceedings of SELF-STAR: International Workshop on Self-* Properties in Complex Information Systems},
+  volume={3460},
+  year={2004},
+  organization={Springer}
+}
+
+@inproceedings{van2005self,
+  title={Self management of large-scale distributed systems by combining structured overlay networks and components},
+  author={Van Roy, Peter and Ghodsi, Ali and Stefani, Jean-Bernard and Haridi, Seif and Coupaye, Thierry and Reinefeld, Alexander and Winter, Ehrhard and Yap, Roland HC},
+  booktitle={CoreGRID Integration Workshop},
+  year={2005}
+}
+
+@inproceedings{adel2015learning,
+  title={Learning the Structure of Sum-Product Networks via an SVD-based Algorithm.},
+  author={Adel, Tameem and Balduzzi, David and Ghodsi, Ali},
+  booktitle={UAI},
+  pages={32--41},
+  year={2015}
+}
+
+@inproceedings{bowling2006subjective,
+  title={Subjective mapping},
+  author={Bowling, Michael and Wilkinson, Dana and Ghodsi, Ali},
+  booktitle={PROCEEDINGS OF THE NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE},
+  volume={21},
+  number={2},
+  pages={1569},
+  year={2006},
+  organization={Menlo Park, CA; Cambridge, MA; London; AAAI Press; MIT Press; 1999}
+}
+
+@misc{arad2007gods,
+  title={GODS: Global observatory for distributed systems},
+  author={Arad, Cosmin and Kafray, Ozair and Ghodsi, Ali and Haridi, Seif},
+  year={2007},
+  publisher={Swedish Institute of Computer Science}
+}
+
+@inproceedings{wilkinson2005learning,
+  title={Learning Subjective Representations for Planning.},
+  author={Wilkinson, Dana F and Bowling, Michael H and Ghodsi, Ali},
+  booktitle={IJCAI},
+  pages={889--894},
+  year={2005}
+}
+
+@techreport{van2005self,
+  title={Self management of large-scale distributed systems by combining peer-to-peer networks and components},
+  author={Van Roy, Peter and Ghodsi, Ali and Haridi, Seif and Stefani, Jean-Bernard and Coupaye, Thierry and Reinefeld, Alexander and Winter, Ehrhard and Yap, Roland},
+  year={2005},
+  institution={CoreGRID Technical Report TR-0018}
+}
+
+@article{stefansson2006myriadstore,
+  title={MyriadStore},
+  author={Stefansson, Birgir and Thodis, Antonis and Ghodsi, Ali and Haridi, Seif},
+  journal={Swedish Institute of Computer Science, Tech. Rep},
+  volume={9},
+  year={2006}
+}
+
+@inproceedings{chowdhury2016hug,
+  title={$\{$HUG$\}$:$\{$Multi-Resource$\}$ fairness for correlated and elastic demands},
+  author={Chowdhury, Mosharaf and Liu, Zhenhua and Ghodsi, Ali and Stoica, Ion},
+  booktitle={13th USENIX symposium on networked systems design and implementation (NSDI 16)},
+  pages={407--424},
+  year={2016}
+}
+
+@inproceedings{winlaw2011robust,
+  title={Robust locally linear embedding using penalty functions},
+  author={Winlaw, Manda and Dehkordy, Leila Samimi and Ghodsi, Ali},
+  booktitle={The 2011 International Joint Conference on Neural Networks},
+  pages={2305--2312},
+  year={2011},
+  organization={IEEE}
+}
+
+@article{raghavan2012making,
+  title={Making the internet more evolvable},
+  author={Raghavan, Barath and Koponen, Teemu and Ghodsi, Ali and Brajkovic, Vjeko and Shenker, Scott},
+  journal={Technical Report TR-12--011, ICSI},
+  year={2012}
+}
+
+@inproceedings{seifzadeh2011parameter,
+  title={Parameter selection for smoothing splines using Stein's unbiased risk estimator},
+  author={Seifzadeh, Sepideh and Rostami, Mohammad and Ghodsi, Ali and Karray, Fakhreddine},
+  booktitle={The 2011 International Joint Conference on Neural Networks},
+  pages={2733--2740},
+  year={2011},
+  organization={IEEE}
+}
+
+@article{farahat2013fast,
+  title={A fast greedy algorithm for generalized column subset selection},
+  author={Farahat, Ahmed K and Ghodsi, Ali and Kamel, Mohamed S},
+  journal={arXiv preprint arXiv:1312.6820},
+  year={2013}
+}
+
+@misc{farahat2010greedy,
+  title={Greedy Nystr{\"o}m Approximation},
+  author={Farahat, Ahmed K and Kamel, Mohamed S and Ghodsi, Ali},
+  year={2010},
+  publisher={Department of Electrical and Computer Engineering, University of Waterloo}
+}
+
+@article{roy2005self,
+  title={Self Management of Large-Scale Distributed Systems by Combining Peer-to-Peer Networks and Components},
+  author={Roy, P and Ghodsi, Ali and Haridi, Seif and Stefani, JB and Coupaye, T and Reinefeld, Alexander and Winter, E and Yap, R},
+  year={2005},
+  publisher={Institute on System Architecture, CoreGRID-Network of Excellence}
+}
+
+@inproceedings{shafaat2012dealing,
+  title={Dealing with bootstrapping, maintenance, and network partitions and mergers in structured overlay networks},
+  author={Shafaat, Tallat M and Ghodsi, Ali and Haridi, Seif},
+  booktitle={2012 IEEE Sixth International Conference on Self-Adaptive and Self-Organizing Systems},
+  pages={149--158},
+  year={2012},
+  organization={IEEE}
+}
+
+@inproceedings{alipanahi2012protein,
+  title={Protein structure by semidefinite facial reduction},
+  author={Alipanahi, Babak and Krislock, Nathan and Ghodsi, Ali and Wolkowicz, Henry and Donaldson, Logan and Li, Ming},
+  booktitle={Research in Computational Molecular Biology: 16th Annual International Conference, RECOMB 2012, Barcelona, Spain, April 21-24, 2012. Proceedings 16},
+  pages={1--11},
+  year={2012},
+  organization={Springer Berlin Heidelberg}
+}
+
+@inproceedings{ashtiani2015dimension,
+  title={A dimension-independent generalization bound for kernel supervised principal component analysis},
+  author={Ashtiani, Hassan and Ghodsi, Ali},
+  booktitle={Feature Extraction: Modern Questions and Challenges},
+  pages={19--29},
+  year={2015},
+  organization={PMLR}
+}
+
+@inproceedings{tadavani2010learning,
+  title={Learning an affine transformation for non-linear dimensionality reduction},
+  author={Tadavani, Pooyan Khajehpour and Ghodsi, Ali},
+  booktitle={Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2010, Barcelona, Spain, September 20-24, 2010, Proceedings, Part II 21},
+  pages={19--34},
+  year={2010},
+  organization={Springer Berlin Heidelberg}
+}
+
+@article{popa2012http,
+  title={HTTP: An Evolvable Narrow Waist for the Future Internet},
+  author={Popa, Lucian and Wendell, Patrick and Ghodsi, Ali and Stoica, Ion},
+  journal={Technical Report UCB/EECS-2012--5.},
+  year={2012},
+  publisher={University of California Berkeley}
+}
+
+@inproceedings{ghodsi2004transformation,
+  title={Transformation-invariant embedding for image analysis},
+  author={Ghodsi, Ali and Huang, Jiayuan and Schuurmans, Dale},
+  booktitle={Computer Vision-ECCV 2004: 8th European Conference on Computer Vision, Prague, Czech Republic, May 11-14, 2004. Proceedings, Part IV 8},
+  pages={519--530},
+  year={2004},
+  organization={Springer Berlin Heidelberg}
+}
+
+@article{ghodsi2010multicast,
+  title={Multicast and bulk lookup in structured overlay networks},
+  author={Ghodsi, Ali},
+  journal={Handbook of Peer-to-Peer Networking},
+  pages={933--958},
+  year={2010},
+  publisher={Springer US}
+}
+
+@inproceedings{ghodsi2004efficient,
+  title={Efficient parameter selection for system identification},
+  author={Ghodsi, Ali},
+  booktitle={IEEE Annual Meeting of the Fuzzy Information, 2004. Processing NAFIPS'04.},
+  volume={2},
+  pages={750--755},
+  year={2004},
+  organization={IEEE}
+}
+
+@article{hindman2011mesos,
+  title={Mesos: Flexible resource sharing for the cloud},
+  author={Hindman, Benjamin and Konwinski, Andy and Zaharia, Matei and Ghodsi, Ali and Joseph, Anthony D and Katz, R and Shenker, Scott and Stoica, Ion},
+  journal={USENIX (August 2011)},
+  year={2011}
+}
+
+@inproceedings{dorri2012adapting,
+  title={Adapting component analysis},
+  author={Dorri, Fatemeh and Ghodsi, Ali},
+  booktitle={2012 IEEE 12th International Conference on Data Mining},
+  pages={846--851},
+  year={2012},
+  organization={IEEE}
+}
+
+@inproceedings{venkataraman2016sparkr,
+  title={Sparkr: Scaling r programs with spark},
+  author={Venkataraman, Shivaram and Yang, Zongheng and Liu, Davies and Liang, Eric and Falaki, Hossein and Meng, Xiangrui and Xin, Reynold and Ghodsi, Ali and Franklin, Michael and Stoica, Ion and others},
+  booktitle={Proceedings of the 2016 international conference on management of data},
+  pages={1099--1104},
+  year={2016}
+}
+
+@misc{hindman2011flexible,
+  title={Flexible Resource Sharing for the Cloud},
+  author={Hindman, Benjamin and KONWINSKI, ANDY and ZAHARIA, MATEI and GHODSI, ALI and JOSEPH, ANTHONY D and KATZ, RANDY H and SHENKER, SCOTT and STOICA, ION},
+  year={2011},
+  publisher={Aug}
+}
+
+@article{gonzalez2015asynchronous,
+  title={Asynchronous complex analytics in a distributed dataflow architecture},
+  author={Gonzalez, Joseph E and Bailis, Peter and Jordan, Michael I and Franklin, Michael J and Hellerstein, Joseph M and Ghodsi, Ali and Stoica, Ion},
+  journal={arXiv preprint arXiv:1510.07092},
+  year={2015}
+}
+
+@article{gangeh2015invariance,
+  title={On the invariance of dictionary learning and sparse representation to projecting data to a discriminative space},
+  author={Gangeh, Mehrdad J and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:1503.02041},
+  year={2015}
+}
+
+@article{sarhadi2017advances,
+  title={Advances in projection of climate change impacts using supervised nonlinear dimensionality reduction techniques},
+  author={Sarhadi, Ali and Burn, Donald H and Yang, Ge and Ghodsi, Ali},
+  journal={Climate dynamics},
+  volume={48},
+  pages={1329--1351},
+  year={2017},
+  publisher={Springer Berlin Heidelberg}
+}
+
+@inproceedings{pintilie2010conformal,
+  title={Conformal mapping by computationally efficient methods},
+  author={Pintilie, Stefan and Ghodsi, Ali},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={24},
+  number={1},
+  pages={557--562},
+  year={2010}
+}
+
+@misc{ghodsi2007atomic,
+  title={Atomic Ring Maintenance for Distributed Hash Tables},
+  author={Ghodsi, Ali and Haridi, Seif},
+  year={2007},
+  publisher={Swedish Institute of Computer Science}
+}
+
+@article{shafaat2010managing,
+  title={Managing Network Partitions in Structured P2P Networks},
+  author={Shafaat, Tallat M and Ghodsi, Ali and Haridi, Seif},
+  journal={Handbook of Peer-to-Peer Networking},
+  pages={1127--1147},
+  year={2010},
+  publisher={Springer US}
+}
+
+@techreport{friedman2011nash,
+  title={Nash bargaining without scale invariance},
+  author={Friedman, E and Ghodsi, Ali and Shenker, Scott and Stoica, Ion},
+  year={2011},
+  institution={Technical Report}
+}
+
+@inproceedings{biggs2008scalable,
+  title={Scalable Action Respecting Embedding.},
+  author={Biggs, Michael and Ghodsi, Ali and Wilkinson, Dana F and Bowling, Michael H},
+  booktitle={ISAIM},
+  year={2008}
+}
+
+@article{bailis2014coordination,
+  title={Coordination avoidance in database systems (Extended version)},
+  author={Bailis, Peter and Fekete, Alan and Franklin, Michael J and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  journal={arXiv preprint arXiv:1402.2237},
+  year={2014}
+}
+
+@inproceedings{tadavani2012low,
+  title={Low dimensional localized clustering (LDLC)},
+  author={Tadavani, Pooyan Khajehpour and Ghodsi, Ali},
+  booktitle={2012 IEEE 12th International Conference on Data Mining},
+  pages={936--941},
+  year={2012},
+  organization={IEEE}
+}
+
+@article{alipanahi2011spros,
+  title={SPROS: An SDP-based protein structure determination from NMR data},
+  author={Alipanahi, Babak and Krislock, Nathan and Ghodsi, Ali and Wolkowicz, Henry and Donaldson, Logan and Li, Ming},
+  journal={URL: compbio. cs. sfu. ca/recomb2011, Waterloo, Ontario},
+  year={2011}
+}
+
+@misc{ghodsi2004symmetric,
+  title={A Symmetric Replication Scheme for Increased Security and Performance in Structured Overlay Networks},
+  author={Ghodsi, Ali and Alima, Luc Onana and Haridi, Seif},
+  year={2004},
+  publisher={Swedish Institute of Computer Science}
+}
+
+@inproceedings{gangeh2012supervised,
+  title={Supervised texture classification using a novel compression-based similarity measure},
+  author={Gangeh, Mehrdad J and Ghodsi, Ali and Kamel, Mohamed S},
+  booktitle={International Conference on Computer Vision and Graphics},
+  pages={379--386},
+  year={2012},
+  organization={Springer Berlin Heidelberg Berlin, Heidelberg}
+}
+
+@article{julieninternational,
+  title={International Workshop on Hot Topics in Peer-to-Peer Systems--HOTP2P},
+  author={Julien Bourgeois, LIFC and Anglano, Cosimo and Cao, Jiannong and Caron, Eddy and Chou, Cheng-Fu and Ciaccio, Giuseppe and Dell'Amico, Matteo and Antipolis, EURECOM Sophia and Gargano, Luisa and Ghodsi, Ali and others}
+}
+
+@article{pudilemma,
+  title={On the Dilemma of Fair Memory Sharing},
+  author={Pu, Qifan and Li, Haoyuan and Ghodsi, Ali and Stoica, Ion and Shenker, Scott}
+}
+
+@article{bowlingaction,
+  title={Action Respecting Embedding for Learning Image Manifolds},
+  author={Bowling, Michael and Ghodsi, Ali and Wilkinson, Dana}
+}
+
+@article{ghodsiend,
+  title={End-to-End Symmetric Replication for Structured Peer-to-Peer Networks},
+  author={Ghodsi, Ali and Alima, Luc Onana and Klintskog, Erik and Haridi, Seif}
+}
+
+@misc{stefansson2006myriadstore,
+  title={MyriadStore: Technical Report},
+  author={Stefansson, Birgir and Thodis, Antonios and Ghodsi, Ali and Haridi, Seif},
+  year={2006},
+  publisher={Swedish Institute of Computer Science}
+}
+
+@article{bailisuc,
+  title={UC Berkeley SOCC 2012},
+  author={Bailis, Peter and Fekete, Alan and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion}
+}
+
+@inproceedings{gangeh2016semi,
+  title={Semi-supervised dictionary learning based on hilbert-schmidt independence criterion},
+  author={Gangeh, Mehrdad J and Bedawi, Safaa MA and Ghodsi, Ali and Karray, Fakhri},
+  booktitle={Image Analysis and Recognition: 13th International Conference, ICIAR 2016, in Memory of Mohamed Kamel, P{\'o}voa de Varzim, Portugal, July 13-15, 2016, Proceedings 13},
+  pages={12--19},
+  year={2016},
+  organization={Springer International Publishing}
+}
+
+@article{abrachekonstantinos,
+  title={Konstantinos Chandrinos, Ionian},
+  author={Abrache, Jawad and Agarwal, Anurag and Akutsu, Tatsuya and Akyol, Derya Eren and Alidaee, Bahram and Allen, James and Althoff, Klaus-Dieter and Andr{\'e}s, Carlos and Ang, Kiam Heong and Arens, Yigal and others}
+}
+
+@article{lukyanenko2014stem+,
+  title={STEM+: Allocating Bandwidth Fairly To Tasks},
+  author={Lukyanenko, Andrey and Nikolaevskiy, Ilya and Kuptsov, Dmitriy and Gurtov, Andrei and Ghodsi, Ali and Shenker, Scott},
+  journal={Technical Report TR-14-001},
+  year={2014},
+  publisher={ICSI}
+}
+
+@article{farahatnovel,
+  title={A novel greedy algorithm for Nystr{\"o}m approximation Supplementary material},
+  author={Farahat, Ahmed K and Ghodsi, Ali and Kamel, Mohamed S}
+}
+
+@misc{ghodsi2007forestcast,
+  title={ForestCast: a central solution to heuristically constructing trees},
+  author={Ghodsi, Ali and Haridi, Seif},
+  year={2007},
+  publisher={Swedish Institute of Computer Science}
+}
+
+@article{dorri2014minimizing,
+  title={Minimizing the discrepancy between source and target domains by learning adapting components},
+  author={Dorri, Fatemeh and Ghodsi, Ali},
+  journal={Journal of Computer Science and Technology},
+  volume={29},
+  pages={105--115},
+  year={2014},
+  publisher={Springer US}
+}
+
+@article{bowling1,
+  title={1 Subjective Localization with ARE},
+  author={Bowling, Michael and Wilkinson, Dana and Ghodsi, Ali and Milstein, Adam}
+}
+
+@article{ahlgren2008content,
+  title={Content Centric Communication},
+  author={Ahlgren, Bengt and Haridi, Seif and Ghodsi, Ali and Gr{\"o}nvall, Bj{\"o}rn},
+  year={2008}
+}
+
+@inproceedings{danelutto2008dks,
+  title={DKS: Distributed k-ary system a middleware for building large scale dynamic distributed applications},
+  author={Danelutto, Marco and Fragopoulou, Paraskevi and Getov, Vladimir and Roverso, Roberto and Arad, Cosmin and Ghodsi, Ali and Haridi, Seif},
+  booktitle={Making Grids Work: Proceedings of the CoreGRID Workshop on Programming Models Grid and P2P System Architecture Grid Systems, Tools and Environments 12-13 June 2007, Heraklion, Crete, Greece},
+  pages={323--335},
+  year={2008},
+  organization={Springer US}
+}
+
+@article{khajehpourvisualization,
+  title={Visualization in Low Dimensional Space by Tessellation of Linear Subspaces},
+  author={Khajehpour, Pooyan and Alipanahi, Babak and Ghodsi, Ali}
+}
+
+@article{ghodsid,
+  title={D it R F i (DRF) Dominant Resource Fairness (DRF)},
+  author={Ghodsi, Ali}
+}
+
+@phdthesis{ghodsi2006distributed,
+  title={Distributed k-ary system: Algorithms for distributed hash tables},
+  author={Ghodsi, Ali},
+  year={2006},
+  school={KTH}
+}
+
+@inproceedings{ghodsi2006survival,
+  title={The Survival of the Unfittest},
+  author={Ghodsi, Ali and Huberman, Bernardo and Wu, Fang},
+  booktitle={2006 IEEE First International Workshop on Bandwidth on Demand},
+  pages={27--32},
+  year={2006},
+  organization={IEEE}
+}
+
+@inproceedings{pu2016fairride,
+  title={$\{$FairRide$\}$:$\{$Near-Optimal$\}$, fair cache sharing},
+  author={Pu, Qifan and Li, Haoyuan and Zaharia, Matei and Ghodsi, Ali and Stoica, Ion},
+  booktitle={13th USENIX Symposium on Networked Systems Design and Implementation (NSDI 16)},
+  pages={393--406},
+  year={2016}
+}
+
+@article{ghodsi2011icn,
+  title={ICN'11 Best Papers-Naming in Content-Oriented Architectures},
+  author={Ghodsi, Ali and Koponen, Teemu and Rajahalme, Jarno and Sarolahti, Pasi and Shenker, Scott},
+  journal={SIGCOMM-Computer Communication Review},
+  volume={41},
+  number={4},
+  pages={507},
+  year={2011}
+}
+
+@article{ghodsiieee,
+  title={IEEE P2P’11 is the eleventh conference in a series of annual conferences concerned with overlay technologies and large-scale distributed systems and applications that are characterized by decentralization and the sharing of resources. This year’s conference continues the tradition of presenting an excellent view on the state of the research in the exciting field of peer-to-peer computing.},
+  author={Ghodsi, Ali}
+}
+
+@article{anglanointernational,
+  title={International Workshop on Hot Topics in Peer-to-Peer Systems--HOTP2P},
+  author={Anglano, Cosimo and Borisov, Nikita and Caron, Eddy and Ciaccio, Giuseppe and Corradi, Antonio and Dell'Amico, Matteo and Antipolis, EURECOM Sophia and Gargano, Luisa and Ghodsi, Ali and Iannello, Giulio and others}
+}
+
+@article{ghodsisurvival,
+  title={The Survival of the Unfittest},
+  author={Ghodsi, Ali}
+}
+
+@article{tadavani2014manifold,
+  title={Manifold unfolding by isometric patch alignment with an application in protein structure determination},
+  author={Tadavani, Pooyan Khajehpour and Alipanahi, Babak and Ghodsi, Ali},
+  journal={Perspectives on Big Data Analysis: Methodologies and Applications},
+  volume={622},
+  pages={177},
+  year={2014},
+  publisher={American Mathematical Society}
+}
+
+@inproceedings{ghodsi2003automatic,
+  title={Automatic basis selection for RBF networks using Stein's unbiased risk estimator},
+  author={Ghodsi, Ali and Schuurmans, Dale},
+  booktitle={Proceedings of the International Joint Conference on Neural Networks, 2003.},
+  volume={1},
+  pages={91--95},
+  year={2003},
+  organization={IEEE}
+}
+
+@inproceedings{alima2004framework,
+  title={A framework for structured peer-to-peer overlay networks},
+  author={Alima, Luc Onana and Ghodsi, Ali and Haridi, Seif},
+  booktitle={International Workshop on Global Computing},
+  pages={223--249},
+  year={2004},
+  organization={Springer Berlin Heidelberg Berlin, Heidelberg}
+}
+
+@article{aboutalebifsp,
+  title={fSP•},
+  author={Aboutalebi, Vahid and Aboutalebi, Hamid Reza and Moghaddam, Hamid Abrishami and Akbari, Ahmad and Masnadi, Mohammad Ali and Amirfattahi, Rasoul and Azimifar, Zohreh and Beigy, Hamid and Boostani, Reza and Daniali, Habibolah and others}
+}
+
+@article{barcellosprogram,
+  title={Program committee: Karl Aberer, EPFL},
+  author={Barcellos, Marinho and Bickson, Danny and Biersack, Ernst and Birman, Ken and Buford, John and Cox, Landon and Crowcroft, Jon and Cudr{\'e}-Mauroux, Philippe and Dai, Yafei and Datta, Anwitaman and others}
+}
+
+@article{cramersession,
+  title={Session 1: Overview and Mobile},
+  author={Cramer, C and Fuhrmann, T and Aberer, K and Alima, L and Ghodsi, A and Girdzijauskas, S and Haridi, S and Hauswirth, M}
+}
+
+@article{ghodsidominant,
+  title={Dominant Resource Fairness: Fair},
+  author={Ghodsi, Ali and Zaharia, Matei and Hindman, Benjamin and Konwinski, Andy and Shenker, Scott and Stoica, Ion}
+}
+
+@inproceedings{venkataraman2017drizzle,
+  title={Drizzle: Fast and adaptable stream processing at scale},
+  author={Venkataraman, Shivaram and Panda, Aurojit and Ousterhout, Kay and Armbrust, Michael and Ghodsi, Ali and Franklin, Michael J and Recht, Benjamin and Stoica, Ion},
+  booktitle={Proceedings of the 26th Symposium on Operating Systems Principles},
+  pages={374--389},
+  year={2017}
+}
+
+@article{gangeh2017fast,
+  title={Fast and scalable feature selection for gene expression data using hilbert-schmidt independence criterion},
+  author={Gangeh, Mehrdad J and Zarkoob, Hadi and Ghodsi, Ali},
+  journal={IEEE/ACM transactions on computational biology and bioinformatics},
+  volume={14},
+  number={1},
+  pages={167--181},
+  year={2017},
+  publisher={IEEE}
+}
+
+@inproceedings{banijamali2017generative,
+  title={Generative mixture of networks},
+  author={Banijamali, Ershad and Ghodsi, Ali and Popuart, Pascal},
+  booktitle={2017 International Joint Conference on Neural Networks (IJCNN)},
+  pages={3753--3760},
+  year={2017},
+  organization={IEEE}
+}
+
+@inproceedings{banijamali2017fast,
+  title={Fast spectral clustering using autoencoders and landmarks},
+  author={Banijamali, Ershad and Ghodsi, Ali},
+  booktitle={International Conference Image Analysis and Recognition},
+  pages={380--388},
+  year={2017},
+  organization={Springer International Publishing Cham}
+}
+
+@misc{ghodsi2018independent,
+  title={Independent data processing environments within a big data cluster system},
+  author={Ghodsi, Ali and Stoica, Ion},
+  year={2018},
+  month=may # "~1",
+  note={US Patent 9,959,337}
+}
+
+@article{karimi2017synthesizing,
+  title={Synthesizing deep neural network architectures using biological synaptic strength distributions},
+  author={Karimi, Amir-Hossein and Shafiee, MJ and Ghodsi, Ali and Wong, Alexander},
+  journal={arXiv preprint arXiv:1707.00081},
+  year={2017}
+}
+
+@article{sharifzadeh2017sparse,
+  title={Sparse supervised principal component analysis (SSPCA) for dimension reduction and variable selection},
+  author={Sharifzadeh, Sara and Ghodsi, Ali and Clemmensen, Line H and Ersb{\o}ll, Bjarne K},
+  journal={Engineering Applications of Artificial Intelligence},
+  volume={65},
+  pages={168--177},
+  year={2017},
+  publisher={Pergamon}
+}
+
+@misc{ghodsi2017system,
+  title={System for exploring data in a database},
+  author={Ghodsi, Ali and Stoica, Ion and Zaharia, Matei},
+  year={2017},
+  month=sep # "~12",
+  note={US Patent 9,760,602}
+}
+
+@inproceedings{banijamali2018robust,
+  title={Robust locally-linear controllable embedding},
+  author={Banijamali, Ershad and Shu, Rui and Bui, Hung and Ghodsi, Ali and others},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={1751--1759},
+  year={2018},
+  organization={PMLR}
+}
+
+@article{karimi2017ensembles,
+  title={Ensembles of random projections for nonlinear dimensionality reduction},
+  author={Karimi, Amir Hossein and Shafiee, Mohammad Javad and Ghodsi, Ali and Wong, Alexander},
+  journal={Journal of Computational Vision and Imaging Systems},
+  volume={3},
+  number={1},
+  year={2017}
+}
+
+@inproceedings{karimi2017discovery,
+  title={Discovery radiomics via a mixture of deep convnet sequencers for multi-parametric MRI prostate cancer classification},
+  author={Karimi, Amir-Hossein and Chung, Audrey G and Shafiee, Mohammad Javad and Khalvati, Farzad and Haider, Masoom A and Ghodsi, Ali and Wong, Alexander},
+  booktitle={Image Analysis and Recognition: 14th International Conference, ICIAR 2017, Montreal, QC, Canada, July 5--7, 2017, Proceedings 14},
+  pages={45--53},
+  year={2017},
+  organization={Springer International Publishing}
+}
+
+@misc{ghodsi2017cluster,
+  title={Cluster instance management system},
+  author={Ghodsi, Ali and Stoica, Ion and Zaharia, Matei},
+  year={2017},
+  month=sep # "~19",
+  note={US Patent 9,769,032}
+}
+
+@article{banijamali2017disentangling,
+  title={Disentangling dynamics and content for control and planning},
+  author={Banijamali, Ershad and Khajenezhad, Ahmad and Ghodsi, Ali and Ghavamzadeh, Mohammad},
+  journal={arXiv preprint arXiv:1711.09165},
+  year={2017}
+}
+
+@article{banijamali2017jade,
+  title={Jade: Joint autoencoders for dis-entanglement},
+  author={Banijamali, Ershad and Karimi, Amir-Hossein and Wong, Alexander and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:1711.09163},
+  year={2017}
+}
+
+@article{kamyab2017deep,
+  title={Deep Structure for end-to-end inverse rendering},
+  author={Kamyab, Shima and Ghodsi, Ali and Azimifar, S Zohreh},
+  journal={arXiv preprint arXiv:1708.08998},
+  year={2017}
+}
+
+@misc{hunter2017callable,
+  title={Callable notebook for cluster execution},
+  author={Hunter, Timothee and Ghodsi, Ali and Stoica, Ion},
+  year={2017},
+  month=dec # "~5",
+  note={US Patent 9,836,302}
+}
+
+@misc{ghodsi2019cluster,
+  title={Cluster instance management system},
+  author={Ghodsi, Ali and Stoica, Ion and Zaharia, Matei},
+  year={2019},
+  month=jul # "~23",
+  note={US Patent 10,361,928}
+}
+
+@inproceedings{bidart2018localization,
+  title={Localization and classification of cell nuclei in post-neoadjuvant breast cancer surgical specimen using fully convolutional networks},
+  author={Bidart, Rene and Gangeh, Mehrdad J and Peikari, Mohammad and Salama, Sherine and Nofech-Mozes, Sharon and Martel, Anne L and Ghodsi, Ali},
+  booktitle={Medical Imaging 2018: Digital Pathology},
+  volume={10581},
+  pages={191--198},
+  year={2018},
+  organization={SPIE}
+}
+
+@inproceedings{armbrust2018structured,
+  title={Structured streaming: A declarative api for real-time applications in apache spark},
+  author={Armbrust, Michael and Das, Tathagata and Torres, Joseph and Yavuz, Burak and Zhu, Shixiong and Xin, Reynold and Ghodsi, Ali and Stoica, Ion and Zaharia, Matei},
+  booktitle={Proceedings of the 2018 International Conference on Management of Data},
+  pages={601--613},
+  year={2018}
+}
+
+@misc{hunter2019callable,
+  title={Callable notebook for cluster execution},
+  author={Hunter, Timothee and Ghodsi, Ali and Stoica, Ion},
+  year={2019},
+  month=may # "~21",
+  note={US Patent 10,296,329}
+}
+
+@article{rezaeinia2017improving,
+  title={Improving the accuracy of pre-trained word embeddings for sentiment analysis},
+  author={Rezaeinia, Seyed Mahdi and Ghodsi, Ali and Rahmani, Rouhollah},
+  journal={arXiv preprint arXiv:1711.08609},
+  year={2017}
+}
+
+@article{network2015deep,
+  title={Deep Learning},
+  author={Network, ARIFICIAL NEURAL and NETWORK, CONVOLUTIONAL NEURAL and NETWORK, RECURRENT NEURAL},
+  year={2015}
+}
+
+@article{rezaeinia2018text,
+  title={Text classification based on multiple block convolutional highways},
+  author={Rezaeinia, Seyed Mahdi and Ghodsi, Ali and Rahmani, Rouhollah},
+  journal={arXiv preprint arXiv:1807.09602},
+  year={2018}
+}
+
+@article{dorri2014通过适应组建学习最小化源领域和目标领域差异,
+  title={通过适应组建学习最小化源领域和目标领域差异},
+  author={Dorri, Fatemeh and Ghodsi, Ali},
+  journal={计算机科学技术学报},
+  volume={29},
+  number={1},
+  pages={105--115},
+  year={2014}
+}
+
+@article{rezaeinia2019sentiment,
+  title={Sentiment analysis based on improved pre-trained word embeddings},
+  author={Rezaeinia, Seyed Mahdi and Rahmani, Rouhollah and Ghodsi, Ali and Veisi, Hadi},
+  journal={Expert Systems with Applications},
+  volume={117},
+  pages={139--147},
+  year={2019},
+  publisher={Pergamon}
+}
+
+@inproceedings{wang2018distance,
+  title={Distance correlation autoencoder},
+  author={Wang, Rick and Karimi, Amir-Hossein and Ghodsi, Ali},
+  booktitle={2018 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2018},
+  organization={IEEE}
+}
+
+@inproceedings{el2018nonnegative,
+  title={Nonnegative matrix factorization using autoencoders and exponentiated gradient descent},
+  author={El Khatib, Alaa and Huang, Shimeng and Ghodsi, Ali and Karray, Fakhri},
+  booktitle={2018 International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{karimi2018srp,
+  title={SRP: Efficient class-aware embedding learning for large-scale data via supervised random projections},
+  author={Karimi, Amir-Hossein and Wong, Alexander and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:1811.03166},
+  year={2018}
+}
+
+@misc{ghodsi2019serverless,
+  title={Serverless execution of code using cluster resources},
+  author={Ghodsi, Ali and Shankar, Srinath and Paranjpye, Sameer and Xin, Shi and Zaharia, Matei},
+  year={2019},
+  month=nov # "~12",
+  note={US Patent 10,474,501}
+}
+
+@article{banijamali2018deep,
+  title={Deep variational sufficient dimensionality reduction},
+  author={Banijamali, Ershad and Karimi, Amir-Hossein and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:1812.07641},
+  year={2018}
+}
+
+@article{tran2019deep,
+  title={Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry},
+  author={Tran, Ngoc Hieu and Qiao, Rui and Xin, Lei and Chen, Xin and Liu, Chuyi and Zhang, Xianglilan and Shan, Baozhen and Ghodsi, Ali and Li, Ming},
+  journal={Nature methods},
+  volume={16},
+  number={1},
+  pages={63--66},
+  year={2019},
+  publisher={Nature Publishing Group US New York}
+}
+
+@article{schelter2015challenges,
+  title={On challenges in machine learning model management},
+  author={Schelter, Sebastian and Biessmann, Felix and Januschowski, Tim and Salinas, David and Seufert, Stephan and Szarvas, Gyuri},
+  year={2015}
+}
+
+@article{chowdhuryhug,
+  title={HUG},
+  author={Chowdhury, Mosharaf and Liu, Zhenhua and Ghodsi, Ali and Stoica, Ion}
+}
+
+@misc{ghodsi2018system,
+  title={System for exploring data in a database},
+  author={Ghodsi, Ali and Stoica, Ion and Zaharia, Matei},
+  year={2018},
+  month=oct # "~9",
+  note={US Patent 10,095,735}
+}
+
+@article{onana2005framework,
+  title={A Framework for Structured Peer-to-Peer Overlay Networks},
+  author={Onana Alima, Luc and Ghodsi, Ali and Haridi, Seif},
+  year={2005},
+  publisher={Springer-Verlag GmbH}
+}
+
+@article{ananthanarayananpa,
+  title={PA Man},
+  author={Ananthanarayanan, Ganesh and Ghodsi, Ali and Wang, Andrew and Borthakur, Dhruba and Kandula, Srikanth and Shenker, Scott and Stoica, Ion}
+}
+
+@misc{zumar2019demonstration,
+  title={Demonstration of MLflow: A System to Accelerate the Machine Learning Lifecycle},
+  author={Zumar, Corey and Chen, Andrew and Davidson, Aaron and Ghodsi, Ali and Hong, Sue Ann and Konwinski, Andy and Murching, Siddharth and Nykodym, Tomas and Ogilvie, Paul and Parkhe, Mani and others},
+  year={2019},
+  publisher={Academic Press}
+}
+
+@article{qiao2019deepnovov2,
+  title={Deepnovov2: Better de novo peptide sequencing with deep learning},
+  author={Qiao, Rui and Tran, Ngoc Hieu and Xin, Lei and Shan, Baozhen and Li, Ming and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:1904.08514},
+  year={2019}
+}
+
+@article{abdi2020discriminant,
+  title={Discriminant component analysis via distance correlation maximization},
+  author={Abdi, Lida and Ghodsi, Ali},
+  journal={Pattern Recognition},
+  volume={98},
+  pages={107052},
+  year={2020},
+  publisher={Pergamon}
+}
+
+@article{bidart2019fully,
+  title={Fully Convolutional Networks in Localization and Classification of Cell Nuclei},
+  author={Bidart, Rene and Gangeh, Mehrdad J and Peikari, Mohammad and Salama, Sherine and Nofech-Mozes, Sharon and Nofech, Sharon and Martel, Anne L and Ghodsi, Ali},
+  year={2019}
+}
+
+@misc{hunter2020callable,
+  title={Callable notebook for cluster execution},
+  author={Hunter, Timothee and Ghodsi, Ali and Stoica, Ion},
+  year={2020},
+  month=jun # "~9",
+  note={US Patent 10,678,536}
+}
+
+@article{fekete2016scalable,
+  title={Scalable Atomic Visibility with RAMP Transactions},
+  author={Fekete, Alan and Bailis, Peter and Ghodsi, Ali and Hellerstein, Joseph M and Stoica, Ion},
+  year={2016},
+  publisher={Association for Computing Machinery (ACM)}
+}
+
+@article{stoica2016virtual,
+  title={Virtual Machines Disco and Xen (Lecture 10, cs262a)},
+  author={Stoica, Ion and Ghodsi, Ali},
+  journal={UC Berkeley, Sep},
+  volume={28},
+  year={2016}
+}
+
+@misc{stoica2019multiple,
+  title={Multiple display views for a notebook},
+  author={Stoica, Ion and Ghodsi, Ali and Yang, Chaoyu},
+  year={2019},
+  month=nov # "~12",
+  note={US Patent 10,474,736}
+}
+
+@article{stoica2018gfs,
+  title={GFS and BigTable},
+  author={Stoica, Ion and Ghodsi, Ali},
+  year={2018}
+}
+
+@article{ghodsi2014tachyon,
+  title={Tachyon: Reliable, Memory Speed Storage for Cluster Computing Frameworks},
+  author={Ghodsi, A and Zaharia, Matei and Stoica, Scott Shenker Ion},
+  journal={Proc. of the ACM Sum. on Cloud Computing},
+  volume={15},
+  year={2014}
+}
+
+@article{ghodsicommon,
+  title={Common Object Request Broker Architecture},
+  author={Ghodsi, Ali}
+}
+
+@article{mahdi2018text,
+  title={Text Classification based on Multiple Block Convolutional Highways},
+  author={Mahdi Rezaeinia, Seyed and Ghodsi, Ali and Rahmani, Rouhollah},
+  journal={arXiv e-prints},
+  pages={arXiv--1807},
+  year={2018}
+}
+
+@article{crankshaw2014missing,
+  title={The Missing Piece in Complex Analytics: Low Latency, Scalable Model Management and Serving with Velox. CoRR abs/1409.3809 (2014)},
+  author={Crankshaw, Daniel and Bailis, Peter and Gonzalez, Joseph E and Li, Haoyuan and Zhang, Zhao and Franklin, Michael J and Ghodsi, Ali and Jordan, Michael I},
+  journal={arXiv preprint arXiv:1409.3809},
+  year={2014}
+}
+
+@article{qiao2020personalized,
+  title={Personalized workflow to identify optimal T-cell epitopes for peptide-based vaccines against COVID-19},
+  author={Qiao, Rui and Tran, Ngoc Hieu and Shan, Baozhen and Ghodsi, Ali and Li, Ming},
+  journal={arXiv preprint arXiv:2003.10650},
+  year={2020}
+}
+
+@article{qiao2020simple,
+  title={Simple weakly supervised deep learning pipeline for detecting individual red-attacked trees in VHR remote sensing images},
+  author={Qiao, Rui and Ghodsi, Ali and Wu, Honggan and Chang, Yuanfei and Wang, Chengbo},
+  journal={Remote Sensing Letters},
+  volume={11},
+  number={7},
+  pages={650--658},
+  year={2020},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{chen2020developments,
+  title={Developments in mlflow: A system to accelerate the machine learning lifecycle},
+  author={Chen, Andrew and Chow, Andy and Davidson, Aaron and DCunha, Arjun and Ghodsi, Ali and Hong, Sue Ann and Konwinski, Andy and Mewald, Clemens and Murching, Siddharth and Nykodym, Tomas and others},
+  booktitle={Proceedings of the fourth international workshop on data management for end-to-end machine learning},
+  pages={1--4},
+  year={2020}
+}
+
+@article{jafari2020segmentation,
+  title={Segmentation Approach for Coreference Resolution Task},
+  author={Jafari, Aref and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2007.04301},
+  year={2020}
+}
+
+@article{armbrust2020delta,
+  title={Delta lake: high-performance ACID table storage over cloud object stores},
+  author={Armbrust, Michael and Das, Tathagata and Sun, Liwen and Yavuz, Burak and Zhu, Shixiong and Murthy, Mukul and Torres, Joseph and van Hovell, Herman and Ionescu, Adrian and {\L}uszczak, Alicja and others},
+  journal={Proceedings of the VLDB Endowment},
+  volume={13},
+  number={12},
+  pages={3411--3424},
+  year={2020},
+  publisher={VLDB Endowment}
+}
+
+@article{parand2021new,
+  title={A new approach to the numerical solution of Fredholm integral equations using least squares-support vector regression},
+  author={Parand, K and Aghaei, Alireza Afzal and Jani, Mostafa and Ghodsi, Ali},
+  journal={Mathematics and Computers in Simulation},
+  volume={180},
+  pages={114--128},
+  year={2021},
+  publisher={North-Holland}
+}
+
+@article{rajabzadeh2021supervised,
+  title={Supervised discriminative dimensionality reduction by learning multiple transformation operators},
+  author={Rajabzadeh, Hossein and Jahromi, Mansoor Zolghadri and Ghodsi, Ali},
+  journal={Expert Systems with Applications},
+  volume={164},
+  pages={113958},
+  year={2021},
+  publisher={Pergamon}
+}
+
+@incollection{ghojogh2023multidimensional,
+  title={Multidimensional Scaling, Sammon Mapping, and Isomap},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={185--205},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@article{ghojogh2020stochastic,
+  title={Stochastic neighbor embedding with Gaussian and student-t distributions: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2009.10301},
+  year={2020}
+}
+
+@misc{qiao2023systems,
+  title={Systems and methods for de novo peptide sequencing using deep learning and spectrum pairs},
+  author={Qiao, Rui and Tran, Ngoc Hieu and Lei, XIN and Chen, Xin and Baozhen, SHAN and Ghodsi, Ali and Li, Ming},
+  year={2023},
+  month=may # "~9",
+  note={US Patent 11,644,470}
+}
+
+@article{panju2020neuro,
+  title={A neuro-symbolic method for solving differential and functional equations},
+  author={Panju, Maysum and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2011.02415},
+  year={2020}
+}
+
+@article{panju2020symbolically,
+  title={Symbolically solving partial differential equations using deep learning},
+  author={Panju, Maysum and Parand, Kourosh and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2011.06673},
+  year={2020}
+}
+
+@article{ghojogh2020locally,
+  title={Locally linear embedding and its variants: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2011.10925},
+  year={2020}
+}
+
+@article{ghojogh2020attention,
+  title={Attention mechanism, transformers, BERT, and GPT: tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2020},
+  publisher={OSF Preprints}
+}
+
+@inproceedings{armbrust2021lakehouse,
+  title={Lakehouse: a new generation of open platforms that unify data warehousing and advanced analytics},
+  author={Armbrust, Michael and Ghodsi, Ali and Xin, Reynold and Zaharia, Matei},
+  booktitle={Proceedings of CIDR},
+  volume={8},
+  pages={28},
+  year={2021}
+}
+
+@article{ghojogh2021factor,
+  title={Factor analysis, probabilistic principal component analysis, variational inference, and variational autoencoder: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2101.00734},
+  year={2021}
+}
+
+@article{bailis2013eventual,
+  title={Eventual consistency today: Limitations, extensions, and beyond},
+  author={Bailis, Peter and Ghodsi, Ali},
+  journal={Communications of the ACM},
+  volume={56},
+  number={5},
+  pages={55--63},
+  year={2013},
+  publisher={ACM New York, NY, USA}
+}
+
+@article{salek2020effects,
+  title={The effects of port water injection on spark ignition engine performance and emissions fueled by pure gasoline, E5 and E10},
+  author={Salek, Farhad and Babaie, Meisam and Redel-Macias, Maria Dolores and Ghodsi, Ali and Hosseini, Seyed Vahid and Nourian, Amir and Burby, Martin L and Zare, Ali},
+  journal={Processes},
+  volume={8},
+  number={10},
+  pages={1214},
+  year={2020},
+  publisher={MDPI}
+}
+
+@article{riasatian2021fine,
+  title={Fine-tuning and training of densenet for histopathology image representation using tcga diagnostic slides},
+  author={Riasatian, Abtin and Babaie, Morteza and Maleki, Danial and Kalra, Shivam and Valipour, Mojtaba and Hemati, Sobhan and Zaveri, Manit and Safarpoor, Amir and Shafiei, Sobhan and Afshari, Mehdi and others},
+  journal={Medical image analysis},
+  volume={70},
+  pages={102032},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{salek2021energy,
+  title={Energy and exergy analysis of a novel turbo-compounding system for supercharging and mild hybridization of a gasoline engine},
+  author={Salek, Farhad and Babaie, Meisam and Ghodsi, Ali and Hosseini, Seyed Vahid and Zare, Ali},
+  journal={Journal of Thermal Analysis and Calorimetry},
+  volume={145},
+  pages={817--828},
+  year={2021},
+  publisher={Springer International Publishing}
+}
+
+@inproceedings{hemati2021cnn,
+  title={CNN and deep sets for end-to-end whole slide image representation learning},
+  author={Hemati, Sobhan and Kalra, Shivam and Meaney, Cameron and Babaie, Morteza and Ghodsi, Ali and Tizhoosh, Hamid},
+  booktitle={Medical Imaging with Deep Learning},
+  pages={301--311},
+  year={2021},
+  organization={PMLR}
+}
+
+@article{qiao2021computationally,
+  title={Computationally instrument-resolution-independent de novo peptide sequencing for high-resolution devices},
+  author={Qiao, Rui and Tran, Ngoc Hieu and Xin, Lei and Chen, Xin and Li, Ming and Shan, Baozhen and Ghodsi, Ali},
+  journal={Nature Machine Intelligence},
+  volume={3},
+  number={5},
+  pages={420--425},
+  year={2021},
+  publisher={Nature Publishing Group UK London}
+}
+
+@article{ghojogh2021generative,
+  title={Generative locally linear embedding},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2104.01525},
+  year={2021}
+}
+
+@article{jafari2021annealing,
+  title={Annealing knowledge distillation},
+  author={Jafari, Aref and Rezagholizadeh, Mehdi and Sharma, Pranav and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2104.07163},
+  year={2021}
+}
+
+@article{kamalloo2021not,
+  title={Not far away, not so close: Sample efficient nearest neighbour data augmentation via minimax},
+  author={Kamalloo, Ehsan and Rezagholizadeh, Mehdi and Passban, Peyman and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2105.13608},
+  year={2021}
+}
+
+@article{parand2021parallel,
+  title={Parallel LS-SVM for the numerical simulation of fractional Volterra’s population model},
+  author={Parand, Kourosh and Aghaei, AA and Jani, M and Ghodsi, A},
+  journal={Alexandria Engineering Journal},
+  volume={60},
+  number={6},
+  pages={5637--5647},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{ghojogh2021laplacian,
+  title={Laplacian-based dimensionality reduction including spectral clustering, Laplacian eigenmap, locality preserving projection, graph embedding, and diffusion map: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2106.02154},
+  year={2021}
+}
+
+@article{parandlegendre,
+  title={Legendre Deep Neural Network (LDNN) and its application for approximation of nonlinear Volterra--Fredholm--Hammerstein integral equations},
+  author={Parand, Kourosh and Hajimohammadi, Zeinab and Ghodsi, Ali}
+}
+
+@article{jafari2023improved,
+  title={Improved knowledge distillation by utilizing backward pass knowledge in neural networks},
+  author={Jafari, Aref and Rezagholizadeh, Mehdi and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2301.12006},
+  year={2023}
+}
+
+@article{ghojogh2021reproducing,
+  title={Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfunctions, Nystr$\backslash$" om Method, and Use of Kernels in Machine Learning: Tutorial and Survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2106.08443},
+  year={2021}
+}
+
+@article{ghodsi2021numerical,
+  title={Numerical investigation of the impacts of ammonia injection on the performance of EF7 engine with CNG fuel},
+  author={Ghodsi, A and Salek, F and Hosseini, SV and Babaie, M},
+  journal={The Journal of Engine Research},
+  volume={62},
+  number={62},
+  pages={23--29},
+  year={2021},
+  publisher={Iranian Society of Engine}
+}
+
+@article{valipour2021symbolicgpt,
+  title={Symbolicgpt: A generative transformer model for symbolic regression},
+  author={Valipour, Mojtaba and You, Bowen and Panju, Maysum and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2106.14131},
+  year={2021}
+}
+
+@article{ghojogh2021unified,
+  title={Unified framework for spectral dimensionality reduction, maximum variance unfolding, and kernel learning by semidefinite programming: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2106.15379},
+  year={2021}
+}
+
+@article{hajimohammadi2021legendre,
+  title={Legendre Deep Neural Network (LDNN) and its application for approximation of nonlinear Volterra Fredholm Hammerstein integral equations},
+  author={Hajimohammadi, Zeinab and Parand, Kourosh and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2106.14320},
+  year={2021}
+}
+
+@article{ghodsi2018datos,
+  title={Datos, conocimientos y sentido com{\'u}n razonamiento},
+  author={Ghodsi, Ali and Huberman, Bernardo and Wu, Fang},
+  journal={Revista Abierta de Inform{\'a}tica Aplicada},
+  volume={2},
+  number={1},
+  pages={23--32},
+  year={2018}
+}
+
+@incollection{ghojogh2022restricted,
+  title={Restricted Boltzmann Machine and Deep Belief Network},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={501--529},
+  year={2022},
+  publisher={Springer International Publishing Cham}
+}
+
+@article{ghojogh2021johnson,
+  title={Johnson-Lindenstrauss lemma, linear and nonlinear random projections, random Fourier features, and random kitchen sinks: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2108.04172},
+  year={2021}
+}
+
+@article{ghojogh2021uniform,
+  title={Uniform manifold approximation and projection (UMAP) and its variants: tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2109.02508},
+  year={2021}
+}
+
+@article{li2021select,
+  title={How to select one among all? an extensive empirical study towards the robustness of knowledge distillation in natural language understanding},
+  author={Li, Tianda and Rashid, Ahmad and Jafari, Aref and Sharma, Pranav and Ghodsi, Ali and Rezagholizadeh, Mehdi},
+  journal={arXiv preprint arXiv:2109.05696},
+  year={2021}
+}
+
+@article{tahaei2021kroneckerbert,
+  title={Kroneckerbert: Learning kronecker decomposition for pre-trained language models via knowledge distillation},
+  author={Tahaei, Marzieh S and Charlaix, Ella and Nia, Vahid Partovi and Ghodsi, Ali and Rezagholizadeh, Mehdi},
+  journal={arXiv preprint arXiv:2109.06243},
+  year={2021}
+}
+
+@article{bhardwaj2021knowledge,
+  title={Knowledge Distillation with Noisy Labels for Natural Language Understanding},
+  author={Bhardwaj, Shivendra and Ghaddar, Abbas and Rashid, Ahmad and Bibi, Khalil and Li, Chengyang and Ghodsi, Ali and Langlais, Philippe and Rezagholizadeh, Mehdi},
+  journal={arXiv preprint arXiv:2109.10147},
+  year={2021}
+}
+
+@article{ghojogh2021kkt,
+  title={KKT conditions, first-order and second-order optimization, and distributed optimization: tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2110.01858},
+  year={2021}
+}
+
+@article{ghojogh2021sufficient,
+  title={Sufficient dimension reduction for high-dimensional regression and low-dimensional embedding: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2110.09620},
+  year={2021}
+}
+
+@article{rezagholizadeh2021pro,
+  title={Pro-KD: Progressive distillation by following the footsteps of the teacher},
+  author={Rezagholizadeh, Mehdi and Jafari, Aref and Salad, Puneeth and Sharma, Pranav and Pasand, Ali Saheb and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2110.08532},
+  year={2021}
+}
+
+@inproceedings{wu2021universal,
+  title={Universal-KD: Attention-based output-grounded intermediate layer knowledge distillation},
+  author={Wu, Yimeng and Rezagholizadeh, Mehdi and Ghaddar, Abbas and Haidar, Md Akmal and Ghodsi, Ali},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={7649--7661},
+  year={2021}
+}
+
+@inproceedings{lu2021rw,
+  title={RW-KD: Sample-wise loss terms re-weighting for knowledge distillation},
+  author={Lu, Peng and Ghaddar, Abbas and Rashid, Ahmad and Rezagholizadeh, Mehdi and Ghodsi, Ali and Langlais, Philippe},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2021},
+  pages={3145--3152},
+  year={2021}
+}
+
+@article{hajimohammadi2021fractional,
+  title={Fractional Chebyshev deep neural network (FCDNN) for solving differential models},
+  author={Hajimohammadi, Zeinab and Baharifard, Fatemeh and Ghodsi, Ali and Parand, Kourosh},
+  journal={Chaos, Solitons \& Fractals},
+  volume={153},
+  pages={111530},
+  year={2021},
+  publisher={Pergamon}
+}
+
+@article{ghojogh2021generative,
+  title={Generative adversarial networks and adversarial autoencoders: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2111.13282},
+  year={2021}
+}
+
+@misc{jafari2021knowledge,
+  title={Knowledge distillation by utilizing backward pass knowledge in neural networks},
+  author={Jafari, Aref and Rezagholizadeh, Mehdi and Ghodsi, Ali},
+  year={2021},
+  month=dec # "~9",
+  note={US Patent App. 17/359,463}
+}
+
+@article{ghojogh2022spectral,
+  title={Spectral, probabilistic, and deep metric learning: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2201.09267},
+  year={2022}
+}
+
+@article{kamalloo2022chosen,
+  title={When chosen wisely, more data is what you need: A universal sample-efficient strategy for data augmentation},
+  author={Kamalloo, Ehsan and Rezagholizadeh, Mehdi and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2203.09391},
+  year={2022}
+}
+
+@inproceedings{ghojogh2022theoretical,
+  title={Theoretical Connection between Locally Linear Embedding, Factor Analysis, and Probabilistic PCA.},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  booktitle={Canadian AI},
+  year={2022}
+}
+
+@article{chasins2022sky,
+  title={The sky above the clouds},
+  author={Chasins, Sarah and Cheung, Alvin and Crooks, Natacha and Ghodsi, Ali and Goldberg, Ken and Gonzalez, Joseph E and Hellerstein, Joseph M and Jordan, Michael I and Joseph, Anthony D and Mahoney, Michael W and others},
+  journal={arXiv preprint arXiv:2205.07147},
+  year={2022}
+}
+
+@inproceedings{ghodsi2005symmetric,
+  title={Symmetric replication for structured peer-to-peer systems},
+  author={Ghodsi, Ali and Alima, Luc Onana and Haridi, Seif},
+  booktitle={International Workshop on Databases, Information Systems, and Peer-to-Peer Computing},
+  pages={74--85},
+  year={2005},
+  organization={Springer Berlin Heidelberg Berlin, Heidelberg}
+}
+
+@article{kobyzev2022towards,
+  title={Towards understanding label regularization for fine-tuning pre-trained language models},
+  author={Kobyzev, Ivan and Jafari, Aref and Rezagholizadeh, Mehdi and Li, Tianda and Do-Omri, Alan and Lu, Peng and Ghodsi, Ali and Poupart, Pascal},
+  journal={arXiv preprint arXiv:2205.12428},
+  year={2022}
+}
+
+@inproceedings{tahaei2022kroneckerbert,
+  title={KroneckerBERT: Significant compression of pre-trained language models through kronecker decomposition and knowledge distillation},
+  author={Tahaei, Marzieh and Charlaix, Ella and Nia, Vahid and Ghodsi, Ali and Rezagholizadeh, Mehdi},
+  booktitle={Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},
+  pages={2116--2127},
+  year={2022}
+}
+
+@article{valipour2022dylora,
+  title={Dylora: Parameter efficient tuning of pre-trained models using dynamic search-free low-rank adaptation},
+  author={Valipour, Mojtaba and Rezagholizadeh, Mehdi and Kobyzev, Ivan and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2210.07558},
+  year={2022}
+}
+
+@misc{tahaei2022methods,
+  title={Methods and systems for compressing a trained neural network and for improving efficiently performing computations of a compressed neural network},
+  author={Tahaei, Marziehsadat and Ghodsi, Ali and Rezagholizadeh, Mehdi and NIA, Vahid PARTOVI},
+  year={2022},
+  month=nov # "~17",
+  note={US Patent App. 17/322,674}
+}
+
+@misc{zaharia2022managed,
+  title={Managed metastorage},
+  author={Zaharia, Matei and Lewis, David and Lian, Cheng and Huo, Yuchen and Ghodsi, Ali},
+  year={2022},
+  month=nov # "~24",
+  note={US Patent App. 17/514,982}
+}
+
+@article{jafari2022continuation,
+  title={Continuation kd: Improved knowledge distillation through the lens of continuation optimization},
+  author={Jafari, Aref and Kobyzev, Ivan and Rezagholizadeh, Mehdi and Poupart, Pascal and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2212.05998},
+  year={2022}
+}
+
+@article{lu2022improving,
+  title={Improving generalization of pre-trained language models via stochastic weight averaging},
+  author={Lu, Peng and Kobyzev, Ivan and Rezagholizadeh, Mehdi and Rashid, Ahmad and Ghodsi, Ali and Langlais, Philippe},
+  journal={arXiv preprint arXiv:2212.05956},
+  year={2022}
+}
+
+@inproceedings{armbrust2023making,
+  title={Making Data Engineering Declarative.},
+  author={Armbrust, Michael and Ghodsi, Ali and Xin, Reynold and Ercegovac, Vuk and Chatterji, Sourav and Kim, Eun-Gyu and Lappas, Paul and Papakonstantinou, Yannis and Bu, Yingyi and Chen, Yuhong and others},
+  booktitle={CIDR},
+  year={2023}
+}
+
+@article{ghodsistochastic,
+  title={Stochastic Neighbor Embedding with Gaussian and Student-t Distributions: Tutorial and Survey},
+  author={Ghodsi, Ali and CA, UWATERLOO}
+}
+
+@inproceedings{li2021select,
+  title={How to select one among all? an empirical study towards the robustness of knowledge distillation in natural language understanding},
+  author={Li, Tianda and Rashid, Ahmad and Jafari, Aref and Sharma, Pranav and Ghodsi, Ali and Rezagholizadeh, Mehdi},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2021},
+  pages={750--762},
+  year={2021}
+}
+
+@incollection{ghojogh2023random,
+  title={Random Projection},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={395--425},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2022variational,
+  title={Variational Autoencoders},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={563--576},
+  year={2022},
+  publisher={Springer International Publishing Cham}
+}
+
+@article{ghojogh2023background,
+  title={Background on Kernels},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  journal={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={43--73},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023fisher,
+  title={Fisher Discriminant Analysis},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={155--184},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023sufficient,
+  title={Sufficient Dimension Reduction and Kernel Dimension Reduction},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={427--453},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023factor,
+  title={Factor analysis and probabilistic principal component analysis},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={355--374},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2022adversarial,
+  title={Adversarial Autoencoders},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={577--596},
+  year={2022},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023locally,
+  title={Locally linear embedding},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={207--247},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023background,
+  title={Background on Optimization},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={75--120},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023stochastic,
+  title={Stochastic neighbour embedding},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={455--477},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@article{ghojogh2023background,
+  title={Background on Linear Algebra},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  journal={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={17--41},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023principal,
+  title={Principal component analysis},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={123--154},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023uniform,
+  title={Uniform manifold approximation and projection (UMAP)},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={479--497},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023deep,
+  title={Deep metric learning},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={531--562},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023unified,
+  title={Unified Spectral Framework and Maximum Variance Unfolding},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={285--312},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023probabilistic,
+  title={Probabilistic Metric Learning},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={375--394},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2023laplacian,
+  title={Laplacian-Based Dimensionality Reduction},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={249--284},
+  year={2023},
+  publisher={Springer International Publishing Cham}
+}
+
+@incollection{ghojogh2022spectral,
+  title={Spectral Metric Learning},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  booktitle={Elements of Dimensionality Reduction and Manifold Learning},
+  pages={313--351},
+  year={2022},
+  publisher={Springer International Publishing Cham}
+}
+
+@misc{ghojogh2023elements,
+  title={Elements of dimensionality reduction and manifold learning},
+  author={Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali},
+  year={2023},
+  publisher={Springer}
+}
+
+@article{pantanowitzfine,
+  title={Fine-Tuning and Training of DenseNet for Histopathology Image Representation Using TCGA Diagnostic Slides},
+  author={Pantanowitz, Hany Kashani and Ghodsi, Ali and Tizhoosh, HR}
+}
+
+@inproceedings{ghodsi2013choosy,
+  title={Choosy},
+  author={Ghodsi, Ali and Zaharia, Matei and Shenker, Scott and Stoica, Ion},
+  booktitle={Proceedings of the 8th ACM European Conference on Computer Systems},
+  year={2013},
+  organization={ACM}
+}
+
+@misc{hong2023function,
+  title={Function creation for database execution of deep learning model},
+  author={Hong, Sue Ann and Xin, Shi and Hunter, Timothee and Ghodsi, Ali},
+  year={2023},
+  month=mar # "~7",
+  note={US Patent 11,599,783}
+}
+
+@article{ghojogh2023recurrent,
+  title={Recurrent neural networks and long short-term memory networks: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2304.11461},
+  year={2023}
+}
+
+@article{kobyzev2022we,
+  title={Do we need Label Regularization to Fine-tune Pre-trained Language Models?},
+  author={Kobyzev, Ivan and Jafari, Aref and Rezagholizadeh, Mehdi and Li, Tianda and Do-Omri, Alan and Lu, Peng and Poupart, Pascal and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2205.12428},
+  year={2022}
+}
+
+@article{hindman2010nexus,
+  title={Nexus: An Operating System for the Cluster},
+  author={Hindman, Benjamin and Konwinski, Andy and Zaharia, Matei and Ghodsi, Ali and Joseph, Anthony D and Katz, Randy and Shenker, Scott},
+  year={2010}
+}
+
+@article{ghodsiattention,
+  title={Attention Mechanism, Transformers, BERT, and GPT: Tutorial and Survey},
+  author={Ghodsi, Ali and CA, UWATERLOO}
+}
+
+@misc{jafari2023method,
+  title={Method and system for training a neural network model using gradual knowledge distillation},
+  author={Jafari, Aref and Rezagholizadeh, Mehdi and Ghodsi, Ali and Sharma, Pranav},
+  year={2023},
+  month=jul # "~13",
+  note={US Patent App. 18/119,221}
+}
+
+@article{valipour2023sortednet,
+  title={Sortednet, a place for every network and every network in its place: Towards a generalized solution for training many-in-one neural networks},
+  author={Valipour, Mojtaba and Rezagholizadeh, Mehdi and Rajabzadeh, Hossein and Tahaei, Marzieh and Chen, Boxing and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2309.00255},
+  year={2023}
+}
+
+@article{kavehzadeh2023sorted,
+  title={Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT)},
+  author={Kavehzadeh, Parsa and Valipour, Mojtaba and Tahaei, Marzieh and Ghodsi, Ali and Chen, Boxing and Rezagholizadeh, Mehdi},
+  journal={arXiv preprint arXiv:2309.08968},
+  year={2023}
+}
+
+@article{valipoursortednet,
+  title={SortedNet, a Place for Every Network and Every Network in its Place},
+  author={Valipour, Mojtaba and Rezagholizadeh, Mehdi and Rajabzadeh, Hossein and Tahaei, Marzieh and Chen, Boxing and Ghodsi, Ali}
+}
+
+@article{rajabzadeh2024qdylora,
+  title={Qdylora: Quantized dynamic low-rank adaptation for efficient large language model tuning},
+  author={Rajabzadeh, Hossein and Valipour, Mojtaba and Zhu, Tianshu and Tahaei, Marzieh and Kwon, Hyock Ju and Ghodsi, Ali and Chen, Boxing and Rezagholizadeh, Mehdi},
+  journal={arXiv preprint arXiv:2402.10462},
+  year={2024}
+}
+
+@article{pasand2024scalable,
+  title={Scalable Graph Self-Supervised Learning},
+  author={Pasand, Ali Saheb and Moravej, Reza and Biparva, Mahdi and Karimi, Raika and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2402.09603},
+  year={2024}
+}
+
+@article{saheb2024werank,
+  title={WERank: Towards Rank Degradation Prevention for Self-Supervised Learning Using Weight Regularization},
+  author={Saheb Pasand, Ali and Moravej, Reza and Biparva, Mahdi and Ghodsi, Ali},
+  journal={arXiv e-prints},
+  pages={arXiv--2402},
+  year={2024}
+}
+
+@article{pasand2024werank,
+  title={WERank: Towards Rank Degradation Prevention for Self-Supervised Learning Using Weight Regularization},
+  author={Pasand, Ali Saheb and Moravej, Reza and Biparva, Mahdi and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2402.09586},
+  year={2024}
+}
+
+@article{saheb2024scalable,
+  title={Scalable Graph Self-Supervised Learning},
+  author={Saheb Pasand, Ali and Moravej, Reza and Biparva, Mahdi and Karimi, Raika and Ghodsi, Ali},
+  journal={arXiv e-prints},
+  pages={arXiv--2402},
+  year={2024}
+}
+
+@article{karami2024orchid,
+  title={Orchid: Flexible and Data-Dependent Convolution for Sequence Modeling},
+  author={Karami, Mahdi and Ghodsi, Ali},
+  journal={arXiv preprint arXiv:2402.18508},
+  year={2024}
+}
+
+@article{ghodsi20133,
+  title={3.7 Deploying ICN at the network edge},
+  author={Ghodsi, Ali and Ohlman, B{\"o}rje and Ott, J{\"o}rg and Solis, Ignacio and W{\"a}hlisch, Matthias},
+  journal={Information-centric networking--Ready for the real world?},
+  pages={7},
+  year={2013}
+}
+
+@article{mahdi2017improving,
+  title={Improving the Accuracy of Pre-trained Word Embeddings for Sentiment Analysis},
+  author={Mahdi Rezaeinia, Seyed and Ghodsi, Ali and Rahmani, Rouhollah},
+  journal={arXiv e-prints},
+  pages={arXiv--1711},
+  year={2017}
+}
+
+@article{ghodsirestricted,
+  title={Restricted Boltzmann Machine and Deep Belief Network: Tutorial and Survey},
+  author={Ghodsi, Ali and CA, UWATERLOO}
+}
+
+@article{ghojogh2023kkt,
+  title={KKT Conditions},
+  author={Ghojogh, Benyamin and Ghodsi, A and Karray, F and Crowley, M},
+  journal={First-Order and},
+  volume={355},
+  year={2023}
+}
+
+@inproceedings{kavehzadeh2024sorted,
+  title={Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference},
+  author={Kavehzadeh, Parsa and Valipour, Mojtaba and Tahaei, Marzieh and Ghodsi, Ali and Chen, Boxing and Rezagholizadeh, Mehdi},
+  booktitle={Findings of the Association for Computational Linguistics: EACL 2024},
+  pages={2129--2145},
+  year={2024}
+}
+
+@misc{hong2024function,
+  title={Function creation for database execution of deep learning model},
+  author={Hong, Sue Ann and Xin, Shi and Hunter, Timothee and Ghodsi, Ali},
+  year={2024},
+  month=apr # "~2",
+  note={US Patent 11,948,084}
+}
+
+@article{podina2024learning,
+  title={Learning Chemotherapy Drug Action via Universal Physics-Informed Neural Networks},
+  author={Podina, Lena and Ghodsi, Ali and Kohandel, Mohammad},
+  journal={arXiv preprint arXiv:2404.08019},
+  year={2024}
+}
+
+@inproceedings{tahaei2024efficient,
+  title={Efficient Citer: Tuning Large Language Models for Enhanced Answer Quality and Verification},
+  author={Tahaei, Marzieh and Jafari, Aref and Rashid, Ahmad and Alfonso-Hermelo, David and Bibi, Khalil and Wu, Yimeng and Ghodsi, Ali and Chen, Boxing and Rezagholizadeh, Mehdi},
+  booktitle={Findings of the Association for Computational Linguistics: NAACL 2024},
+  pages={4443--4450},
+  year={2024}
+}
+
+@article{ghojogh2021restricted,
+  title={Restricted boltzmann machine and deep belief network: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali and Karray, Fakhri and Crowley, Mark},
+  journal={arXiv preprint arXiv:2107.12521},
+  year={2021}
+}
+
+@article{kavehzadeh2024s2d,
+  title={S2D: Sorted Speculative Decoding For More Efficient Deployment of Nested Large Language Models},
+  author={Kavehzadeh, Parsa and Pourreza, Mohammadreza and Valipour, Mojtaba and Zhu, Tinashu and Bai, Haoli and Ghodsi, Ali and Chen, Boxing and Rezagholizadeh, Mehdi},
+  journal={arXiv preprint arXiv:2407.01955},
+  year={2024}
+}
+
+@article{ghojogh2024graph,
+  title={Graph Neural Network, ChebNet, Graph Convolutional Network, and Graph Autoencoder: Tutorial and Survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2024}
+}
+
+@article{ghojogh2024diffusion,
+  title={Diffusion Models: Tutorial and Survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2024}
+}
+
+@article{ghojogh2024reinforcement,
+  title={Reinforcement Learning: Tutorial and Survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2024}
+}
+
+@article{zaharia2016rsa,
+  title={RSa, W Pa, D Ta, A Ma, D Aa, M Xa, R Ja, V Sa, F MJ. Apache Spark: A Unified Engine for Big Data Processing},
+  author={Zaharia Ma, X},
+  journal={Commun ACM},
+  volume={59},
+  number={11},
+  pages={56--65},
+  year={2016}
+}
+
+@article{ghojogh2024backpropagation,
+  title={Backpropagation and optimization in deep learning: Tutorial and survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2024}
+}
+
+@article{ghojogh2024pac,
+  title={PAC Learnability and Information Bottleneck in Deep Learning: Tutorial and Survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2024}
+}
+
+@article{rajabzadeh2024echoatt,
+  title={Echoatt: Attend, copy, then adjust for more efficient large language models},
+  author={Rajabzadeh, Hossein and Jafari, Aref and Sharma, Aman and Jami, Benyamin and Kwon, Hyock Ju and Ghodsi, Ali and Chen, Boxing and Rezagholizadeh, Mehdi},
+  journal={arXiv preprint arXiv:2409.14595},
+  year={2024}
+}
+
+@article{ghojogh2024maximum,
+  title={Maximum Mean Discrepancy and Generative Moment Matching Networks: Tutorial and Survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2024}
+}
+
+@article{ma2024graphpi,
+  title={GraphPI: Efficient Protein Inference with Graph Neural Networks},
+  author={Ma, Zheng and Chen, Jiazhen and Xin, Lei and Ghodsi, Ali},
+  journal={Journal of Proteome Research},
+  year={2024},
+  publisher={American Chemical Society}
+}
+
+@article{ghojogh2024neural,
+  title={Neural Network Compression and Knowledge Distillation: Tutorial and Survey},
+  author={Ghojogh, Benyamin and Ghodsi, Ali},
+  year={2024}
+}
+
+@article{zaharia2016magazine,
+  title={The magazine archive includes every article published in Communications of the ACM for over the past 50 years.},
+  author={Zaharia, Matei and Xin, Reynold S and Wendell, Patrick and Das, Tathagata and Armbrust, Michael and Dave, Ankur and Meng, Xiangrui and Rosen, Josh and Venkataraman, Shivaram and Franklin, Michael J and others},
+  journal={Communications of the ACM},
+  volume={59},
+  number={11},
+  pages={56--65},
+  year={2016}
+}

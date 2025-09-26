@@ -1,0 +1,40 @@
+.teaching-card {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  display: inline-block;
+  background-color: transparent;
+  width: 240px; /* Increased width for a wider appearance */
+  text-align: center;
+  vertical-align: top; /* Ensures all cards are aligned at the top */
+}
+
+.teaching-card .card-image {
+  width: 100%;
+  height: 140px; /* Adjusted height for a balanced aspect ratio */
+  overflow: hidden;
+}
+
+.teaching-card .card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image fills the space without distortion */
+  transition: transform 0.3s ease-in-out;
+}
+
+.teaching-card:hover .card-image img {
+  transform: scale(1.05);
+}
+
+.card-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.card-title:hover {
+  color: #0077b6;
+}
