@@ -1,5 +1,13 @@
 papers:
 
+  - title: "Learning chemotherapy drug action via universal physics-informed neural networks"
+    authors: "Podina, Lena and Ghodsi, Ali and Kohandel, Mohammad"
+    venue: "Pharmaceutical Research"
+    paper_pdf: "https://arxiv.org/abs/2404.08019"
+    #code: ""
+    #data: ""
+    year: "2025"
+    selected: y
 
   - title: "Orchid: Flexible and Data-Dependent Convolution for Sequence Modeling"
     authors: "Karami, Mahdi, Ghodsi, Ali"
@@ -56,14 +64,7 @@ papers:
     year: "2024"
     selected: n
 
-  - title: "Learning Chemotherapy Drug Action via Universal Physics-Informed Neural Networks"
-    authors: "Podina, Lena, Ghodsi, Ali, Kohandel, Mohammad"
-    venue: "arXiv preprint arXiv:2404.08019"
-    paper_pdf: ""
-    #code: ""
-    #data: ""
-    year: "2024"
-    selected: n
+  
 
   - title: "Efficient Citer: Tuning Large Language Models for Enhanced Answer Quality and Verification"
     authors: "Tahaei, Marzieh, Jafari, Aref, Rashid, Ahmad, Alfonso-Hermelo, David, Bibi, Khalil, Wu, Yimeng, Ghodsi, Ali, Chen, Boxing, Rezagholizadeh, Mehdi"
