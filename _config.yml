@@ -1,6 +1,7 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
+url: "https://aghodsib.github.io"
 baseurl: ""
 
 collections:

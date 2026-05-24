@@ -8,11 +8,13 @@
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
   <meta name="description" content="Ali Ghodsi">
   <meta name="author" content="Ali Ghodsi">
-  <meta property="og:title" content="Ali Ghodsi" />
+  <meta property="og:title" content="{{ site.data.main_info.name }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://www.martinsaveski.com" />
-  <meta property="og:site_name" content="Ali Ghodsi" />
-  <link rel="canonical" href="http://www.martinsaveski.com" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta property="og:site_name" content="{{ site.data.main_info.name }}" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:url" content="{{ page.url | absolute_url }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

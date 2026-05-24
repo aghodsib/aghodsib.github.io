@@ -1,5 +1,14 @@
 papers:
 
+  - title: "Auto-Regressive Masked Diffusion Models"
+    authors: "Karami, Mahdi, Ghodsi, Ali"
+    venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
+    paper_pdf: "/assets/publications/2026_auto_regressive_masked_diffusion/paper.pdf"
+    #code: ""
+    #data: ""
+    year: "2026"
+    selected: y
+
   - title: "Learning chemotherapy drug action via universal physics-informed neural networks"
     authors: "Podina, Lena and Ghodsi, Ali and Kohandel, Mohammad"
     venue: "Pharmaceutical Research"
@@ -156,13 +165,23 @@ papers:
     year: "2024"
     selected: t
 
+  - title: "Elements of deep learning"
+    authors: "Ghojogh, Benyamin and Ghodsi, Ali"
+    venue: "Springer"
+    year: "2026"
+    book_link: "https://link.springer.com/book/10.1007/978-3-032-10738-1"
+    book_image: "assets/images/elements-of-deep-learning-cover.png"
+    amazon_link: "https://www.amazon.ca/Elements-Deep-Learning-Benyamin-Ghojogh/dp/3032107377"
+    is_book: true
+
   - title: "Elements of dimensionality reduction and manifold learning"
     authors: "Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali"
     venue: "Springer"
+    year: "2024"
     book_link: "https://link.springer.com/book/10.1007/978-3-031-10602-6"
     book_image: "assets/images/my-book-cover.jpg"
     amazon_link: "https://www.amazon.ca/Elements-Dimensionality-Reduction-Manifold-Learning/dp/3031106016"
-    is_book: true    
+    is_book: true
 
 
   - title: "Multidimensional Scaling, Sammon Mapping, and Isomap"

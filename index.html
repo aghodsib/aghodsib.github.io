@@ -8,8 +8,7 @@ title: Home
   <p> Ali Ghodsi is a professor at the University of Waterloo, the Director of the Data Science Lab, and a Vector Institute Faculty Affiliate,
   specializing in machine learning and artificial intelligence. His research centers on developing theoretical frameworks and practical 
   algorithms in AI, with applications spanning natural language processing, bioinformatics, and computer vision. </p> <p> 
-  He is the co-author of the influential book <a href="https://link.springer.com/book/10.1007/978-3-031-10602-6" target="_blank"><em>Elements
-  of Dimensionality Reduction and Manifold Learning (Springer)</em></a>. His widely
+  He is the co-author of <a href="https://link.springer.com/book/10.1007/978-3-032-10738-1" target="_blank"><em>Elements of Deep Learning</em></a> (Springer, 2026) and <a href="https://link.springer.com/book/10.1007/978-3-031-10602-6" target="_blank"><em>Elements of Dimensionality Reduction and Manifold Learning</em></a> (Springer, 2024). His widely
   viewed <a href="https://www.youtube.com/@DataScienceCoursesUW" target="_blank">lectures on YouTube</a> provide accessible insights
   into complex AI topics for a broad audience. </p>
 </div>
@@ -21,27 +20,44 @@ title: Home
   <div id="prospective-students">
     <div id="prospective-students">
       <h4>Prospective Students</h4>
-    
-      <p>We are primarily seeking motivated PhD students (in Computer Science or in Statistics) to join our lab. Our research is broadly focused on advancing machine learning, artificial intelligence, and bioinformatics.</p>
-      
+
+      <!-- Prospective Students text toggle
+           ACTIVE: PhD-only (below). To recruit Master's students again:
+           1. Comment out the "PHD ONLY" block
+           2. Uncomment the "PHD AND MASTERS" block
+      -->
+
+      <!-- PHD ONLY (active) -->
+      <p>We are seeking motivated PhD students (in Statistics or Computer Science) to join our lab. Our research is broadly focused on advancing machine learning and artificial intelligence.</p>
+
+      <p><strong>Note:</strong> We are not currently admitting Master's students.</p>
+
+      <p>We also welcome exceptional and motivated postdoctoral researchers and visiting scholars.</p>
+
+      <p>If you would like to apply, please fill out the following form:</p>
+
+      <!-- PHD AND MASTERS (inactive — uncomment this block and comment out "PHD ONLY" above to restore)
+      <p>We are primarily seeking motivated PhD students (in Statistics or Computer Science) to join our lab. Our research is broadly focused on advancing machine learning and artificial intelligence.</p>
+
       <h6>Note on Master's Students</h6>
-      
+
       <p>We do not accept Master's students in the Computer Science program. If you are at the Master's level, we encourage you to apply to one of the following three programs:</p>
-      
+
       <ul>
         <li><a href="https://uwaterloo.ca/computational-mathematics/future-masters-students/masters-program" target="_blank">Computational Mathematics (CM) Master's Program</a></li>
         <li><a href="https://uwaterloo.ca/data-science/masters-mathematics-data-science-mmath-ds" target="_blank">Master's of Mathematics in Data Science (MMath in DS)</a></li>
         <li><a href="https://uwaterloo.ca/statistics-and-actuarial-science/graduate-studies/programs/mmath" target="_blank">Master's in Statistics (MMath)</a></li>
       </ul>
-      
+
       <p>All of the above Master's programs are funded.</p>
-      
+
       <p>In addition to PhD and Master's students, we also welcome exceptional and motivated postdoctoral researchers and visiting scholars.</p>
-      
+
       <p>If you would like to apply to any of these opportunities, please fill out the following form:</p>
+      -->
       
       <p style="margin-top: 20px;">
-        <a href="https://forms.gle/7pQ23vyLnA6KUUKT6" target="_blank" style="
+        <a href="https://forms.gle/VNGr4tspRv3ZVNU28" target="_blank" style="
           display: inline-flex;
           align-items: center;
           background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -74,11 +90,10 @@ title: Home
   <h5>Current Members</h5>
   <ul>
     <li><b>Mahdi Karami</b> — Senior Scientist, Research Scientist @ Google Research</li>
+    <li><b>Alireza Ghadimi</b> — PhD Student</li>
     <li><b>Aref Jafari</b> — PhD Student</li>
     <li><b>Lena Podina</b> — PhD Student</li>
     <li><b>Daniel Zhang</b> — PhD Student</li>
-    <li><b>Amin Ravanbakhsh</b> — Master's Student</li>
-    <li><b>Mojtaba Moodi</b> — Master's Student</li>
     <li><b>Max Homm</b> — Master's Student</li>
     <li><b>Kefah Alshaer</b> — Master's Student</li>
   </ul>
@@ -86,7 +101,9 @@ title: Home
   <h5>Alumni</h5>
   <!-- <h6>PhD Graduates</h6>
   <ul> -->
-    <li><b>Zhang Ma</b> — Research Scientist @ Bioinformatics Solutions Inc (BIS)</li>
+    <li><b>Amin Ravanbakhsh</b> — ML Engineer</li>
+    <li><b>Mojtaba Moodi</b> — Software Engineer @ EAB</li>
+    <li><b>Zhang Ma</b> — Software Developer @ Hammond Power Solutions</li>
     <li><b>Babak Alipanahi</b> — Co-founder and CSO @ Exai Bio</li>
     <li><b>Tameem Adel</b> — Assistant Professor @ University of Cambridge</li>
     <li><b>Pooyan Khajehpour Tadavoni</b> — Software Engineer @ Google</li>
@@ -496,6 +513,9 @@ title: Home
       <strong>{{ item.date }}:</strong>
       {% if item.description %}
         <p>{{ item.description | markdownify }}</p>
+      {% endif %}
+      {% if item.image %}
+        <img class="news-flyer" src="{{ item.image | prepend: site.baseurl }}" alt="{{ item.image_alt | default: item.date }}">
       {% endif %}
     </li>
     {% endfor %}
