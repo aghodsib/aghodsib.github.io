@@ -1,6 +1,7 @@
 papers:
 
   - title: "Auto-Regressive Masked Diffusion Models"
+    publication_type: conference
     authors: "Karami, Mahdi, Ghodsi, Ali"
     venue: "International Conference on Artificial Intelligence and Statistics (AISTATS)"
     paper_pdf: "/assets/publications/2026_auto_regressive_masked_diffusion/paper.pdf"
@@ -10,6 +11,7 @@ papers:
     selected: y
 
   - title: "Learning chemotherapy drug action via universal physics-informed neural networks"
+    publication_type: journal
     authors: "Podina, Lena and Ghodsi, Ali and Kohandel, Mohammad"
     venue: "Pharmaceutical Research"
     paper_pdf: "https://arxiv.org/abs/2404.08019"
@@ -19,6 +21,7 @@ papers:
     selected: y
 
   - title: "Orchid: Flexible and Data-Dependent Convolution for Sequence Modeling"
+    publication_type: conference
     authors: "Karami, Mahdi, Ghodsi, Ali"
     venue: "NeurIPS"
     paper_pdf: "https://arxiv.org/abs/2402.18508"
@@ -28,6 +31,7 @@ papers:
     selected: y
 
   - title: "GraphPI: Efficient Protein Inference with Graph Neural Networks"
+    publication_type: journal
     authors: "Ma, Zheng, Chen, Jiazhen, Xin, Lei, Ghodsi, Ali"
     venue: "Journal of Proteome Research"
     paper_pdf: "https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.3c00845"
@@ -37,6 +41,7 @@ papers:
     selected: y
 
   - title: "Qdylora: Quantized dynamic low-rank adaptation for efficient large language model tuning"
+    publication_type: conference
     authors: "Rajabzadeh, Hossein, Valipour, Mojtaba, Zhu, Tianshu, Tahaei, Marzieh, Kwon, Hyock Ju, Ghodsi, Ali, Chen, Boxing, Rezagholizadeh, Mehdi"
     venue: "emnlp-industry"
     paper_pdf: "https://aclanthology.org/2024.emnlp-industry.53.pdf"
@@ -46,6 +51,7 @@ papers:
     selected: y
 
   - title: "Scalable Graph Self-Supervised Learning"
+    publication_type: tutorial_preprint
     authors: "Pasand, Ali Saheb, Moravej, Reza, Biparva, Mahdi, Karimi, Raika, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2402.09603"
     paper_pdf: ""
@@ -55,6 +61,7 @@ papers:
     selected: n
 
   - title: "WERank: Towards Rank Degradation Prevention for Self-Supervised Learning Using Weight Regularization"
+    publication_type: tutorial_preprint
     authors: "Pasand, Ali Saheb, Moravej, Reza, Biparva, Mahdi, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2402.09586"
     paper_pdf: ""
@@ -65,6 +72,7 @@ papers:
 
 
   - title: "Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference"
+    publication_type: conference
     authors: "Kavehzadeh, Parsa, Valipour, Mojtaba, Tahaei, Marzieh, Ghodsi, Ali, Chen, Boxing, Rezagholizadeh, Mehdi"
     venue: "Findings of the Association for Computational Linguistics: EACL"
     paper_pdf: ""
@@ -76,6 +84,7 @@ papers:
   
 
   - title: "Efficient Citer: Tuning Large Language Models for Enhanced Answer Quality and Verification"
+    publication_type: conference
     authors: "Tahaei, Marzieh, Jafari, Aref, Rashid, Ahmad, Alfonso-Hermelo, David, Bibi, Khalil, Wu, Yimeng, Ghodsi, Ali, Chen, Boxing, Rezagholizadeh, Mehdi"
     venue: "Findings of the Association for Computational Linguistics: NAACL"
     paper_pdf: "https://aclanthology.org/2024.findings-naacl.277.pdf"
@@ -85,6 +94,7 @@ papers:
     selected: y
 
   - title: "S2D: Sorted Speculative Decoding For More Efficient Deployment of Nested Large Language Models"
+    publication_type: conference
     authors: "Kavehzadeh, Parsa, Pourreza, Mohammadreza, Valipour, Mojtaba, Zhu, Tinashu, Bai, Haoli, Ghodsi, Ali, Chen, Boxing, Rezagholizadeh, Mehdi"
     venue: "arXiv preprint arXiv:2407.01955"
     paper_pdf: ""
@@ -94,6 +104,7 @@ papers:
     selected: n
 
   - title: "Graph Neural Network, ChebNet, Graph Convolutional Network, and Graph Autoencoder: Tutorial and Survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -103,6 +114,7 @@ papers:
     selected: t
 
   - title: "Diffusion Models: Tutorial and Survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -112,6 +124,7 @@ papers:
     selected: t
 
   - title: "Reinforcement Learning: Tutorial and Survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -121,6 +134,7 @@ papers:
     selected: t
 
   - title: "Backpropagation and optimization in deep learning: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -130,6 +144,7 @@ papers:
     selected: t
 
   - title: "PAC Learnability and Information Bottleneck in Deep Learning: Tutorial and Survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -139,6 +154,7 @@ papers:
     selected: t
 
   - title: "Echoatt: Attend, copy, then adjust for more efficient large language models"
+    publication_type: conference
     authors: "Rajabzadeh, Hossein, Jafari, Aref, Sharma, Aman, Jami, Benyamin, Kwon, Hyock Ju, Ghodsi, Ali, Chen, Boxing, Rezagholizadeh, Mehdi"
     venue: "Efficient Natural Language and Speech Processing (ENLSP-IV) workshop"
     paper_pdf: "https://arxiv.org/pdf/2409.14595"
@@ -148,6 +164,7 @@ papers:
     selected: y
 
   - title: "Maximum Mean Discrepancy and Generative Moment Matching Networks: Tutorial and Survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -157,6 +174,7 @@ papers:
     selected: t
 
   - title: "Neural Network Compression and Knowledge Distillation: Tutorial and Survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -166,6 +184,7 @@ papers:
     selected: t
 
   - title: "Elements of deep learning"
+    publication_type: book
     authors: "Ghojogh, Benyamin and Ghodsi, Ali"
     venue: "Springer"
     year: "2026"
@@ -175,6 +194,7 @@ papers:
     is_book: true
 
   - title: "Elements of dimensionality reduction and manifold learning"
+    publication_type: book
     authors: "Ghojogh, Benyamin and Crowley, Mark and Karray, Fakhri and Ghodsi, Ali"
     venue: "Springer"
     year: "2024"
@@ -185,6 +205,7 @@ papers:
 
 
   - title: "Multidimensional Scaling, Sammon Mapping, and Isomap"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -194,6 +215,7 @@ papers:
     selected: t
 
   - title: "Systems and methods for de novo peptide sequencing using deep learning and spectrum pairs"
+    publication_type: other
     authors: "Qiao, Rui, Tran, Ngoc Hieu, Lei, XIN, Chen, Xin, Baozhen, SHAN, Ghodsi, Ali, Li, Ming"
     venue: ""
     paper_pdf: "https://patents.google.com/patent/US11573239B2/en"
@@ -204,6 +226,7 @@ papers:
     
 
   - title: "Random Projection"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -213,6 +236,7 @@ papers:
     selected: t
 
   - title: "Background on Kernels"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -222,6 +246,7 @@ papers:
     selected: t
 
   - title: "Fisher Discriminant Analysis"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -231,6 +256,7 @@ papers:
     selected: t
 
   - title: "Sufficient Dimension Reduction and Kernel Dimension Reduction"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -240,6 +266,7 @@ papers:
     selected: t
 
   - title: "Factor analysis and probabilistic principal component analysis"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -249,6 +276,7 @@ papers:
     selected: t
     
   - title: "Do we need Label Regularization to Fine-tune Pre-trained Language Model"
+    publication_type: conference
     authors: "Kobyzev, Ivan, Jafari, Aref, Rezagholizadeh, Mehdi, Li, Tianda, Do-Omri, Alan, Lu, Peng, Ghodsi, Ali, Poupart, Pascal"
     venue: "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics"
     paper_pdf: "https://aclanthology.org/2023.eacl-main.13.pdf"
@@ -259,6 +287,7 @@ papers:
   
 
   - title: "Locally linear embedding"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -268,6 +297,7 @@ papers:
     selected: t
 
   - title: "Stochastic neighbour embedding"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -277,6 +307,7 @@ papers:
     selected: t
 
   - title: "Principal component analysis"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -286,6 +317,7 @@ papers:
     selected: t
 
   - title: "Uniform manifold approximation and projection (UMAP)"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -295,6 +327,7 @@ papers:
     selected: t
 
   - title: "Deep metric learning"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -304,6 +337,7 @@ papers:
     selected: t
 
   - title: "Unified Spectral Framework and Maximum Variance Unfolding"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -313,6 +347,7 @@ papers:
     selected: t
 
   - title: "Probabilistic Metric Learning"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -322,6 +357,7 @@ papers:
     selected: t
 
   - title: "Laplacian-Based Dimensionality Reduction"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -331,6 +367,7 @@ papers:
     selected: t
 
   - title: "Elements of dimensionality reduction and manifold learning"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -340,6 +377,7 @@ papers:
     selected: t
 
   - title: "Recurrent neural networks and long short-term memory networks: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2304.11461"
     paper_pdf: ""
@@ -349,6 +387,7 @@ papers:
     selected: t
 
   - title: "Sortednet, a place for every network and every network in its place: Towards a generalized solution for training many-in-one neural networks"
+    publication_type: conference
     authors: "Valipour, Mojtaba, Rezagholizadeh, Mehdi, Rajabzadeh, Hossein, Tahaei, Marzieh, Chen, Boxing, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2309.00255"
     paper_pdf: "https://arxiv.org/pdf/2309.00255"
@@ -358,6 +397,7 @@ papers:
     selected: n
 
   - title: "Sorted LLaMA: Unlocking the Potential of Intermediate Layers of Large Language Models for Dynamic Inference Using Sorted Fine-Tuning (SoFT)"
+    publication_type: tutorial_preprint
     authors: "Kavehzadeh, Parsa, Valipour, Mojtaba, Tahaei, Marzieh, Ghodsi, Ali, Chen, Boxing, Rezagholizadeh, Mehdi"
     venue: "arXiv preprint arXiv:2309.08968"
     paper_pdf: ""
@@ -367,6 +407,7 @@ papers:
     selected: y
 
   - title: "KKT Conditions"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, A, Karray, F, Crowley, M"
     venue: "First-Order and"
     paper_pdf: ""
@@ -376,6 +417,7 @@ papers:
     selected: t
 
   - title: "Restricted Boltzmann Machine and Deep Belief Network"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -385,6 +427,7 @@ papers:
     selected: t
 
   - title: "Variational Autoencoders"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -394,6 +437,7 @@ papers:
     selected: t
 
   - title: "Adversarial Autoencoders"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Crowley, Mark, Karray, Fakhri, Ghodsi, Ali"
     venue: "Elements of Dimensionality Reduction and Manifold Learning"
     paper_pdf: ""
@@ -403,6 +447,7 @@ papers:
     selected: t
 
   - title: "Spectral, probabilistic, and deep metric learning: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2201.09267"
     paper_pdf: ""
@@ -412,6 +457,7 @@ papers:
     selected: t
 
   - title: "When chosen wisely, more data is what you need: A universal sample-efficient strategy for data augmentation"
+    publication_type: conference
     authors: "Kamalloo, Ehsan, Rezagholizadeh, Mehdi, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2203.09391"
     paper_pdf: ""
@@ -421,6 +467,7 @@ papers:
     selected: n
 
   - title: "Theoretical Connection between Locally Linear Embedding, Factor Analysis, and Probabilistic PCA."
+    publication_type: conference
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "Canadian AI"
     paper_pdf: ""
@@ -430,6 +477,7 @@ papers:
     selected: t
 
   - title: "KroneckerBERT: Significant compression of pre-trained language models through kronecker decomposition and knowledge distillation"
+    publication_type: conference
     authors: "Tahaei, Marzieh, Charlaix, Ella, Nia, Vahid, Ghodsi, Ali, Rezagholizadeh, Mehdi"
     venue: "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
     paper_pdf: ""
@@ -439,6 +487,7 @@ papers:
     selected: n
 
   - title: "Dylora: Parameter efficient tuning of pre-trained models using dynamic search-free low-rank adaptation"
+    publication_type: conference
     authors: "Valipour, Mojtaba, Rezagholizadeh, Mehdi, Kobyzev, Ivan, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2210.07558"
     paper_pdf: ""
@@ -448,6 +497,7 @@ papers:
     selected: n
 
   - title: "Continuation kd: Improved knowledge distillation through the lens of continuation optimization"
+    publication_type: conference
     authors: "Jafari, Aref, Kobyzev, Ivan, Rezagholizadeh, Mehdi, Poupart, Pascal, Ghodsi, Ali"
     venue: "Findings of the Association for Computational Linguistics: EMNLP 2022"
     paper_pdf: "https://aclanthology.org/2022.findings-emnlp.385.pdf"
@@ -457,6 +507,7 @@ papers:
     selected: y
 
   - title: "A new approach to the numerical solution of Fredholm integral equations using least squares-support vector regression"
+    publication_type: journal
     authors: "Parand, K, Aghaei, Alireza Afzal, Jani, Mostafa, Ghodsi, Ali"
     venue: "Mathematics and Computers in Simulation"
     paper_pdf: ""
@@ -466,6 +517,7 @@ papers:
     selected: n
 
   - title: "Supervised discriminative dimensionality reduction by learning multiple transformation operators"
+    publication_type: journal
     authors: "Rajabzadeh, Hossein, Jahromi, Mansoor Zolghadri, Ghodsi, Ali"
     venue: "Expert Systems with Applications"
     paper_pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0957417420307417"
@@ -475,6 +527,7 @@ papers:
     selected: y
 
   - title: "Fine-tuning and training of densenet for histopathology image representation using tcga diagnostic slides"
+    publication_type: journal
     authors: "Riasatian, Abtin, Babaie, Morteza, Maleki, Danial, Kalra, Shivam, Valipour, Mojtaba, Hemati, Sobhan, Zaveri, Manit, Safarpoor, Amir, Shafiei, Sobhan, Afshari, Mehdi, others"
     venue: "Medical image analysis"
     paper_pdf: ""
@@ -484,6 +537,7 @@ papers:
     selected: n
 
   - title: "CNN and deep sets for end-to-end whole slide image representation learning"
+    publication_type: conference
     authors: "Hemati, Sobhan, Kalra, Shivam, Meaney, Cameron, Babaie, Morteza, Ghodsi, Ali, Tizhoosh, Hamid"
     venue: "Medical Imaging with Deep Learning"
     paper_pdf: ""
@@ -493,6 +547,7 @@ papers:
     selected: y
 
   - title: "Computationally instrument-resolution-independent de novo peptide sequencing for high-resolution devices"
+    publication_type: journal
     authors: "Qiao, Rui, Tran, Ngoc Hieu, Xin, Lei, Chen, Xin, Li, Ming, Shan, Baozhen, Ghodsi, Ali"
     venue: "Nature Machine Intelligence"
     #paper_pdf: "https://www.nature.com/articles/s42256-021-00304-3"
@@ -503,6 +558,7 @@ papers:
     selected: y
 
   - title: "Fractional Chebyshev deep neural network (FCDNN) for solving differential models"
+    publication_type: journal
     authors: "Hajimohammadi, Zeinab, Baharifard, Fatemeh, Ghodsi, Ali, Parand, Kourosh"
     venue: "Chaos, Solitons and Fractals"
     paper_pdf: ""
@@ -512,6 +568,7 @@ papers:
     selected: n
 
   - title: "Knowledge distillation by utilizing backward pass knowledge in neural networks"
+    publication_type: conference
     authors: "Jafari, Aref, Rezagholizadeh, Mehdi, Ghodsi, Ali"
     venue: "Efficient Natural Language and Speech Processing (ENLSP workshop)"
     paper_pdf: "https://neurips2022-enlsp.github.io/papers/paper_70.pdf"
@@ -521,6 +578,7 @@ papers:
     selected: y
 
   - title: "Lakehouse: a new generation of open platforms that unify data warehousing and advanced analytics"
+    publication_type: conference
     authors: "Armbrust, Michael, Ghodsi, Ali, Xin, Reynold, Zaharia, Matei"
     venue: "Proceedings of CIDR"
     paper_pdf: ""
@@ -530,6 +588,7 @@ papers:
     selected: n
 
   - title: "Factor analysis, probabilistic principal component analysis, variational inference, and variational autoencoder: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2101.00734"
     paper_pdf: ""
@@ -539,6 +598,7 @@ papers:
     selected: t
 
   - title: "Generative locally linear embedding"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2104.01525"
     paper_pdf: ""
@@ -548,6 +608,7 @@ papers:
     selected: t
 
   - title: "Annealing knowledge distillation"
+    publication_type: conference
     authors: "Jafari, Aref, Rezagholizadeh, Mehdi, Sharma, Pranav, Ghodsi, Ali"
     venue: "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics"
     paper_pdf: "https://aclanthology.org/2021.eacl-main.212.pdf"
@@ -557,6 +618,7 @@ papers:
     selected: y
 
   - title: "Not far away, not so close: Sample efficient nearest neighbour data augmentation via minimax"
+    publication_type: conference
     authors: "Kamalloo, Ehsan, Rezagholizadeh, Mehdi, Passban, Peyman, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2105.13608"
     paper_pdf: ""
@@ -566,6 +628,7 @@ papers:
     selected: n
 
   - title: "Laplacian-based dimensionality reduction including spectral clustering, Laplacian eigenmap, locality preserving projection, graph embedding, and diffusion map: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2106.02154"
     paper_pdf: ""
@@ -575,6 +638,7 @@ papers:
     selected: t
 
   - title: "Symbolicgpt: A generative transformer model for symbolic regression"
+    publication_type: conference
     authors: "Valipour, Mojtaba, You, Bowen, Panju, Maysum, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2106.14131"
     paper_pdf: ""
@@ -584,6 +648,7 @@ papers:
     selected: n
 
   - title: "Unified framework for spectral dimensionality reduction, maximum variance unfolding, and kernel learning by semidefinite programming: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2106.15379"
     paper_pdf: ""
@@ -593,6 +658,7 @@ papers:
     selected: t
 
   - title: "Legendre Deep Neural Network (LDNN) and its application for approximation of nonlinear Volterra Fredholm Hammerstein integral equations"
+    publication_type: tutorial_preprint
     authors: "Hajimohammadi, Zeinab, Parand, Kourosh, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2106.14320"
     paper_pdf: ""
@@ -602,6 +668,7 @@ papers:
     selected: n
 
   - title: "Johnson-Lindenstrauss lemma, linear and nonlinear random projections, random Fourier features, and random kitchen sinks: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2108.04172"
     paper_pdf: ""
@@ -611,6 +678,7 @@ papers:
     selected: t
 
   - title: "Uniform manifold approximation and projection (UMAP) and its variants: tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2109.02508"
     paper_pdf: ""
@@ -620,6 +688,7 @@ papers:
     selected: t
 
   - title: "How to select one among all? an extensive empirical study towards the robustness of knowledge distillation in natural language understanding"
+    publication_type: conference
     authors: "Li, Tianda, Rashid, Ahmad, Jafari, Aref, Sharma, Pranav, Ghodsi, Ali, Rezagholizadeh, Mehdi"
     venue: "Findings of the Association for Computational Linguistics: EMNLP 2021"
     paper_pdf: "https://aclanthology.org/2021.findings-emnlp.65.pdf"
@@ -629,6 +698,7 @@ papers:
     selected: y
 
   - title: "Kroneckerbert: Learning kronecker decomposition for pre-trained language models via knowledge distillation"
+    publication_type: tutorial_preprint
     authors: "Tahaei, Marzieh S, Charlaix, Ella, Nia, Vahid Partovi, Ghodsi, Ali, Rezagholizadeh, Mehdi"
     venue: "arXiv preprint arXiv:2109.06243"
     paper_pdf: ""
@@ -638,6 +708,7 @@ papers:
     selected: n
 
   - title: "Knowledge Distillation with Noisy Labels for Natural Language Understanding"
+    publication_type: tutorial_preprint
     authors: "Bhardwaj, Shivendra, Ghaddar, Abbas, Rashid, Ahmad, Bibi, Khalil, Li, Chengyang, Ghodsi, Ali, Langlais, Philippe, Rezagholizadeh, Mehdi"
     venue: "arXiv preprint arXiv:2109.10147"
     paper_pdf: ""
@@ -647,6 +718,7 @@ papers:
     selected: n
 
   - title: "KKT conditions, first-order and second-order optimization, and distributed optimization: tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2110.01858"
     paper_pdf: ""
@@ -656,6 +728,7 @@ papers:
     selected: t
 
   - title: "Sufficient dimension reduction for high-dimensional regression and low-dimensional embedding: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2110.09620"
     paper_pdf: ""
@@ -665,6 +738,7 @@ papers:
     selected: t
 
   - title: "Pro-KD: Progressive distillation by following the footsteps of the teacher"
+    publication_type: conference
     authors: "Rezagholizadeh, Mehdi, Jafari, Aref, Salad, Puneeth, Sharma, Pranav, Pasand, Ali Saheb, Ghodsi, Ali"
     venue: "Proceedings of the 29th International Conference on Computational Linguistics, 2022"
     paper_pdf: "https://aclanthology.org/2022.coling-1.418.pdf"
@@ -674,6 +748,7 @@ papers:
     selected: y
 
   - title: "Universal-KD: Attention-based output-grounded intermediate layer knowledge distillation"
+    publication_type: conference
     authors: "Wu, Yimeng, Rezagholizadeh, Mehdi, Ghaddar, Abbas, Haidar, Md Akmal, Ghodsi, Ali"
     venue: "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
     paper_pdf: ""
@@ -683,6 +758,7 @@ papers:
     selected: n
 
   - title: "Restricted boltzmann machine and deep belief network: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2107.12521"
     paper_pdf: ""
@@ -692,6 +768,7 @@ papers:
     selected: t
 
   - title: "Discriminant component analysis via distance correlation maximization"
+    publication_type: journal
     authors: "Abdi, Lida, Ghodsi, Ali"
     venue: "Pattern Recognition"
     paper_pdf: ""
@@ -701,6 +778,7 @@ papers:
     selected: n
 
   - title: "Attention mechanism, transformers, BERT, and GPT: tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -710,6 +788,7 @@ papers:
     selected: t
 
   - title: "Stochastic neighbor embedding with Gaussian and student-t distributions: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2009.10301"
     paper_pdf: ""
@@ -719,6 +798,7 @@ papers:
     selected: t
 
   - title: "A neuro-symbolic method for solving differential and functional equations"
+    publication_type: tutorial_preprint
     authors: "Panju, Maysum, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2011.02415"
     paper_pdf: ""
@@ -728,6 +808,7 @@ papers:
     selected: n
 
   - title: "Symbolically solving partial differential equations using deep learning"
+    publication_type: tutorial_preprint
     authors: "Panju, Maysum, Parand, Kourosh, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:2011.06673"
     paper_pdf: ""
@@ -737,6 +818,7 @@ papers:
     selected: n
 
   - title: "Locally linear embedding and its variants: Tutorial and survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2011.10925"
     paper_pdf: ""
@@ -746,6 +828,7 @@ papers:
     selected: t
 
   - title: "Sentiment analysis based on improved pre-trained word embeddings"
+    publication_type: journal
     authors: "Rezaeinia, Seyed Mahdi, Rahmani, Rouhollah, Ghodsi, Ali, Veisi, Hadi"
     venue: "Expert Systems with Applications"
     paper_pdf: ""
@@ -755,6 +838,7 @@ papers:
     selected: n
 
   - title: "Deep learning enables de novo peptide sequencing from data-independent-acquisition mass spectrometry"
+    publication_type: journal
     authors: "Tran, Ngoc Hieu, Qiao, Rui, Xin, Lei, Chen, Xin, Liu, Chuyi, Zhang, Xianglilan, Shan, Baozhen, Ghodsi, Ali, Li, Ming"
     venue: "Nature methods"
     paper_pdf: "https://www.nature.com/articles/s41592-018-0260-3"
@@ -764,6 +848,7 @@ papers:
     selected: y
 
   - title: "Deepnovov2: Better de novo peptide sequencing with deep learning"
+    publication_type: tutorial_preprint
     authors: "Qiao, Rui, Tran, Ngoc Hieu, Xin, Lei, Shan, Baozhen, Li, Ming, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:1904.08514"
     paper_pdf: "https://arxiv.org/pdf/1904.08514"
@@ -773,6 +858,7 @@ papers:
     selected: y
 
   - title: "Fully Convolutional Networks in Localization and Classification of Cell Nuclei"
+    publication_type: conference
     authors: "Bidart, Rene, Gangeh, Mehrdad J, Peikari, Mohammad, Salama, Sherine, Nofech-Mozes, Sharon, Nofech, Sharon, Martel, Anne L, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -782,6 +868,7 @@ papers:
     selected: n
 
   - title: "Robust locally-linear controllable embedding"
+    publication_type: conference
     authors: "Banijamali, Ershad, Shu, Rui, Bui, Hung, Ghodsi, Ali, others"
     venue: "International Conference on Artificial Intelligence and Statistics"
     paper_pdf: "https://arxiv.org/pdf/1710.05373"
@@ -791,6 +878,7 @@ papers:
     selected: y
 
   - title: "Localization and classification of cell nuclei in post-neoadjuvant breast cancer surgical specimen using fully convolutional networks"
+    publication_type: conference
     authors: "Bidart, Rene, Gangeh, Mehrdad J, Peikari, Mohammad, Salama, Sherine, Nofech-Mozes, Sharon, Martel, Anne L, Ghodsi, Ali"
     venue: "Medical Imaging 2018: Digital Pathology"
     paper_pdf: ""
@@ -800,6 +888,7 @@ papers:
     selected: n
 
   - title: "Distance correlation autoencoder"
+    publication_type: conference
     authors: "Wang, Rick, Karimi, Amir-Hossein, Ghodsi, Ali"
     venue: "2018 International Joint Conference on Neural Networks (IJCNN)"
     paper_pdf: ""
@@ -809,6 +898,7 @@ papers:
     selected: n
 
   - title: "Nonnegative matrix factorization using autoencoders and exponentiated gradient descent"
+    publication_type: conference
     authors: "El Khatib, Alaa, Huang, Shimeng, Ghodsi, Ali, Karray, Fakhri"
     venue: "2018 International Joint Conference on Neural Networks (IJCNN)"
     paper_pdf: ""
@@ -818,6 +908,7 @@ papers:
     selected: n
 
   - title: "SRP: Efficient class-aware embedding learning for large-scale data via supervised random projections"
+    publication_type: tutorial_preprint
     authors: "Karimi, Amir-Hossein, Wong, Alexander, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:1811.03166"
     paper_pdf: ""
@@ -827,6 +918,7 @@ papers:
     selected: n
 
   - title: "Deep variational sufficient dimensionality reduction"
+    publication_type: tutorial_preprint
     authors: "Banijamali, Ershad, Karimi, Amir-Hossein, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:1812.07641"
     paper_pdf: ""
@@ -836,6 +928,7 @@ papers:
     selected: n
 
   - title: "Advances in projection of climate change impacts using supervised nonlinear dimensionality reduction techniques"
+    publication_type: journal
     authors: "Sarhadi, Ali, Burn, Donald H, Yang, Ge, Ghodsi, Ali"
     venue: "Climate dynamics"
     paper_pdf: ""
@@ -845,6 +938,7 @@ papers:
     selected: n
 
   - title: "Fast and scalable feature selection for gene expression data using hilbert-schmidt independence criterion"
+    publication_type: journal
     authors: "Gangeh, Mehrdad J, Zarkoob, Hadi, Ghodsi, Ali"
     venue: "IEEE/ACM transactions on computational biology and bioinformatics"
     paper_pdf: ""
@@ -854,6 +948,7 @@ papers:
     selected: n
 
   - title: "Generative mixture of networks"
+    publication_type: conference
     authors: "Banijamali, Ershad, Ghodsi, Ali, Popuart, Pascal"
     venue: "2017 International Joint Conference on Neural Networks (IJCNN)"
     paper_pdf: ""
@@ -863,6 +958,7 @@ papers:
     selected: n
 
   - title: "Fast spectral clustering using autoencoders and landmarks"
+    publication_type: conference
     authors: "Banijamali, Ershad, Ghodsi, Ali"
     venue: "International Conference Image Analysis and Recognition"
     paper_pdf: ""
@@ -872,6 +968,7 @@ papers:
     selected: n
 
   - title: "Sparse supervised principal component analysis (SSPCA) for dimension reduction and variable selection"
+    publication_type: journal
     authors: "Sharifzadeh, Sara, Ghodsi, Ali, Clemmensen, Line H, Ersbll, Bjarne K"
     venue: "Engineering Applications of Artificial Intelligence"
     paper_pdf: ""
@@ -881,6 +978,7 @@ papers:
     selected: n
 
   - title: "Discovery radiomics via a mixture of deep convnet sequencers for multi-parametric MRI prostate cancer classification"
+    publication_type: conference
     authors: "Karimi, Amir-Hossein, Chung, Audrey G, Shafiee, Mohammad Javad, Khalvati, Farzad, Haider, Masoom A, Ghodsi, Ali, Wong, Alexander"
     venue: "Image Analysis and Recognition: 14th International Conference, ICIAR 2017, Montreal, QC, Canada, July 5--7, 2017, Proceedings 14"
     paper_pdf: ""
@@ -890,6 +988,7 @@ papers:
     selected: n
 
   - title: "Synthesizing deep neural network architectures using biological synaptic strength distributions"
+    publication_type: tutorial_preprint
     authors: "Karimi, Amir-Hossein, Shafiee, MJ, Ghodsi, Ali, Wong, Alexander"
     venue: "arXiv preprint arXiv:1707.00081"
     paper_pdf: ""
@@ -899,6 +998,7 @@ papers:
     selected: n
 
   - title: "Ensembles of random projections for nonlinear dimensionality reduction"
+    publication_type: journal
     authors: "Karimi, Amir Hossein, Shafiee, Mohammad Javad, Ghodsi, Ali, Wong, Alexander"
     venue: "Journal of Computational Vision and Imaging Systems"
     paper_pdf: ""
@@ -908,6 +1008,7 @@ papers:
     selected: y
 
   - title: "Disentangling dynamics and content for control and planning"
+    publication_type: tutorial_preprint
     authors: "Banijamali, Ershad, Khajenezhad, Ahmad, Ghodsi, Ali, Ghavamzadeh, Mohammad"
     venue: "arXiv preprint arXiv:1711.09165"
     paper_pdf: ""
@@ -917,6 +1018,7 @@ papers:
     selected: n
 
   - title: "Jade: Joint autoencoders for dis-entanglement"
+    publication_type: tutorial_preprint
     authors: "Banijamali, Ershad, Karimi, Amir-Hossein, Wong, Alexander, Ghodsi, Ali"
     venue: "arXiv preprint arXiv:1711.09163"
     paper_pdf: ""
@@ -926,6 +1028,7 @@ papers:
     selected: n
 
   - title: "Improving the accuracy of pre-trained word embeddings for sentiment analysis"
+    publication_type: tutorial_preprint
     authors: "Rezaeinia, Seyed Mahdi, Ghodsi, Ali, Rahmani, Rouhollah"
     venue: "arXiv preprint arXiv:1711.08609"
     paper_pdf: ""
@@ -935,6 +1038,7 @@ papers:
     selected: n
 
   - title: "Semi-supervised dictionary learning based on hilbert-schmidt independence criterion"
+    publication_type: conference
     authors: "Gangeh, Mehrdad J, Bedawi, Safaa MA, Ghodsi, Ali, Karray, Fakhri"
     venue: "Image Analysis and Recognition: 13th International Conference, ICIAR 2016, in Memory of Mohamed Kamel, Povoa de Varzim, Portugal, July 13-15, 2016, Proceedings 13"
     paper_pdf: ""
@@ -944,6 +1048,7 @@ papers:
     selected: n
 
   - title: "Greedy column subset selection for large-scale data sets"
+    publication_type: journal
     authors: "Farahat, Ahmed K, Elgohary, Ahmed, Ghodsi, Ali, Kamel, Mohamed S"
     venue: "Knowledge and Information Systems"
     paper_pdf: ""
@@ -953,6 +1058,7 @@ papers:
     selected: n
 
   - title: "A dimension-independent generalization bound for kernel supervised principal component analysis"
+    publication_type: conference
     authors: "Ashtiani, Hassan, Ghodsi, Ali"
     venue: "Feature Extraction: Modern Questions and Challenges"
     paper_pdf: ""
@@ -962,6 +1068,7 @@ papers:
     selected: n
 
   - title: "Supervised dictionary learning and sparse representation-a review"
+    publication_type: tutorial_preprint
     authors: "Gangeh, Mehrdad J, Farahat, Ahmed K, Ghodsi, Ali, Kamel, Mohamed S"
     venue: "arXiv preprint arXiv:1502.05928"
     paper_pdf: ""
@@ -971,6 +1078,7 @@ papers:
     selected: n
 
   - title: "Learning the Structure of Sum-Product Networks via an SVD-based Algorithm."
+    publication_type: conference
     authors: "Adel, Tameem, Balduzzi, David, Ghodsi, Ali"
     venue: "UAI"
     paper_pdf: ""
@@ -980,6 +1088,7 @@ papers:
     selected: n
 
   - title: "Minimizing the discrepancy between source and target domains by learning adapting components"
+    publication_type: journal
     authors: "Dorri, Fatemeh, Ghodsi, Ali"
     venue: "Journal of Computer Science and Technology"
     paper_pdf: "https://link.springer.com/article/10.1007/s11390-014-1415-z"
@@ -989,6 +1098,7 @@ papers:
     selected: y
 
   - title: "Manifold unfolding by isometric patch alignment with an application in protein structure determination"
+    publication_type: conference
     authors: "Tadavani, Pooyan Khajehpour, Alipanahi, Babak, Ghodsi, Ali"
     venue: "Perspectives on Big Data Analysis: Methodologies and Applications"
     paper_pdf: ""
@@ -998,6 +1108,7 @@ papers:
     selected: n
 
   - title: "Efficient greedy feature selection for unsupervised learning"
+    publication_type: journal
     authors: "Farahat, Ahmed K, Ghodsi, Ali, Kamel, Mohamed S"
     venue: "Knowledge and information systems"
     paper_pdf: ""
@@ -1007,6 +1118,7 @@ papers:
     selected: n
 
   - title: "Kernelized supervised dictionary learning"
+    publication_type: journal
     authors: "Gangeh, Mehrdad J, Ghodsi, Ali, Kamel, Mohamed S"
     venue: "IEEE Transactions on Signal Processing"
     paper_pdf: ""
@@ -1016,6 +1128,7 @@ papers:
     selected: n
 
   - title: "Distributed column subset selection on mapreduce"
+    publication_type: conference
     authors: "Farahat, Ahmed K, Elgohary, Ahmed, Ghodsi, Ali, Kamel, Mohamed S"
     venue: "2013 IEEE 13th International Conference on Data Mining"
     paper_pdf: ""
@@ -1025,6 +1138,7 @@ papers:
     selected: n
 
   - title: "Discriminative functional analysis of human movements"
+    publication_type: journal
     authors: "Samadani, Ali-Akbar, Ghodsi, Ali, Kulic"
     venue: "Pattern Recognition Letters"
     paper_pdf: ""
@@ -1034,6 +1148,7 @@ papers:
     selected: n
 
   - title: "A fast greedy algorithm for generalized column subset selection"
+    publication_type: tutorial_preprint
     authors: "Farahat, Ahmed K, Ghodsi, Ali, Kamel, Mohamed S"
     venue: "arXiv preprint arXiv:1312.6820"
     paper_pdf: ""
@@ -1043,6 +1158,7 @@ papers:
     selected: n
 
   - title: "Protein structure by semidefinite facial reduction"
+    publication_type: conference
     authors: "Alipanahi, Babak, Krislock, Nathan, Ghodsi, Ali, Wolkowicz, Henry, Donaldson, Logan, Li, Ming"
     venue: "Research in Computational Molecular Biology: 16th Annual International Conference, RECOMB 2012, Barcelona, Spain, April 21-24, 2012. Proceedings 16"
     paper_pdf: ""
@@ -1052,6 +1168,7 @@ papers:
     selected: n
 
   - title: "Adapting component analysis"
+    publication_type: conference
     authors: "Dorri, Fatemeh, Ghodsi, Ali"
     venue: "2012 IEEE 12th International Conference on Data Mining"
     paper_pdf: "/assets/publications/adapting_component_analysis.pdf"
@@ -1061,6 +1178,7 @@ papers:
     selected: y
 
   - title: "Detecting change-points in time series by maximum mean discrepancy of ordinal pattern distributions"
+    publication_type: tutorial_preprint
     authors: "Sinn, Mathieu, Ghodsi, Ali, Keller, Karsten"
     venue: "arXiv preprint arXiv:1210.4903"
     paper_pdf: ""
@@ -1070,6 +1188,7 @@ papers:
     selected: n
 
   - title: "Supervised principal component analysis: Visualization, classification and regression on subspaces and submanifolds"
+    publication_type: journal
     authors: "Barshan, Elnaz, Ghodsi, Ali, Azimifar, Zohreh, Jahromi, Mansoor Zolghadri"
     venue: "Pattern Recognition"
     paper_pdf: ""
@@ -1079,6 +1198,7 @@ papers:
     selected: n
 
   - title: "An efficient greedy method for unsupervised feature selection"
+    publication_type: conference
     authors: "Farahat, Ahmed K, Ghodsi, Ali, Kamel, Mohamed S"
     venue: "2011 IEEE 11th International Conference on Data Mining"
     paper_pdf: "https://uwaterloo.ca/data-analytics/sites/default/files/uploads/documents/farahat_feature_preprint.pdf"
@@ -1088,6 +1208,7 @@ papers:
     selected: y
 
   - title: "Guided locally linear embedding"
+    publication_type: journal
     authors: "Alipanahi, Babak, Ghodsi, Ali"
     venue: "Pattern recognition letters"
     paper_pdf: ""
@@ -1097,6 +1218,7 @@ papers:
     selected: n
 
   - title: "Robust locally linear embedding using penalty functions"
+    publication_type: conference
     authors: "Winlaw, Manda, Dehkordy, Leila Samimi, Ghodsi, Ali"
     venue: "The 2011 International Joint Conference on Neural Networks"
     paper_pdf: ""
@@ -1106,6 +1228,7 @@ papers:
     selected: y
 
   - title: "Parameter selection for smoothing splines using Stein's unbiased risk estimator"
+    publication_type: conference
     authors: "Seifzadeh, Sepideh, Rostami, Mohammad, Ghodsi, Ali, Karray, Fakhreddine"
     venue: "The 2011 International Joint Conference on Neural Networks"
     paper_pdf: ""
@@ -1115,6 +1238,7 @@ papers:
     selected: y
 
   - title: "Rare class classification by support vector machine"
+    publication_type: conference
     authors: "He, He, Ghodsi, Ali"
     venue: "2010 20th International Conference on Pattern Recognition"
     paper_pdf: ""
@@ -1124,6 +1248,7 @@ papers:
     selected: n
 
   - title: "Learning an affine transformation for non-linear dimensionality reduction"
+    publication_type: conference
     authors: "Tadavani, Pooyan Khajehpour, Ghodsi, Ali"
     venue: "Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2010, Barcelona, Spain, September 20-24, 2010, Proceedings, Part II 21"
     paper_pdf: ""
@@ -1133,6 +1258,7 @@ papers:
     selected: n
 
   - title: "Distance metric learning vs. fisher discriminant analysis"
+    publication_type: conference
     authors: "Alipanahi, Babak, Biggs, Michael, Ghodsi, Ali, others"
     venue: "Proceedings of the 23rd national conference on Artificial intelligence"
     paper_pdf: ""
@@ -1142,6 +1268,7 @@ papers:
     selected: n
 
   - title: "Nonnegative matrix factorization via rank-one downdate"
+    publication_type: conference
     authors: "Biggs, Michael, Ghodsi, Ali, Vavasis, Stephen"
     venue: "Proceedings of the 25th International Conference on Machine learning"
     paper_pdf: "https://uwaterloo.ca/data-analytics/sites/default/files/uploads/documents/nonegative-matrix-factorization-via-rank-one-downdate.pdf"
@@ -1151,6 +1278,7 @@ papers:
     selected: y
 
   - title: "Scalable Action Respecting Embedding."
+    publication_type: conference
     authors: "Biggs, Michael, Ghodsi, Ali, Wilkinson, Dana F, Bowling, Michael H"
     venue: "ISAIM"
     paper_pdf: ""
@@ -1160,6 +1288,7 @@ papers:
     selected: n
 
   - title: "Subjective localization with action respecting embedding"
+    publication_type: conference
     authors: "Bowling, Michael, Wilkinson, Dana, Ghodsi, Ali, Milstein, Adam"
     venue: "Robotics Research: Results of the 12th International Symposium ISRR"
     paper_pdf: "https://webdocs.cs.ualberta.ca/~bowling/papers/05isrr.pdf"
@@ -1169,6 +1298,7 @@ papers:
     selected: y
 
   - title: "Nonlinear dimensionality reduction with side information"
+    publication_type: other
     authors: "Ghodsi Boushehri, Ali"
     venue: ""
     paper_pdf: ""
@@ -1178,6 +1308,7 @@ papers:
     selected: n
 
   - title: "Subjective mapping"
+    publication_type: conference
     authors: "Bowling, Michael, Wilkinson, Dana, Ghodsi, Ali"
     venue: "PROCEEDINGS OF THE NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE"
     paper_pdf: ""
@@ -1187,6 +1318,7 @@ papers:
     selected: n
 
   - title: "Semi-Supervised Representation Learning based on Probabilistic Labeling"
+    publication_type: conference
     authors: ""
     venue: ""
     paper_pdf: ""
@@ -1196,6 +1328,7 @@ papers:
     selected: n
 
   - title: "Dimensionality reduction a short tutorial"
+    publication_type: tutorial_preprint
     authors: "Ghodsi, Ali"
     venue: "Department of Statistics and Actuarial Science, Univ. of Waterloo, Ontario, Canada"
     paper_pdf: ""
@@ -1205,6 +1338,7 @@ papers:
     selected: n
 
   - title: "Tangent-corrected embedding"
+    publication_type: conference
     authors: "Ghodsi, Ali, Huang, Jiayuan, Southey, Finnegan, Schuurmans, Dale"
     venue: "2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR'05)"
     paper_pdf: ""
@@ -1214,6 +1348,7 @@ papers:
     selected: n
 
   - title: "Action respecting embedding"
+    publication_type: conference
     authors: "Bowling, Michael, Ghodsi, Ali, Wilkinson, Dana"
     venue: "Proceedings of the 22nd international conference on Machine learning"
     paper_pdf: "https://dl.acm.org/doi/pdf/10.1145/1102351.1102360"
@@ -1223,6 +1358,7 @@ papers:
     selected: y
 
   - title: "Learning Subjective Representations for Planning."
+    publication_type: conference
     authors: "Wilkinson, Dana F, Bowling, Michael H, Ghodsi, Ali"
     venue: "IJCAI"
     paper_pdf: ""
@@ -1232,6 +1368,7 @@ papers:
     selected: n
 
   - title: "Transformation-invariant embedding for image analysis"
+    publication_type: conference
     authors: "Ghodsi, Ali, Huang, Jiayuan, Schuurmans, Dale"
     venue: "Computer Vision-ECCV 2004: 8th European Conference on Computer Vision, Prague, Czech Republic, May 11-14, 2004. Proceedings, Part IV 8"
     paper_pdf: ""
@@ -1241,6 +1378,7 @@ papers:
     selected: n
 
   - title: "Efficient parameter selection for system identification"
+    publication_type: conference
     authors: "Ghodsi, Ali"
     venue: "IEEE Annual Meeting of the Fuzzy Information, 2004. Processing NAFIPS'04."
     paper_pdf: ""
@@ -1250,6 +1388,7 @@ papers:
     selected: n
 
   - title: "Automatic basis selection techniques for RBF networks"
+    publication_type: journal
     authors: "Ghodsi, Ali, Schuurmans, Dale"
     venue: "Neural Networks"
     paper_pdf: ""
@@ -1259,6 +1398,7 @@ papers:
     selected: n
 
   - title: "Regularized greedy importance sampling"
+    publication_type: conference
     authors: "Southey, Finnegan, Schuurmans, Dale, Ghodsi, Ali"
     venue: "Advances in Neural Information Processing Systems"
     paper_pdf: ""
@@ -1268,6 +1408,7 @@ papers:
     selected: n
 
   - title: "A novel greedy algorithm for Nystrom approximation"
+    publication_type: conference
     authors: "Farahat, Ahmed, Ghodsi, Ali, Kamel, Mohamed"
     venue: "Proceedings of the Fourteenth International Conference on Artificial Intelligence and Statistics"
     paper_pdf: "https://proceedings.mlr.press/v15/farahat11a.html"
@@ -1277,6 +1418,7 @@ papers:
     selected: y
 
   - title: "Greedy Nystrom Approximation"
+    publication_type: conference
     authors: "Farahat, Ahmed K, Kamel, Mohamed S, Ghodsi, Ali"
     venue: ""
     paper_pdf: ""
@@ -1286,6 +1428,7 @@ papers:
     selected: n
 
   - title: "Automatic dimensionality selection from the scree plot via the use of profile likelihood"
+    publication_type: journal
     authors: "Zhu, Mu, Ghodsi, Ali"
     venue: "Computational Statistics and Data Analysis"
     paper_pdf: ""
@@ -1295,6 +1438,7 @@ papers:
     selected: n
 
   - title: ""
+    publication_type: other
     authors: ""
     venue: ""
     paper_pdf: ""
@@ -1304,6 +1448,7 @@ papers:
     selected: n
 
   - title: "Kolmogorov complexity vector: A novel data representation"
+    publication_type: conference
     authors: ""
     venue: ""
     paper_pdf: ""
@@ -1313,6 +1458,7 @@ papers:
     selected: n
 
   - title: ""
+    publication_type: other
     authors: ""
     venue: ""
     paper_pdf: ""
@@ -1322,6 +1468,7 @@ papers:
     selected: n
 
   - title: "Reproducing Kernel Hilbert Space, Mercer's Theorem, Eigenfunctions, Nystrom Method, and Use of Kernels in Machine Learning: Tutorial and Survey"
+    publication_type: tutorial_preprint
     authors: "Ghojogh, Benyamin, Ghodsi, Ali, Karray, Fakhri, Crowley, Mark"
     venue: "arXiv preprint arXiv:2106.08443"
     paper_pdf: ""

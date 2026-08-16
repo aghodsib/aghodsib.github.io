@@ -346,15 +346,15 @@ title: Home
    </p>
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-tutorial">Tutorial</div></li>
-    <li><div class="button" data-ref="#papers-book">Book</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button active" data-ref="#papers-book">Book</div></li>
+    <li><div class="button" data-ref="#papers-journals">Journals</div></li>
+    <li><div class="button" data-ref="#papers-conferences">Conferences</div></li>
+    <li><div class="button" data-ref="#papers-selected">Selected</div></li>
   </ul>
 
   <div class="tab-content">
     <!-- Selected Papers -->
-    <div class="tab-pane active" id="papers-selected">
+    <div class="tab-pane" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% assign yt_papers = site.data.publications.papers | where: "selected", "yt" %}
       {% assign ty_papers = site.data.publications.papers | where: "selected", "ty" %}
@@ -394,13 +394,10 @@ title: Home
       {% endfor %}
     </div>
 
-    <!-- Tutorial Papers -->
-    <div class="tab-pane" id="papers-tutorial">
-      {% assign tutorial_papers = site.data.publications.papers | where: "selected", "t" %}
-      {% assign yt_papers = site.data.publications.papers | where: "selected", "yt" %}
-      {% assign ty_papers = site.data.publications.papers | where: "selected", "ty" %}
-      {% assign combined_tutorial = tutorial_papers | concat: yt_papers | concat: ty_papers %}
-      {% for paper in combined_tutorial %}
+    <!-- Journal Articles -->
+    <div class="tab-pane" id="papers-journals">
+      {% assign journal_papers = site.data.publications.papers | where: "publication_type", "journal" %}
+      {% for paper in journal_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -436,8 +433,8 @@ title: Home
     </div>
 
     <!-- Book Section -->
-    <div class="tab-pane" id="papers-book">
-      {% assign book_papers = site.data.publications.papers | where: "is_book", true %}
+    <div class="tab-pane active" id="papers-book">
+      {% assign book_papers = site.data.publications.papers | where: "publication_type", "book" %}
       {% for paper in book_papers %}
         <div class="paper">
           <!-- Title -->
@@ -463,9 +460,10 @@ title: Home
     </div>
     
 
-    <!-- All Papers -->
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
+    <!-- Conference Papers -->
+    <div class="tab-pane" id="papers-conferences">
+      {% assign conference_papers = site.data.publications.papers | where: "publication_type", "conference" %}
+      {% for paper in conference_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
