@@ -13,7 +13,7 @@ layout: default
     <h3>{{ course.title }}</h3>
     <p class="course-summary">{{ course.description }}</p>
     <div class="course-hero-actions">
-      <a class="button button-primary" href="#schedule">View schedule</a>
+      <a class="button button-primary" href="#topics">View topics</a>
       <a class="button" href="{{ course.piazza_url }}" target="_blank" rel="noopener noreferrer">Open Piazza</a>
     </div>
   </header>
@@ -21,7 +21,8 @@ layout: default
   <nav class="course-section-nav" aria-label="Course page sections">
     <a href="#overview">Overview</a>
     <a href="#announcements">Announcements</a>
-    <a href="#schedule">Schedule &amp; slides</a>
+    <a href="#topics">Topics &amp; slides</a>
+    <a href="#assignments">Assignments</a>
     <a href="#course-platforms">Course platforms</a>
     <a href="#course-information">Course information</a>
   </nav>
@@ -44,12 +45,8 @@ layout: default
         <span>Instructor</span>
         <strong>{{ course.instructor }}</strong>
       </div>
-      <div class="course-fact">
-        <span>Lectures</span>
-        <strong>{{ course.lectures | size }}</strong>
-      </div>
     </div>
-    <p>This page is the public home for the course outline, lecture plan, and slide releases. Enrollment-specific information, graded work, deadlines, and grades are maintained in Waterloo Learn.</p>
+    <p>This page is the public home for the course topics, slide releases, and assignments. Enrollment-specific information, submissions, deadlines, and grades are maintained in Waterloo Learn.</p>
   </section>
 
   <section class="course-section" id="announcements">
@@ -63,7 +60,7 @@ layout: default
         <div>
           <p class="course-announcement-date">Course site</p>
           <h5>Welcome to {{ course.code }}</h5>
-          <p>This page will be updated throughout the term. Lecture slides will appear in the schedule below as they are released.</p>
+          <p>This page will be updated throughout the term. Slides and assignments will be posted below as they are released.</p>
         </div>
       </article>
       <article class="course-announcement">
@@ -77,31 +74,41 @@ layout: default
     </div>
   </section>
 
-  <section class="course-section" id="schedule">
+  <section class="course-section" id="topics">
     <div class="course-section-heading">
-      <p class="course-section-kicker">Tentative and subject to adjustment</p>
-      <h4>Lecture schedule &amp; slides</h4>
+      <p class="course-section-kicker">Course outline</p>
+      <h4>Tentative topics</h4>
     </div>
-    <p class="course-section-intro">The lecture plan may be adjusted as the term progresses. Slides will be linked in the final column when available.</p>
+    {% if course.topics_note %}
+      <p class="course-section-intro">{{ course.topics_note }}</p>
+    {% endif %}
     <div class="course-table-wrap">
       <table class="course-schedule-table">
         <thead>
           <tr>
-            <th scope="col">Lecture</th>
             <th scope="col">Topic</th>
-            <th scope="col">Plan</th>
-            <th scope="col">Slides</th>
+            <th scope="col">Coverage</th>
+            <th scope="col">Materials</th>
           </tr>
         </thead>
         <tbody>
-          {% for lecture in course.lectures %}
+          {% for topic in course.topics %}
           <tr>
-            <td data-label="Lecture"><span class="course-lecture-number">{{ lecture.number }}</span></td>
-            <td data-label="Topic"><strong>{{ lecture.topic }}</strong></td>
-            <td data-label="Plan">{{ lecture.plan }}</td>
-            <td data-label="Slides">
-              {% if lecture.slides and lecture.slides != "" %}
-                <a class="course-slide-link" href="{{ lecture.slides | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
+            <td data-label="Topic"><strong>{{ topic.title }}</strong></td>
+            <td data-label="Coverage">
+              {% if topic.description %}<p>{{ topic.description }}</p>{% endif %}
+              {% if topic.details %}
+                <ul class="course-topic-details">
+                  {% for detail in topic.details %}
+                    <li><strong>{{ detail.label }}:</strong> {{ detail.description }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+              {% unless topic.description or topic.details %}<span class="course-status">—</span>{% endunless %}
+            </td>
+            <td data-label="Materials">
+              {% if topic.slides and topic.slides != "" %}
+                <a class="course-slide-link" href="{{ topic.slides | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
                   <i class="fa fa-file-pdf-o" aria-hidden="true"></i> View PDF
                 </a>
               {% else %}
@@ -113,6 +120,41 @@ layout: default
         </tbody>
       </table>
     </div>
+  </section>
+
+  <section class="course-section" id="assignments">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">Coursework</p>
+      <h4>Assignments</h4>
+    </div>
+    {% if course.assignments and course.assignments.size > 0 %}
+      <div class="course-assignment-grid">
+        {% for assignment in course.assignments %}
+          <article class="course-assignment-card">
+            <div>
+              <p class="course-assignment-meta">{% if assignment.due %}Due {{ assignment.due }}{% else %}Assignment{% endif %}</p>
+              <h5>{{ assignment.title }}</h5>
+              {% if assignment.description %}<p>{{ assignment.description }}</p>{% endif %}
+            </div>
+            {% if assignment.file and assignment.file != "" %}
+              <a class="button" href="{{ assignment.file | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-file-pdf-o" aria-hidden="true"></i> View assignment
+              </a>
+            {% elsif assignment.status %}
+              <span class="course-status">{{ assignment.status }}</span>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="course-assignment-empty">
+        <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+        <div>
+          <h5>No assignments posted yet</h5>
+          <p>Assignment files and instructions will appear here. Submission links, deadlines, and grades remain in Waterloo Learn.</p>
+        </div>
+      </div>
+    {% endif %}
   </section>
 
   <section class="course-section" id="course-platforms">
@@ -150,12 +192,12 @@ layout: default
       <article>
         <i class="fa fa-file-text-o" aria-hidden="true"></i>
         <h5>Course materials</h5>
-        <p>Public lecture slides are posted in the schedule. Additional or restricted materials are shared through Learn.</p>
+        <p>Public slides are posted with the tentative topics. Additional or restricted materials are shared through Learn.</p>
       </article>
       <article>
         <i class="fa fa-check-square-o" aria-hidden="true"></i>
         <h5>Assessment</h5>
-        <p>Assignment instructions, submission links, feedback, and official grades are provided through Learn.</p>
+        <p>Public assignment instructions are posted on this page. Submission links, feedback, and official grades are provided through Learn.</p>
       </article>
       <article>
         <i class="fa fa-question-circle-o" aria-hidden="true"></i>

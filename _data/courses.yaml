@@ -6,87 +6,54 @@ stat940:
   description: "A graduate-level course on the foundations, architectures, optimization methods, and modern applications of deep learning."
   piazza_url: "https://piazza.com/"
   d2l_url: "https://learn.uwaterloo.ca/"
-  lectures:
-    - number: 1
-      topic: "Introduction to deep learning"
-      plan: "Course organization, motivation, learning representations, and the deep learning landscape."
+  topics:
+    - title: "Feedforward Deep Networks"
+      description: "Basic architecture and training techniques for deep neural networks."
       slides: ""
-    - number: 2
-      topic: "Feedforward neural networks"
-      plan: "Multilayer perceptrons, activation functions, loss functions, and backpropagation."
+    - title: "Optimization and Regularization for Training Deep Models"
+      description: "Techniques to optimize training, including gradient descent, learning rate scheduling, and regularization methods like dropout and weight decay."
       slides: ""
-    - number: 3
-      topic: "Optimization"
-      plan: "Gradient-based optimization, stochastic gradient descent, momentum, and adaptive methods."
+    - title: "Convolutional Neural Networks (CNNs)"
+      description: "Architectures for image and spatial data processing, including convolution, pooling, and fully connected layers."
       slides: ""
-    - number: 4
-      topic: "Regularization"
-      plan: "Generalization, weight decay, early stopping, data augmentation, and regularization strategies."
+    - title: "Recurrent Neural Networks (RNNs)"
+      description: "Models for sequential data, including RNNs, Long Short-Term Memory (LSTM), and Gated Recurrent Units (GRU)."
       slides: ""
-    - number: 5
-      topic: "Dropout and normalization"
-      plan: "Dropout, batch normalization, layer normalization, and stable network training."
+    - title: "Seq2Seq Models"
+      description: "Sequence-to-sequence models for tasks like machine translation, using encoder-decoder architectures."
       slides: ""
-    - number: 6
-      topic: "Convolutional neural networks"
-      plan: "Convolution, pooling, receptive fields, and modern CNN architectures."
+    - title: "Autoencoders and Variational Autoencoders"
+      description: "Models for dimensionality reduction and feature learning, including basic autoencoders and Variational Autoencoders (VAEs)."
       slides: ""
-    - number: 7
-      topic: "Practical deep learning"
-      plan: "Training workflows, implementation patterns, diagnostics, and model development in Keras."
+    - title: "Deep Generative Models"
+      details:
+        - label: "Moment Matching Networks"
+          description: "Techniques for matching moments between data distributions."
+        - label: "Generative Adversarial Networks (GANs)"
+          description: "Models that generate data by training a generator and discriminator in opposition."
+        - label: "Diffusion Models"
+          description: "Models that generate data by learning to reverse a diffusion process, commonly used in tasks like image generation."
       slides: ""
-    - number: 8
-      topic: "Recurrent neural networks"
-      plan: "Sequence modeling, recurrent networks, vanishing gradients, LSTMs, and gated units."
+    - title: "Attention Mechanisms and Self-Attention"
+      description: "Techniques to focus on relevant parts of input data, including the self-attention mechanism used in transformers."
       slides: ""
-    - number: 9
-      topic: "Attention and sequence-to-sequence models"
-      plan: "Encoder-decoder models, attention mechanisms, self-attention, and sequence generation."
+    - title: "Transformers and Performers"
+      description: "Transformer architectures for sequence processing and Performer variants for scaling attention mechanisms."
       slides: ""
-    - number: 10
-      topic: "Transformers"
-      plan: "Transformer architecture, positional information, multi-head attention, and efficient training."
+    - title: "Large Language Models (LLMs)"
+      details:
+        - label: "BERT and GPT"
+          description: "Pre-trained models for Natural Language Processing (NLP), focusing on bidirectional and autoregressive techniques."
+        - label: "Alignment Techniques"
+          description: "Including Reinforcement Learning from Human Feedback (RLHF) for aligning model outputs with human preferences."
       slides: ""
-    - number: 11
-      topic: "BERT and GPT"
-      plan: "Pre-training objectives, fine-tuning, autoregressive models, and large language models."
+    - title: "Deep Reinforcement Learning (Optional, if time allows)"
+      description: "Techniques for training agents using deep learning in reinforcement learning environments, focusing on decision-making and policy optimization."
       slides: ""
-    - number: 12
-      topic: "Deep reinforcement learning I"
-      plan: "Markov decision processes, value functions, policy learning, and deep Q-networks."
+    - title: "Graph Neural Networks (GNNs)"
+      description: "Architectures for processing graph-structured data, including node embeddings and graph convolutions."
       slides: ""
-    - number: 13
-      topic: "Deep reinforcement learning II"
-      plan: "Policy gradients, actor-critic methods, exploration, and practical reinforcement learning."
-      slides: ""
-    - number: 14
-      topic: "Alignment and RLHF"
-      plan: "Instruction tuning, preference learning, reinforcement learning from human feedback, and alignment."
-      slides: ""
-    - number: 15
-      topic: "Variational autoencoders"
-      plan: "Latent-variable models, variational inference, the reparameterization trick, and VAEs."
-      slides: ""
-    - number: 16
-      topic: "Generative adversarial networks"
-      plan: "Adversarial training, GAN objectives, stability challenges, and adversarial autoencoders."
-      slides: ""
-    - number: 17
-      topic: "Diffusion models"
-      plan: "Denoising diffusion, score-based learning, sampling, and modern generative modeling."
-      slides: ""
-    - number: 18
-      topic: "Graph neural networks I"
-      plan: "Graph representations, message passing, graph convolutions, and node-level learning."
-      slides: ""
-    - number: 19
-      topic: "Graph neural networks II"
-      plan: "Graph-level prediction, attention on graphs, generative graph models, and applications."
-      slides: ""
-    - number: 20
-      topic: "Learning theory and course synthesis"
-      plan: "PAC learnability in deep learning, current limitations, and connections across the course."
-      slides: ""
+  assignments: []
 
 stat841:
   code: "STAT 841"
@@ -96,76 +63,42 @@ stat841:
   description: "A graduate-level course on statistical classification, representation learning, regularization, kernel methods, and ensemble models."
   piazza_url: "https://piazza.com/"
   d2l_url: "https://learn.uwaterloo.ca/"
-  lectures:
-    - number: 1
-      topic: "Introduction to classification"
-      plan: "Classification problems, decision theory, Bayesian classifiers, and course organization."
+  topics_note: "These topics are subject to change and may be adjusted based on the needs and interests of the class."
+  topics:
+    - title: "Feature Selection Techniques"
       slides: ""
-    - number: 2
-      topic: "LDA and QDA"
-      plan: "Gaussian class models, linear and quadratic decision boundaries, estimation, and assumptions."
+    - title: "Dimensionality Reduction and Feature Extraction"
       slides: ""
-    - number: 3
-      topic: "Principal component analysis"
-      plan: "Variance-based dimension reduction, eigendecomposition, and the relationship to classification."
+    - title: "Error Rates and the Bayes Classifier"
       slides: ""
-    - number: 4
-      topic: "Fisher discriminant analysis"
-      plan: "Between-class and within-class variation, discriminant directions, and multiclass extensions."
+    - title: "Gaussian and Linear Classifiers"
       slides: ""
-    - number: 5
-      topic: "Logistic regression"
-      plan: "Log-odds models, likelihood-based estimation, multiclass classification, and interpretation."
+    - title: "Linear Regression and Logistic Regression"
       slides: ""
-    - number: 6
-      topic: "Model selection"
-      plan: "Bias-variance tradeoffs, validation, cross-validation, complexity, and selecting classifiers."
+    - title: "Radial Basis Function Networks"
       slides: ""
-    - number: 7
-      topic: "Neural networks and backpropagation"
-      plan: "Feedforward models, nonlinear decision boundaries, backpropagation, and training."
+    - title: "Introduction to Neural Networks"
       slides: ""
-    - number: 8
-      topic: "Radial basis function networks"
-      plan: "Basis expansions, prototype selection, fitting RBF networks, and complexity control."
+    - title: "Deep Learning Approaches"
       slides: ""
-    - number: 9
-      topic: "Regularization"
-      plan: "Penalized objectives, shrinkage, sparsity, generalization, and regularized classifiers."
+    - title: "Naive Bayes Algorithm"
       slides: ""
-    - number: 10
-      topic: "Support vector machines"
-      plan: "Maximum-margin classification, hard and soft margins, duality, and support vectors."
+    - title: "Decision Trees"
       slides: ""
-    - number: 11
-      topic: "Kernel methods"
-      plan: "Kernel functions, feature spaces, kernel SVMs, and nonlinear classification."
+    - title: "Evaluating Error Rates and Model Selection"
       slides: ""
-    - number: 12
-      topic: "Metric learning"
-      plan: "Learning distances, neighbourhood structure, similarity models, and supervised embeddings."
+    - title: "Support Vector Machines"
       slides: ""
-    - number: 13
-      topic: "Supervised dimension reduction"
-      plan: "Supervised PCA, discriminative projections, and dimension reduction for classification."
+    - title: "Kernel Methods"
       slides: ""
-    - number: 14
-      topic: "Naive Bayes and nearest neighbours"
-      plan: "Conditional independence, probabilistic classification, k-nearest neighbours, and local methods."
+    - title: "k-Nearest Neighbors Algorithm"
       slides: ""
-    - number: 15
-      topic: "Convolutional models and random features"
-      plan: "Convolutional classifiers, learned features, random projections, and random feature models."
+    - title: "Bagging Techniques"
       slides: ""
-    - number: 16
-      topic: "Decision trees"
-      plan: "Recursive partitioning, split criteria, pruning, interpretability, and classification trees."
+    - title: "Boosting Algorithms"
       slides: ""
-    - number: 17
-      topic: "Boosting"
-      plan: "Additive models, AdaBoost, gradient boosting, margins, and practical considerations."
+    - title: "Semi-Supervised Learning for Classification"
       slides: ""
-    - number: 18
-      topic: "Bagging and course synthesis"
-      plan: "Bootstrap aggregation, random forests, ensemble comparison, and connections across the course."
+    - title: "Metric Learning for Classification"
       slides: ""
+  assignments: []
