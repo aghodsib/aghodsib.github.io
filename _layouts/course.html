@@ -1,0 +1,185 @@
+---
+layout: default
+---
+{% assign course = site.data.courses[page.course_key] %}
+
+<main class="course-page">
+  <header class="course-hero">
+    <a class="course-back-link" href="{{ '/index.html#teaching' | prepend: site.baseurl }}">
+      <i class="fa fa-arrow-left" aria-hidden="true"></i> Teaching
+    </a>
+    <p class="course-eyebrow">{{ course.term }}</p>
+    <h2>{{ course.code }}</h2>
+    <h3>{{ course.title }}</h3>
+    <p class="course-summary">{{ course.description }}</p>
+    <div class="course-hero-actions">
+      <a class="button button-primary" href="#schedule">View schedule</a>
+      <a class="button" href="{{ course.piazza_url }}" target="_blank" rel="noopener noreferrer">Open Piazza</a>
+    </div>
+  </header>
+
+  <nav class="course-section-nav" aria-label="Course page sections">
+    <a href="#overview">Overview</a>
+    <a href="#announcements">Announcements</a>
+    <a href="#schedule">Schedule &amp; slides</a>
+    <a href="#course-platforms">Course platforms</a>
+    <a href="#course-information">Course information</a>
+  </nav>
+
+  <section class="course-section" id="overview">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">Course at a glance</p>
+      <h4>Overview</h4>
+    </div>
+    <div class="course-facts">
+      <div class="course-fact">
+        <span>Course</span>
+        <strong>{{ course.code }}</strong>
+      </div>
+      <div class="course-fact">
+        <span>Term</span>
+        <strong>{{ course.term }}</strong>
+      </div>
+      <div class="course-fact">
+        <span>Instructor</span>
+        <strong>{{ course.instructor }}</strong>
+      </div>
+      <div class="course-fact">
+        <span>Lectures</span>
+        <strong>{{ course.lectures | size }}</strong>
+      </div>
+    </div>
+    <p>This page is the public home for the course outline, lecture plan, and slide releases. Enrollment-specific information, graded work, deadlines, and grades are maintained in Waterloo Learn.</p>
+  </section>
+
+  <section class="course-section" id="announcements">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">Latest updates</p>
+      <h4>Announcements</h4>
+    </div>
+    <div class="course-announcements">
+      <article class="course-announcement">
+        <div class="course-announcement-icon"><i class="fa fa-bullhorn" aria-hidden="true"></i></div>
+        <div>
+          <p class="course-announcement-date">Course site</p>
+          <h5>Welcome to {{ course.code }}</h5>
+          <p>This page will be updated throughout the term. Lecture slides will appear in the schedule below as they are released.</p>
+        </div>
+      </article>
+      <article class="course-announcement">
+        <div class="course-announcement-icon"><i class="fa fa-comments" aria-hidden="true"></i></div>
+        <div>
+          <p class="course-announcement-date">Communication</p>
+          <h5>Use Piazza for course discussion</h5>
+          <p>Questions about lectures and course content should be posted on Piazza so that answers are available to the class.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="course-section" id="schedule">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">Tentative and subject to adjustment</p>
+      <h4>Lecture schedule &amp; slides</h4>
+    </div>
+    <p class="course-section-intro">The lecture plan may be adjusted as the term progresses. Slides will be linked in the final column when available.</p>
+    <div class="course-table-wrap">
+      <table class="course-schedule-table">
+        <thead>
+          <tr>
+            <th scope="col">Lecture</th>
+            <th scope="col">Topic</th>
+            <th scope="col">Plan</th>
+            <th scope="col">Slides</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for lecture in course.lectures %}
+          <tr>
+            <td data-label="Lecture"><span class="course-lecture-number">{{ lecture.number }}</span></td>
+            <td data-label="Topic"><strong>{{ lecture.topic }}</strong></td>
+            <td data-label="Plan">{{ lecture.plan }}</td>
+            <td data-label="Slides">
+              {% if lecture.slides and lecture.slides != "" %}
+                <a class="course-slide-link" href="{{ lecture.slides | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-file-pdf-o" aria-hidden="true"></i> View PDF
+                </a>
+              {% else %}
+                <span class="course-status">Coming soon</span>
+              {% endif %}
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="course-section" id="course-platforms">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">Course tools</p>
+      <h4>Piazza &amp; Waterloo Learn</h4>
+    </div>
+    <div class="course-platform-grid">
+      <article class="course-platform-card course-platform-piazza">
+        <div class="course-platform-icon"><i class="fa fa-comments" aria-hidden="true"></i></div>
+        <div>
+          <h5>Piazza</h5>
+          <p>Use Piazza for announcements, lecture questions, clarifications, and class discussion.</p>
+          <a class="button" href="{{ course.piazza_url }}" target="_blank" rel="noopener noreferrer">Go to Piazza</a>
+        </div>
+      </article>
+      <article class="course-platform-card course-platform-d2l">
+        <div class="course-platform-icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></div>
+        <div>
+          <h5>Waterloo Learn (D2L)</h5>
+          <p>Use Learn for graded work, submissions, private course documents, deadlines, and grades.</p>
+          <a class="button" href="{{ course.d2l_url }}" target="_blank" rel="noopener noreferrer">Open Waterloo Learn</a>
+        </div>
+      </article>
+    </div>
+    <p class="course-platform-note"><i class="fa fa-lock" aria-hidden="true"></i> Sign-in may be required. Students should use the course-specific links available in their enrolled Piazza and Learn accounts.</p>
+  </section>
+
+  <section class="course-section" id="course-information">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">How the course runs</p>
+      <h4>Course information</h4>
+    </div>
+    <div class="course-info-grid">
+      <article>
+        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+        <h5>Course materials</h5>
+        <p>Public lecture slides are posted in the schedule. Additional or restricted materials are shared through Learn.</p>
+      </article>
+      <article>
+        <i class="fa fa-check-square-o" aria-hidden="true"></i>
+        <h5>Assessment</h5>
+        <p>Assignment instructions, submission links, feedback, and official grades are provided through Learn.</p>
+      </article>
+      <article>
+        <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+        <h5>Questions</h5>
+        <p>Use Piazza for course-content questions. Use a private Learn message or email for personal matters.</p>
+      </article>
+      <article>
+        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+        <h5>Deadlines</h5>
+        <p>Consult Learn and Piazza for authoritative dates, room information, schedule changes, and deadlines.</p>
+      </article>
+    </div>
+  </section>
+
+  <aside class="course-footer-callout">
+    <div>
+      <p class="course-section-kicker">Other current course</p>
+      {% if page.course_key == "stat940" %}
+        <h4>STAT 841 — Statistical Learning / Classification</h4>
+        <a class="button" href="{{ '/courses/stat841/' | prepend: site.baseurl }}">Visit STAT 841</a>
+      {% else %}
+        <h4>STAT 940 — Deep Learning</h4>
+        <a class="button" href="{{ '/courses/stat940/' | prepend: site.baseurl }}">Visit STAT 940</a>
+      {% endif %}
+    </div>
+  </aside>
+</main>

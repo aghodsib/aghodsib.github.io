@@ -30,6 +30,9 @@
   <link rel="stylesheet" href={{ "/libs/external/skeleton/skeleton.css" | prepend: site.baseurl }}>
   <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
   <link rel="stylesheet" href={{ "/libs/custom/teaching.css" | prepend: site.baseurl }}>
+  {% if page.layout == "course" %}
+  <link rel="stylesheet" href={{ "/libs/custom/course.css" | prepend: site.baseurl }}>
+  {% endif %}
 
 
   <!-- JQuery
