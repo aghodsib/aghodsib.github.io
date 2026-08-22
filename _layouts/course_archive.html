@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+{% assign course_files = site.data.course_archive | sort %}
+
+<main class="course-archive">
+  <header class="archive-list-header">
+    <h1>Course Videos &amp; Slides</h1>
+  </header>
+
+  {% for pair in course_files %}
+    {% assign course = pair[1] %}
+    <section id="{{ course.id }}" class="archive-course-list">
+      <div class="archive-course-list__header">
+        <div>
+          <span class="archive-course-list__code">{{ course.code }}</span>
+          <h2>{{ course.title }}</h2>
+        </div>
+        <span class="archive-course-list__term">{{ course.term }}</span>
+      </div>
+
+      {% if course.featuredLinks.size > 0 %}
+        <div class="archive-course-list__featured">
+          {% for link in course.featuredLinks %}
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-youtube-play" aria-hidden="true"></i> {{ link.label }}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+
+      <div class="archive-material-list">
+        {% for item in course.items %}
+          {% assign item_title_prefix = item.kind | append: ': ' %}
+          <article class="material-row">
+            <div class="material-row__text">
+              <span class="material-row__kind">{{ item.kind }}</span>
+              <h3>{{ item.title | remove_first: item_title_prefix }}</h3>
+            </div>
+            <div class="material-row__actions">
+              {% for action in item.actions %}
+                <a class="material-link material-link--{{ action.type }}" href="{{ action.url }}" target="_blank" rel="noopener noreferrer">
+                  {% if action.type == "video" %}<i class="fa fa-play-circle" aria-hidden="true"></i>
+                  {% elsif action.type == "pdf" %}<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                  {% elsif action.type == "code" %}<i class="fa fa-code" aria-hidden="true"></i>
+                  {% else %}<i class="fa fa-external-link" aria-hidden="true"></i>{% endif %}
+                  {{ action.label }}
+                </a>
+              {% endfor %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+
+  <p class="archive-back-link"><a href="{{ '/index.html#teaching' | prepend: site.baseurl }}"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back to Teaching</a></p>
+</main>

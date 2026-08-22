@@ -157,18 +157,6 @@ title: Home
       </a>
     </div>
     
-    <!-- Link to comprehensive course videos and slides -->
-    <div style="margin-bottom: 25px; padding: 15px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 8px; border-left: 4px solid #007bff;">
-      <p style="margin: 0; font-size: 16px;">
-        <i class="fa fa-video-camera" aria-hidden="true" style="color: #007bff; margin-right: 10px; font-size: 18px;"></i>
-        <strong>Complete Course Videos & Slides:</strong> 
-        <a href="https://uwaterloo.ca/data-analytics/videos-and-slides-courses" target="_blank" style="color: #007bff; text-decoration: none; font-weight: 600;">
-          View all course materials, lectures, and slides
-          <i class="fa fa-external-link" aria-hidden="true" style="margin-left: 5px; font-size: 14px;"></i>
-        </a>
-      </p>
-    </div>
-    
     <div class="intro-text">
     </div>
     <h5>Previously Taught Courses</h5>
@@ -232,7 +220,7 @@ title: Home
           <p style="margin: 0; font-size: 14px; color: #666;">
             <i class="fa fa-info-circle" style="margin-right: 5px;"></i>
             For complete video lectures and additional materials, visit the 
-            <a href="https://uwaterloo.ca/data-analytics/videos-and-slides-courses" target="_blank" style="color: #007bff;">
+            <a href="{{ '/courses/materials/' | prepend: site.baseurl }}" style="color: #007bff;">
               comprehensive course page
             </a>.
           </p>
@@ -267,7 +255,7 @@ title: Home
           <p style="margin: 0; font-size: 14px; color: #666;">
             <i class="fa fa-info-circle" style="margin-right: 5px;"></i>
             For complete video lectures and additional materials, visit the 
-            <a href="https://uwaterloo.ca/data-analytics/videos-and-slides-courses" target="_blank" style="color: #007bff;">
+            <a href="{{ '/courses/materials/' | prepend: site.baseurl }}" style="color: #007bff;">
               comprehensive course page
             </a>.
           </p>
@@ -300,12 +288,24 @@ title: Home
           <p style="margin: 0; font-size: 14px; color: #666;">
             <i class="fa fa-info-circle" style="margin-right: 5px;"></i>
             For complete video lectures and additional materials, visit the 
-            <a href="https://uwaterloo.ca/data-analytics/videos-and-slides-courses" target="_blank" style="color: #007bff;">
+            <a href="{{ '/courses/materials/' | prepend: site.baseurl }}" style="color: #007bff;">
               comprehensive course page
             </a>.
           </p>
         </div>
       </div>
+    </div>
+
+    <!-- Link to comprehensive course videos and slides -->
+    <div style="margin-top: 25px; margin-bottom: 25px; padding: 15px; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 8px; border-left: 4px solid #007bff;">
+      <p style="margin: 0; font-size: 16px;">
+        <i class="fa fa-video-camera" aria-hidden="true" style="color: #007bff; margin-right: 10px; font-size: 18px;"></i>
+        <strong>Complete Course Videos &amp; Slides:</strong>
+        <a href="{{ '/courses/materials/' | prepend: site.baseurl }}" style="color: #007bff; text-decoration: none; font-weight: 600;">
+          View all course materials, lectures, and slides
+          <i class="fa fa-arrow-right" aria-hidden="true" style="margin-left: 5px; font-size: 14px;"></i>
+        </a>
+      </p>
     </div>
   </div>
 

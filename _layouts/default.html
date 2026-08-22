@@ -33,6 +33,9 @@
   {% if page.layout == "course" %}
   <link rel="stylesheet" href={{ "/libs/custom/course.css" | prepend: site.baseurl }}>
   {% endif %}
+  {% if page.layout == "course_archive" %}
+  <link rel="stylesheet" href={{ "/libs/custom/course-archive.css" | prepend: site.baseurl }}>
+  {% endif %}
 
 
   <!-- JQuery
