@@ -1,4 +1,5 @@
 h4 {
+  margin-bottom: 1.4rem;
   letter-spacing: .1rem; }
 .container {
   max-width: 800px; }
@@ -37,6 +38,8 @@ h4 {
   border-top: 1px solid #eee;
   padding: 3rem 0;
   margin-bottom: 0;}
+.docs-section h5 {
+  margin-bottom: 1.2rem; }
 #bio {
   padding-bottom: 1.5rem; }
 #bio p:last-child {
@@ -87,6 +90,8 @@ h4 {
   background: #116b84;
   color: #fff;
   transform: translateY(-1px); }
+#data-science-lab > p:first-of-type {
+  margin-bottom: 1.8rem; }
 .news-list .news-flyer {
   display: block;
   max-width: 100%;
