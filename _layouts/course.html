@@ -197,7 +197,7 @@ layout: default
             <td data-label="Materials">
               {% if topic.slides and topic.slides != "" %}
                 <a class="course-slide-link" href="{{ topic.slides | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
-                  <i class="fa fa-file-pdf-o" aria-hidden="true"></i> View PDF
+                  <i class="fa fa-file-pdf-o" aria-hidden="true"></i> {{ topic.slides_label | default: "View PDF" }}
                 </a>
               {% else %}
                 <span class="course-status">Coming soon</span>
