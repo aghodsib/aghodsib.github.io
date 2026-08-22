@@ -189,6 +189,111 @@
   line-height: 1.35;
 }
 
+.course-detail-block + .course-detail-block {
+  margin-top: 3.2rem;
+}
+
+.course-detail-block > h5,
+.course-textbook-card h5 {
+  margin-bottom: 1.2rem;
+  color: var(--course-ink);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.course-textbook-card {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: 1.8rem;
+  align-items: start;
+  padding: 2.2rem;
+  border: 1px solid var(--course-line);
+  border-left: 4px solid var(--course-blue);
+  border-radius: 12px;
+  background: var(--course-soft);
+}
+
+.course-textbook-card h5 {
+  margin-bottom: 0.6rem;
+}
+
+.course-textbook-card p {
+  margin-bottom: 1.4rem;
+  color: var(--course-muted);
+}
+
+.course-detail-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 12px;
+  background: #e9f5f8;
+  color: var(--course-blue-dark);
+  font-size: 2.1rem;
+}
+
+.course-detail-label {
+  margin-bottom: 0.3rem !important;
+  color: var(--course-blue-dark) !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+.course-detail-table {
+  width: 100%;
+  min-width: 620px;
+  margin-bottom: 0;
+}
+
+.course-assessment-table {
+  min-width: 0;
+}
+
+.course-detail-table th {
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid var(--course-line);
+  background: #f2f7f9;
+  color: #3d4b55;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+.course-detail-table td {
+  padding: 1.3rem 1.5rem;
+  border-bottom: 1px solid #edf0f2;
+  color: #4f5b65;
+  line-height: 1.5;
+  vertical-align: top;
+}
+
+.course-detail-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.course-table-total td {
+  background: #f2f7f9;
+  color: var(--course-ink);
+  font-weight: 700;
+}
+
+.course-assessment-table th:last-child,
+.course-assessment-table td:last-child {
+  width: 12rem;
+}
+
+.course-detail-note {
+  margin: 1.2rem 0 0;
+  color: var(--course-muted);
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
 .course-announcements {
   display: grid;
   gap: 1.2rem;
@@ -292,6 +397,14 @@
 
 .course-topic-details li + li {
   margin-top: 0.7rem;
+}
+
+.course-schedule-table td .course-topic-alignment {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #e4eaed;
+  color: var(--course-blue-dark);
+  font-size: 1.2rem;
 }
 
 .course-status {
@@ -502,6 +615,10 @@
   }
 
   .course-platform-card {
+    grid-template-columns: 1fr;
+  }
+
+  .course-textbook-card {
     grid-template-columns: 1fr;
   }
 

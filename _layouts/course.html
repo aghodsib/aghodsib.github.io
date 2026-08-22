@@ -14,12 +14,18 @@ layout: default
     <p class="course-summary">{{ course.description }}</p>
     <div class="course-hero-actions">
       <a class="button button-primary" href="#topics">View topics</a>
+      {% if course.outline_url %}
+        <a class="button" href="{{ course.outline_url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Course outline (PDF)
+        </a>
+      {% endif %}
       <a class="button" href="{{ course.piazza_url }}" target="_blank" rel="noopener noreferrer">Open Piazza</a>
     </div>
   </header>
 
   <nav class="course-section-nav" aria-label="Course page sections">
     <a href="#overview">Overview</a>
+    {% if course.textbook %}<a href="#course-details">Course details</a>{% endif %}
     <a href="#announcements">Announcements</a>
     <a href="#topics">Topics &amp; slides</a>
     <a href="#assignments">Assignments</a>
@@ -45,9 +51,88 @@ layout: default
         <span>Instructor</span>
         <strong>{{ course.instructor }}</strong>
       </div>
+      {% if course.meetings %}
+      <div class="course-fact">
+        <span>Class meetings</span>
+        <strong>{{ course.meetings }}</strong>
+      </div>
+      {% endif %}
+      {% if course.location %}
+      <div class="course-fact">
+        <span>Location</span>
+        <strong>{{ course.location }}</strong>
+      </div>
+      {% endif %}
     </div>
     <p>This page is the public home for the course topics, slide releases, and assignments. Enrollment-specific information, submissions, deadlines, and grades are maintained in Waterloo Learn.</p>
   </section>
+
+  {% if course.textbook %}
+  <section class="course-section" id="course-details">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">From the course outline</p>
+      <h4>Course details</h4>
+    </div>
+
+    <div class="course-detail-block course-textbook-card">
+      <div class="course-detail-icon"><i class="fa fa-book" aria-hidden="true"></i></div>
+      <div>
+        <p class="course-detail-label">Required textbook</p>
+        <h5>{{ course.textbook.title }}</h5>
+        <p>{{ course.textbook.authors }}. {{ course.textbook.publisher }}. ISBN {{ course.textbook.isbn }} ({{ course.textbook.format }}).</p>
+        <a class="button" href="{{ course.textbook.url }}" target="_blank" rel="noopener noreferrer">View textbook</a>
+      </div>
+    </div>
+
+    <div class="course-detail-block">
+      <h5>Assessment and evaluation</h5>
+      <div class="course-table-wrap">
+        <table class="course-detail-table course-assessment-table">
+          <thead>
+            <tr>
+              <th scope="col">Component</th>
+              <th scope="col">Weight</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in course.assessment_breakdown %}
+            <tr{% if item.component == "Total" %} class="course-table-total"{% endif %}>
+              <td data-label="Component">{{ item.component }}</td>
+              <td data-label="Weight">{{ item.weight }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="course-detail-block">
+      <h5>Tentative assessment dates</h5>
+      <div class="course-table-wrap">
+        <table class="course-detail-table course-dates-table">
+          <thead>
+            <tr>
+              <th scope="col">Assessment</th>
+              <th scope="col">Release</th>
+              <th scope="col">Due</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in course.assessment_dates %}
+            <tr>
+              <td data-label="Assessment">{{ item.assessment }}</td>
+              <td data-label="Release">{{ item.release }}</td>
+              <td data-label="Due">{{ item.due }}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% if course.assessment_dates_note %}<p class="course-detail-note">{{ course.assessment_dates_note }}</p>{% endif %}
+    </div>
+
+  </section>
+  {% endif %}
 
   <section class="course-section" id="announcements">
     <div class="course-section-heading">
@@ -105,6 +190,9 @@ layout: default
                 </ul>
               {% endif %}
               {% unless topic.description or topic.details %}<span class="course-status">—</span>{% endunless %}
+              {% if topic.alignment %}
+                <p class="course-topic-alignment"><strong>Textbook alignment:</strong> {{ topic.alignment }}</p>
+              {% endif %}
             </td>
             <td data-label="Materials">
               {% if topic.slides and topic.slides != "" %}
