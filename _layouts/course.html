@@ -25,7 +25,7 @@ layout: default
 
   <nav class="course-section-nav" aria-label="Course page sections">
     <a href="#overview">Overview</a>
-    {% if course.textbook %}<a href="#course-details">Course details</a>{% endif %}
+    {% if course.textbook or course.references %}<a href="#course-details">Course details</a>{% endif %}
     <a href="#announcements">Announcements</a>
     <a href="#topics">Topics &amp; slides</a>
     <a href="#assignments">Assignments</a>
@@ -67,13 +67,14 @@ layout: default
     <p>This page is the public home for the course topics, slide releases, and assignments. Enrollment-specific information, submissions, deadlines, and grades are maintained in Waterloo Learn.</p>
   </section>
 
-  {% if course.textbook %}
+  {% if course.textbook or course.references %}
   <section class="course-section" id="course-details">
     <div class="course-section-heading">
       <p class="course-section-kicker">From the course outline</p>
       <h4>Course details</h4>
     </div>
 
+    {% if course.textbook %}
     <div class="course-detail-block course-textbook-card">
       <div class="course-detail-icon"><i class="fa fa-book" aria-hidden="true"></i></div>
       <div>
@@ -83,7 +84,24 @@ layout: default
         <a class="button" href="{{ course.textbook.url }}" target="_blank" rel="noopener noreferrer">View textbook</a>
       </div>
     </div>
+    {% endif %}
 
+    {% if course.references %}
+    <div class="course-detail-block course-textbook-card">
+      <div class="course-detail-icon"><i class="fa fa-book" aria-hidden="true"></i></div>
+      <div>
+        <p class="course-detail-label">Textbooks and references</p>
+        <p>{{ course.references_note }}</p>
+        <ul class="course-topic-details">
+          {% for reference in course.references %}
+            <li><strong>{{ reference.title }}</strong>, {{ reference.authors }}.</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if course.assessment_breakdown %}
     <div class="course-detail-block">
       <h5>Assessment and evaluation</h5>
       <div class="course-table-wrap">
@@ -91,6 +109,7 @@ layout: default
           <thead>
             <tr>
               <th scope="col">Component</th>
+              {% if course.show_assessment_descriptions %}<th scope="col">Description</th>{% endif %}
               <th scope="col">Weight</th>
             </tr>
           </thead>
@@ -98,6 +117,7 @@ layout: default
             {% for item in course.assessment_breakdown %}
             <tr{% if item.component == "Total" %} class="course-table-total"{% endif %}>
               <td data-label="Component">{{ item.component }}</td>
+              {% if course.show_assessment_descriptions %}<td data-label="Description">{{ item.description | default: "—" }}</td>{% endif %}
               <td data-label="Weight">{{ item.weight }}</td>
             </tr>
             {% endfor %}
@@ -105,7 +125,9 @@ layout: default
         </table>
       </div>
     </div>
+    {% endif %}
 
+    {% if course.assessment_dates %}
     <div class="course-detail-block">
       <h5>Tentative assessment dates</h5>
       <div class="course-table-wrap">
@@ -130,6 +152,7 @@ layout: default
       </div>
       {% if course.assessment_dates_note %}<p class="course-detail-note">{{ course.assessment_dates_note }}</p>{% endif %}
     </div>
+    {% endif %}
 
   </section>
   {% endif %}
@@ -304,7 +327,7 @@ layout: default
     <div>
       <p class="course-section-kicker">Other current course</p>
       {% if page.course_key == "stat940" %}
-        <h4>STAT 841 — Statistical Learning / Classification</h4>
+        <h4>STAT 841 / CM 763 — Statistical Learning - Classification</h4>
         <a class="button" href="{{ '/courses/stat841/' | prepend: site.baseurl }}">Visit STAT 841</a>
       {% else %}
         <h4>STAT 940 — Deep Learning</h4>
