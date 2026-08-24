@@ -160,7 +160,7 @@ stat841:
   lecture_schedule:
     - title: "Lecture 1"
       coverage: "Course introduction; classification problems; hypothesis class, loss, and search; Bayes classifier and Bayes error"
-      slides: ""
+      slides: "/assets/pdfs/stat841_lecture_1.pdf"
     - title: "Lecture 2"
       coverage: "Gaussian classifiers; LDA and QDA; covariance assumptions and decision boundaries"
       slides: ""
