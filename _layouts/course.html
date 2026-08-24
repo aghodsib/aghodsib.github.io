@@ -196,8 +196,8 @@ layout: default
       <table class="course-schedule-table">
         <thead>
           <tr>
-            <th scope="col">{% if course.lecture_schedule %}Lecture content{% else %}Topic{% endif %}</th>
-            <th scope="col">{% if course.lecture_schedule %}Textbook alignment{% else %}Coverage{% endif %}</th>
+            <th scope="col">{% if course.lecture_schedule %}{{ course.lecture_schedule_first_heading | default: "Lecture content" }}{% else %}Topic{% endif %}</th>
+            <th scope="col">{% if course.lecture_schedule %}{{ course.lecture_schedule_second_heading | default: "Textbook alignment" }}{% else %}Coverage{% endif %}</th>
             <th scope="col">Materials</th>
           </tr>
         </thead>
@@ -205,10 +205,10 @@ layout: default
           {% assign schedule_items = course.lecture_schedule | default: course.topics %}
           {% for topic in schedule_items %}
           <tr>
-            <td data-label="{% if course.lecture_schedule %}Lecture content{% else %}Topic{% endif %}"><strong>{{ topic.title }}</strong></td>
-            <td data-label="{% if course.lecture_schedule %}Textbook alignment{% else %}Coverage{% endif %}">
+            <td data-label="{% if course.lecture_schedule %}{{ course.lecture_schedule_first_heading | default: 'Lecture content' }}{% else %}Topic{% endif %}"><strong>{{ topic.title }}</strong></td>
+            <td data-label="{% if course.lecture_schedule %}{{ course.lecture_schedule_second_heading | default: 'Textbook alignment' }}{% else %}Coverage{% endif %}">
               {% if course.lecture_schedule %}
-                {{ topic.alignment }}
+                {{ topic.coverage | default: topic.alignment }}
               {% else %}
                 {% if topic.description %}<p>{{ topic.description }}</p>{% endif %}
                 {% if topic.details %}
