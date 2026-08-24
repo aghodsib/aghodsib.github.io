@@ -13,7 +13,7 @@ layout: default
     <h3>{{ course.title }}</h3>
     <p class="course-summary">{{ course.description }}</p>
     <div class="course-hero-actions">
-      <a class="button button-primary" href="#topics">View topics</a>
+      <a class="button button-primary" href="#topics">{% if course.lecture_schedule %}View lecture schedule{% else %}View topics{% endif %}</a>
       {% if course.outline_url %}
         <a class="button" href="{{ course.outline_url | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
           <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Course outline (PDF)
@@ -27,7 +27,7 @@ layout: default
     <a href="#overview">Overview</a>
     {% if course.textbook or course.references %}<a href="#course-details">Course details</a>{% endif %}
     <a href="#announcements">Announcements</a>
-    <a href="#topics">Topics &amp; slides</a>
+    <a href="#topics">{% if course.lecture_schedule %}Lecture schedule &amp; slides{% else %}Topics &amp; slides{% endif %}</a>
     <a href="#assignments">Assignments</a>
     <a href="#course-platforms">Course platforms</a>
     <a href="#course-information">Course information</a>
@@ -184,37 +184,44 @@ layout: default
 
   <section class="course-section" id="topics">
     <div class="course-section-heading">
-      <p class="course-section-kicker">Course outline</p>
-      <h4>Tentative topics</h4>
+      <p class="course-section-kicker">{% if course.lecture_schedule %}Course schedule{% else %}Course outline{% endif %}</p>
+      <h4>{% if course.lecture_schedule %}Tentative lecture schedule{% else %}Tentative topics{% endif %}</h4>
     </div>
-    {% if course.topics_note %}
+    {% if course.lecture_schedule_note %}
+      <p class="course-section-intro">{{ course.lecture_schedule_note }}</p>
+    {% elsif course.topics_note %}
       <p class="course-section-intro">{{ course.topics_note }}</p>
     {% endif %}
     <div class="course-table-wrap">
       <table class="course-schedule-table">
         <thead>
           <tr>
-            <th scope="col">Topic</th>
-            <th scope="col">Coverage</th>
+            <th scope="col">{% if course.lecture_schedule %}Lecture content{% else %}Topic{% endif %}</th>
+            <th scope="col">{% if course.lecture_schedule %}Textbook alignment{% else %}Coverage{% endif %}</th>
             <th scope="col">Materials</th>
           </tr>
         </thead>
         <tbody>
-          {% for topic in course.topics %}
+          {% assign schedule_items = course.lecture_schedule | default: course.topics %}
+          {% for topic in schedule_items %}
           <tr>
-            <td data-label="Topic"><strong>{{ topic.title }}</strong></td>
-            <td data-label="Coverage">
-              {% if topic.description %}<p>{{ topic.description }}</p>{% endif %}
-              {% if topic.details %}
-                <ul class="course-topic-details">
-                  {% for detail in topic.details %}
-                    <li><strong>{{ detail.label }}:</strong> {{ detail.description }}</li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-              {% unless topic.description or topic.details %}<span class="course-status">—</span>{% endunless %}
-              {% if topic.alignment %}
-                <p class="course-topic-alignment"><strong>Textbook alignment:</strong> {{ topic.alignment }}</p>
+            <td data-label="{% if course.lecture_schedule %}Lecture content{% else %}Topic{% endif %}"><strong>{{ topic.title }}</strong></td>
+            <td data-label="{% if course.lecture_schedule %}Textbook alignment{% else %}Coverage{% endif %}">
+              {% if course.lecture_schedule %}
+                {{ topic.alignment }}
+              {% else %}
+                {% if topic.description %}<p>{{ topic.description }}</p>{% endif %}
+                {% if topic.details %}
+                  <ul class="course-topic-details">
+                    {% for detail in topic.details %}
+                      <li><strong>{{ detail.label }}:</strong> {{ detail.description }}</li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+                {% unless topic.description or topic.details %}<span class="course-status">—</span>{% endunless %}
+                {% if topic.alignment %}
+                  <p class="course-topic-alignment"><strong>Textbook alignment:</strong> {{ topic.alignment }}</p>
+                {% endif %}
               {% endif %}
             </td>
             <td data-label="Materials">
