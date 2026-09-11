@@ -65,6 +65,16 @@ h4 {
   color: #6f511c; }
 .prospective-notice .fa {
   margin-top: .25rem; }
+.prospective-notice-content {
+  flex: 1;
+  min-width: 0; }
+.prospective-notice-content p {
+  margin: 0 0 .75rem; }
+.prospective-notice-content p:last-child {
+  margin-bottom: 0; }
+.prospective-notice-content .prospective-notice-heading {
+  margin-bottom: .85rem;
+  font-size: 1.1em; }
 .prospective-action {
   display: flex;
   align-items: center;
