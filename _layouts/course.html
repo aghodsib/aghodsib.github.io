@@ -261,6 +261,7 @@ layout: default
               <div class="course-resource-links" aria-label="Files for {{ resource.title }}">
                 {% for file in resource.files %}
                   <div class="course-resource-file">
+                    {% if file.description %}<p class="course-resource-file-description">{{ file.description }}</p>{% endif %}
                     <a class="button" href="{% if file.external %}{{ file.url }}{% else %}{{ file.url | prepend: site.baseurl }}{% endif %}" target="_blank" rel="noopener noreferrer">
                       {% case file.type %}
                         {% when "dataset" %}<i class="fa fa-database" aria-hidden="true"></i>
@@ -270,7 +271,6 @@ layout: default
                       {% endcase %}
                       {{ file.label }}
                     </a>
-                    {% if file.description %}<p class="course-resource-file-description">{{ file.description }}</p>{% endif %}
                   </div>
                 {% endfor %}
               </div>

@@ -433,10 +433,6 @@
 }
 
 .course-resource-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
   padding: 2rem;
   border: 1px solid var(--course-line);
   border-left: 4px solid var(--course-blue);
@@ -468,11 +464,10 @@
 }
 
 .course-resource-links {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 0.7rem;
+  display: grid;
+  justify-items: start;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .course-resource-links .button {
@@ -480,17 +475,15 @@
 }
 
 .course-resource-file {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 1rem;
+  display: grid;
+  justify-items: start;
+  gap: 0.7rem;
 }
 
 .course-resource-file-description {
-  max-width: 34rem;
+  max-width: 72rem;
   font-size: 1.25rem;
   line-height: 1.45;
-  text-align: left;
 }
 
 .course-resource-empty {
@@ -705,17 +698,7 @@
     grid-template-columns: 1fr;
   }
 
-  .course-assignment-card,
-  .course-resource-card {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-
-  .course-resource-links {
-    align-items: flex-start;
-  }
-
-  .course-resource-file {
+  .course-assignment-card {
     align-items: flex-start;
     flex-direction: column;
   }
