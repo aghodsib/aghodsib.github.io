@@ -427,6 +427,89 @@
   margin-right: 0.4rem;
 }
 
+.course-resource-list {
+  display: grid;
+  gap: 1.2rem;
+}
+
+.course-resource-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid var(--course-line);
+  border-left: 4px solid var(--course-blue);
+  border-radius: 10px;
+  background: #fff;
+}
+
+.course-resource-card h5,
+.course-resource-empty h5 {
+  margin-bottom: 0.5rem;
+  color: var(--course-ink);
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.course-resource-card p,
+.course-resource-empty p {
+  margin-bottom: 0;
+  color: var(--course-muted);
+}
+
+.course-resource-topics {
+  margin-bottom: 0.4rem !important;
+  color: var(--course-blue-dark) !important;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+  text-transform: uppercase;
+}
+
+.course-resource-links {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.7rem;
+}
+
+.course-resource-links .button {
+  white-space: nowrap;
+}
+
+.course-resource-file {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.course-resource-file-description {
+  max-width: 34rem;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  text-align: left;
+}
+
+.course-resource-empty {
+  display: grid;
+  grid-template-columns: 4.4rem 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem;
+  border: 1px dashed #b9c8ce;
+  border-radius: 12px;
+  background: var(--course-soft);
+}
+
+.course-resource-empty > .fa {
+  color: var(--course-blue-dark);
+  font-size: 2.8rem;
+  text-align: center;
+}
+
 .course-assignment-grid {
   display: grid;
   gap: 1.2rem;
@@ -622,7 +705,17 @@
     grid-template-columns: 1fr;
   }
 
-  .course-assignment-card {
+  .course-assignment-card,
+  .course-resource-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .course-resource-links {
+    align-items: flex-start;
+  }
+
+  .course-resource-file {
     align-items: flex-start;
     flex-direction: column;
   }
@@ -643,11 +736,13 @@
     grid-template-columns: 1fr;
   }
 
-  .course-assignment-empty {
+  .course-assignment-empty,
+  .course-resource-empty {
     grid-template-columns: 1fr;
   }
 
-  .course-assignment-empty > .fa {
+  .course-assignment-empty > .fa,
+  .course-resource-empty > .fa {
     text-align: left;
   }
 

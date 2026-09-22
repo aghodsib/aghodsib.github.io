@@ -28,6 +28,7 @@ layout: default
     {% if course.textbook or course.references %}<a href="#course-details">Course details</a>{% endif %}
     <a href="#announcements">Announcements</a>
     <a href="#topics">{% if course.lecture_schedule %}Lecture schedule &amp; slides{% else %}Topics &amp; slides{% endif %}</a>
+    {% if course.show_resources or course.resources %}<a href="#resources">Code &amp; data</a>{% endif %}
     <a href="#assignments">Assignments</a>
     <a href="#course-platforms">Course platforms</a>
     <a href="#course-information">Course information</a>
@@ -239,6 +240,55 @@ layout: default
       </table>
     </div>
   </section>
+
+  {% if course.show_resources or course.resources %}
+  <section class="course-section" id="resources">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">Class examples</p>
+      <h4>Examples, Code &amp; Data</h4>
+    </div>
+    <p class="course-section-intro">Datasets, code, and notebooks used for demonstrations and examples are collected here independently of the lecture schedule.</p>
+    {% if course.resources and course.resources.size > 0 %}
+      <div class="course-resource-list">
+        {% for resource in course.resources %}
+          <article class="course-resource-card">
+            <div class="course-resource-content">
+              {% if resource.topics %}<p class="course-resource-topics">{{ resource.topics | join: " · " }}</p>{% endif %}
+              <h5>{{ resource.title }}</h5>
+              {% if resource.description %}<p>{{ resource.description }}</p>{% endif %}
+            </div>
+            {% if resource.files %}
+              <div class="course-resource-links" aria-label="Files for {{ resource.title }}">
+                {% for file in resource.files %}
+                  <div class="course-resource-file">
+                    <a class="button" href="{% if file.external %}{{ file.url }}{% else %}{{ file.url | prepend: site.baseurl }}{% endif %}" target="_blank" rel="noopener noreferrer">
+                      {% case file.type %}
+                        {% when "dataset" %}<i class="fa fa-database" aria-hidden="true"></i>
+                        {% when "notebook" %}<i class="fa fa-book" aria-hidden="true"></i>
+                        {% when "code" %}<i class="fa fa-code" aria-hidden="true"></i>
+                        {% else %}<i class="fa fa-download" aria-hidden="true"></i>
+                      {% endcase %}
+                      {{ file.label }}
+                    </a>
+                    {% if file.description %}<p class="course-resource-file-description">{{ file.description }}</p>{% endif %}
+                  </div>
+                {% endfor %}
+              </div>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="course-resource-empty">
+        <i class="fa fa-code" aria-hidden="true"></i>
+        <div>
+          <h5>Resources will be posted here</h5>
+          <p>Code, datasets, and notebooks from class examples will be added as they become available.</p>
+        </div>
+      </div>
+    {% endif %}
+  </section>
+  {% endif %}
 
   <section class="course-section" id="assignments">
     <div class="course-section-heading">

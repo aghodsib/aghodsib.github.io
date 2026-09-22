@@ -160,6 +160,21 @@ stat841:
   lecture_schedule_note: "Lecture topics and ordering are tentative and may be adjusted during the term."
   lecture_schedule_first_heading: "Lecture"
   lecture_schedule_second_heading: "Coverage"
+  show_resources: true
+  resources:
+    - title: "Handwritten Digits 2 and 3"
+      topics:
+        - "Classification"
+        - "Handwritten digits"
+      description: "A 64 × 400 MATLAB matrix named X containing 400 vectorized 8 × 8 handwritten-digit images. Each column is one image: columns 1–200 are examples of the digit 2, and columns 201–400 are examples of the digit 3."
+      files:
+        - label: "Download dataset (.mat)"
+          type: "dataset"
+          url: "/assets/courses/stat841/data/handwritten-digits-2-and-3.mat"
+        - label: "MATLAB plotting function (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/plotimages1.m"
+          description: "Plots images at specified 2-D coordinates. For example, after PCA or FDA, the handwritten digits can be superimposed on their projected points to reveal patterns in the two-dimensional space."
   lecture_schedule:
     - title: "Lecture 1"
       coverage: "Course introduction; classification problems; hypothesis class, loss, and search; Bayes classifier and Bayes error"
