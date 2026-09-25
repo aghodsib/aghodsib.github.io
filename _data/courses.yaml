@@ -175,6 +175,16 @@ stat841:
           type: "code"
           url: "/assets/courses/stat841/code/plotimages1.m"
           description: "Plots images at specified 2-D coordinates. For example, after PCA or FDA, the handwritten digits can be superimposed on their projected points to reveal patterns in the two-dimensional space."
+    - title: "Classification and Feature Extraction Demo"
+      topics:
+        - "LDA and QDA"
+        - "PCA and FDA"
+        - "Logistic regression"
+      description: "An interactive MATLAB demo reviewing LDA, QDA, PCA, FDA, and logistic regression using three synthetic classification datasets. It steps through feature extraction, decision boundaries, and model evaluation."
+      files:
+        - label: "Download MATLAB demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/classdemo2.m"
   lecture_schedule:
     - title: "Lecture 1"
       coverage: "Course introduction; classification problems; hypothesis class, loss, and search; Bayes classifier and Bayes error"
