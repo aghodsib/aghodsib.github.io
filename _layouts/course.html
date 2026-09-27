@@ -25,6 +25,7 @@ layout: default
 
   <nav class="course-section-nav" aria-label="Course page sections">
     <a href="#overview">Overview</a>
+    {% if course.teaching_assistants %}<a href="#teaching-team">Teaching team</a>{% endif %}
     {% if course.textbook or course.references %}<a href="#course-details">Course details</a>{% endif %}
     <a href="#announcements">Announcements</a>
     <a href="#topics">{% if course.lecture_schedule %}Lecture schedule &amp; slides{% else %}Topics &amp; slides{% endif %}</a>
@@ -67,6 +68,65 @@ layout: default
     </div>
     <p>This page is the public home for the course topics, slide releases, and assignments. Enrollment-specific information, submissions, deadlines, and grades are maintained in Waterloo Learn.</p>
   </section>
+
+  {% if course.teaching_assistants %}
+  <section class="course-section" id="teaching-team">
+    <div class="course-section-heading">
+      <p class="course-section-kicker">Course support</p>
+      <h4>Office Hours and Course Support</h4>
+    </div>
+
+    {% if course.instructor_office_hours %}
+    <article class="course-instructor-hours">
+      <div class="course-instructor-hours-heading">
+        <div class="course-instructor-icon" aria-hidden="true">
+          <i class="fa fa-graduation-cap"></i>
+        </div>
+        <div>
+          <p class="course-support-label">Instructor office hours</p>
+          <h5>{{ course.instructor }}</h5>
+        </div>
+      </div>
+      <div class="course-instructor-hours-details">
+        <p><i class="fa fa-clock-o" aria-hidden="true"></i> <strong>{{ course.instructor_office_hours }}</strong></p>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i> <strong>{{ course.instructor_office }}</strong></p>
+      </div>
+      <p class="course-support-purpose"><strong>Come to the instructor for:</strong> questions about course content or the final project.</p>
+    </article>
+    {% endif %}
+
+    <div class="course-ta-heading">
+      <div>
+        <p class="course-support-label">Teaching assistant office hours</p>
+        <h5>Assignment and coding support</h5>
+      </div>
+      <p><strong>Go to the TAs for:</strong> questions about assignments or coding.</p>
+    </div>
+
+    <div class="course-ta-grid">
+      {% for assistant in course.teaching_assistants %}
+      <article class="course-ta-card">
+        <div class="course-ta-icon" aria-hidden="true">
+          <i class="fa fa-user"></i>
+        </div>
+        <div class="course-ta-content">
+          <h5>{{ assistant.name }}</h5>
+          <dl class="course-ta-details">
+            <div>
+              <dt><i class="fa fa-clock-o" aria-hidden="true"></i> Office hours</dt>
+              <dd>{{ assistant.office_hours }}</dd>
+            </div>
+            <div>
+              <dt><i class="fa fa-map-marker" aria-hidden="true"></i> Location</dt>
+              <dd>{{ assistant.location }}</dd>
+            </div>
+          </dl>
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
   {% if course.textbook or course.references %}
   <section class="course-section" id="course-details">
@@ -299,17 +359,65 @@ layout: default
       <div class="course-assignment-grid">
         {% for assignment in course.assignments %}
           <article class="course-assignment-card">
-            <div>
-              <p class="course-assignment-meta">{% if assignment.due %}Due {{ assignment.due }}{% else %}Assignment{% endif %}</p>
-              <h5>{{ assignment.title }}</h5>
-              {% if assignment.description %}<p>{{ assignment.description }}</p>{% endif %}
+            <div class="course-assignment-header">
+              <div>
+                <p class="course-assignment-meta">{% if assignment.due %}Due {{ assignment.due }}{% else %}Assignment{% endif %}</p>
+                <h5>{{ assignment.title }}</h5>
+                {% if assignment.description %}<p>{{ assignment.description }}</p>{% endif %}
+              </div>
+              <div class="course-assignment-downloads">
+                {% if assignment.file and assignment.file != "" %}
+                  <a class="button button-primary" href="{{ assignment.file | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
+                    <i class="fa fa-file-pdf-o" aria-hidden="true"></i> Assignment PDF
+                  </a>
+                {% endif %}
+                {% if assignment.data_file and assignment.data_file != "" %}
+                  <a class="button" href="{{ assignment.data_file | prepend: site.baseurl }}" download>
+                    <i class="fa fa-file-archive-o" aria-hidden="true"></i> Data ZIP
+                  </a>
+                {% endif %}
+                {% if assignment.status and assignment.file == nil %}
+                  <span class="course-status">{{ assignment.status }}</span>
+                {% endif %}
+              </div>
             </div>
-            {% if assignment.file and assignment.file != "" %}
-              <a class="button" href="{{ assignment.file | prepend: site.baseurl }}" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-file-pdf-o" aria-hidden="true"></i> View assignment
-              </a>
-            {% elsif assignment.status %}
-              <span class="course-status">{{ assignment.status }}</span>
+
+            {% if assignment.details_intro %}
+            <details class="course-assignment-details">
+              <summary>
+                <span><i class="fa fa-list-alt" aria-hidden="true"></i> View full instructions</span>
+                <span class="course-assignment-toggle" aria-hidden="true"></span>
+              </summary>
+              <div class="course-assignment-details-body">
+                <p>{{ assignment.details_intro }}</p>
+
+                {% if assignment.submission_instructions %}
+                <h6>Submission instructions</h6>
+                <ul>
+                  {% for instruction in assignment.submission_instructions %}
+                  <li><strong>{{ instruction.label }}:</strong> {{ instruction.text }}</li>
+                  {% endfor %}
+                </ul>
+                {% endif %}
+
+                {% if assignment.programming_note %}<p>{{ assignment.programming_note }}</p>{% endif %}
+
+                {% if assignment.ai_survey %}
+                <h6>Required Generative AI Use Survey</h6>
+                <p>{{ assignment.ai_survey }} <a href="{{ assignment.learn_url }}" target="_blank" rel="noopener noreferrer">Open Learn</a>.</p>
+                {% endif %}
+
+                {% if assignment.verification %}
+                <h6>Individual Verification of Understanding</h6>
+                <p>{{ assignment.verification }}</p>
+                {% endif %}
+
+                {% if assignment.late_policy %}
+                <h6>Late Submission Policy</h6>
+                <p>{{ assignment.late_policy }}</p>
+                {% endif %}
+              </div>
+            </details>
             {% endif %}
           </article>
         {% endfor %}
@@ -370,7 +478,11 @@ layout: default
       <article>
         <i class="fa fa-question-circle-o" aria-hidden="true"></i>
         <h5>Questions</h5>
+        {% if course.instructor_office_hours %}
+        <p>For assignment and coding questions, attend TA office hours. For course-content or final-project questions, attend instructor office hours. Use a private Learn message or email for personal matters.</p>
+        {% else %}
         <p>Use Piazza for course-content questions. Use a private Learn message or email for personal matters.</p>
+        {% endif %}
       </article>
       <article>
         <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
