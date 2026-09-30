@@ -30,7 +30,7 @@ papers:
   - title: "Orchid: Flexible and Data-Dependent Convolution for Sequence Modeling"
     publication_type: conference
     authors: "Karami, Mahdi, Ghodsi, Ali"
-    venue: "NeurIPS"
+    venue: "Conference on Neural Information Processing Systems (NeurIPS)"
     paper_pdf: "https://arxiv.org/abs/2402.18508"
     code: "https://github.com/Karami-m/orchid"
     #data: ""
