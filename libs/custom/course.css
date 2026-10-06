@@ -667,18 +667,18 @@
 
 .course-assignment-header {
   display: flex;
-  gap: 2rem;
-  align-items: center;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 1.4rem;
+  align-items: stretch;
 }
 
 .course-assignment-downloads {
   display: flex;
-  flex: 0 0 auto;
   flex-wrap: wrap;
   gap: 0.8rem;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
+  width: 100%;
 }
 
 .course-assignment-downloads .button {
