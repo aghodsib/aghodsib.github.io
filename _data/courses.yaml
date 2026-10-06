@@ -104,7 +104,27 @@ stat940:
     - title: "Lecture 18 - PAC/VC generalization theory, Keras implementation, and deep reinforcement learning"
       alignment: "Ch. 6, Secs. 2-3 and 5.1; Ch. 18, Secs. 1-10; coding context: Ch. 22, Secs. 2-3"
       slides: ""
-  assignments: []
+  assignments:
+    - title: "STAT 940 — Assignment 1: Foundations, Optimization, Regularization, and Neural Architectures"
+      due: "Monday, October 26, 2026, at 11:59 p.m. Toronto time"
+      description: "Individual assignment · 100 marks"
+      file: "/assets/courses/stat940/assignments/stat940_assignment_1.pdf"
+      support_files:
+        - label: "Data generator (data.py)"
+          file: "/assets/courses/stat940/assignments/data.py"
+        - label: "Model engine (model.py)"
+          file: "/assets/courses/stat940/assignments/model.py"
+      details_intro: "Download the assignment PDF and both supplied Python files linked above. Keep <code>data.py</code> and <code>model.py</code> with your Question 7 code and use relative paths. Read the assignment instructions carefully; the <strong>Deliverables</strong> box at the end of each question specifies exactly what to submit."
+      submission_instructions:
+        - label: "Crowdmark"
+          text: "Upload your written solutions, tables, and figures to the matching assignment questions. Do not paste full code into Crowdmark."
+        - label: "Learn"
+          text: "Submit one ZIP file named <code>WatIAM_A1.zip</code> to the <strong>Assignment 1 Dropbox</strong>, replacing <code>WatIAM</code> with your Waterloo username. Combine the required files for Questions 1 and 7 in this single ZIP: <code>Q1.py</code> (or <code>Q1.R</code>/<code>Q1.m</code>), <code>Q7.py</code>, <code>data.py</code>, <code>model.py</code>, any helpers, <code>Q7_results.csv</code>, <code>Q7_history.csv</code>, <code>Q7_test.csv</code>, and one README covering commands, dependencies, and seeds. Do not submit separate Q1 and Q7 ZIPs or individual code files."
+      programming_note: "For Question 1, use basic array operations and do not use automatic differentiation. For Question 7, use Python/NumPy and the supplied engine; write your own experiment loop, comparisons, logging, selection, and diagnostics, and do not call ready-made training, search, or early-stopping routines."
+      learn_url: "https://learn.uwaterloo.ca/"
+      ai_survey: "Generative AI use is permitted. After completing the assignment, open Learn and select <strong>Submit → Surveys → Assignment 1: Generative AI Use Survey</strong>. Everyone must complete the survey, including students who used no generative AI; in that case, answer <strong>No</strong> to all five questions. The survey is not anonymous so completion can be checked. Your survey responses do not affect your assignment grade."
+      verification: "You may be asked to complete a brief individual quiz or participate in an oral discussion about your assignment. This may include explaining your reasoning and solutions, answering related questions, or explaining and making small modifications to your submitted code. You must demonstrate your own understanding of all submitted work, including work developed with permitted generative AI assistance. These checks must be completed without generative AI or assistance from others. If you cannot demonstrate adequate understanding of your submitted work, your overall assignment mark may be reduced."
+      late_policy: "Submissions received up to 24 hours after the deadline receive a 10% penalty. Submissions more than 24 hours late receive a grade of zero."
 
 stat841:
   code: "STAT 841 / CM 763"

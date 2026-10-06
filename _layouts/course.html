@@ -376,6 +376,13 @@ layout: default
                     <i class="fa fa-file-archive-o" aria-hidden="true"></i> Data ZIP
                   </a>
                 {% endif %}
+                {% if assignment.support_files %}
+                  {% for support_file in assignment.support_files %}
+                  <a class="button" href="{{ support_file.file | prepend: site.baseurl }}" download>
+                    <i class="fa fa-file-code-o" aria-hidden="true"></i> {{ support_file.label }}
+                  </a>
+                  {% endfor %}
+                {% endif %}
                 {% if assignment.status and assignment.file == nil %}
                   <span class="course-status">{{ assignment.status }}</span>
                 {% endif %}

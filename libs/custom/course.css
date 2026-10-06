@@ -675,8 +675,10 @@
 .course-assignment-downloads {
   display: flex;
   flex: 0 0 auto;
+  flex-wrap: wrap;
   gap: 0.8rem;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .course-assignment-downloads .button {
