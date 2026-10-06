@@ -338,6 +338,64 @@
   font-weight: 600;
 }
 
+.course-ta-roster {
+  display: grid;
+  grid-template-columns: 4rem minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+  padding: 1.8rem;
+  border: 1px solid var(--course-line);
+  border-top: 4px solid var(--course-blue);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(16, 49, 74, 0.06);
+}
+
+.course-ta-roster h5 {
+  margin: 0 0 0.45rem;
+  color: var(--course-ink);
+  font-size: 1.65rem;
+  font-weight: 650;
+}
+
+.course-ta-roster p:last-child {
+  margin: 0;
+  color: var(--course-muted);
+}
+
+.course-ta-schedule-details {
+  margin-top: 1.2rem;
+}
+
+.course-ta-schedule-details .course-assignment-details-body {
+  padding: 1.2rem;
+}
+
+.course-ta-schedule-table {
+  min-width: 820px;
+}
+
+.course-ta-schedule-table th:first-child,
+.course-ta-schedule-table td:first-child {
+  width: 16%;
+}
+
+.course-ta-schedule-table th:last-child,
+.course-ta-schedule-table td:last-child {
+  width: 32%;
+  white-space: normal;
+}
+
+.course-ta-online-note {
+  margin: 1.2rem 0 0;
+  color: var(--course-ink);
+}
+
+.course-ta-online-note i {
+  margin-right: 0.4rem;
+  color: var(--course-blue-dark);
+}
+
 .course-detail-block + .course-detail-block {
   margin-top: 3.2rem;
 }

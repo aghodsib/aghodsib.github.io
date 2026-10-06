@@ -103,6 +103,54 @@ layout: default
       <p><strong>Go to the TAs for:</strong> questions about assignments or coding.</p>
     </div>
 
+    {% if course.teaching_assistant_schedule %}
+    <article class="course-ta-roster">
+      <div class="course-ta-icon" aria-hidden="true">
+        <i class="fa fa-users"></i>
+      </div>
+      <div>
+        <p class="course-support-label">Teaching assistants</p>
+        <h5>{{ course.teaching_assistants | map: "name" | join: " and " }}</h5>
+        <p>In-person and online office hours rotate weekly. Open the schedule below for dates, times, and locations.</p>
+      </div>
+    </article>
+
+    <details class="course-assignment-details course-ta-schedule-details">
+      <summary>
+        <span><i class="fa fa-calendar" aria-hidden="true"></i> View office-hours schedule</span>
+        <span class="course-assignment-toggle" aria-hidden="true"></span>
+      </summary>
+      <div class="course-assignment-details-body">
+        <div class="course-table-wrap">
+          <table class="course-schedule-table course-ta-schedule-table">
+            <thead>
+              <tr>
+                <th>Week starting</th>
+                <th>In-person session: date, time, TA and room</th>
+                <th>Online session: date, time and TA</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for session in course.teaching_assistant_schedule %}
+              <tr>
+                <td data-label="Week starting"><strong>{{ session.week_starting }}</strong></td>
+                <td data-label="In-person session">
+                  <strong>{{ session.in_person_date }}</strong><br>
+                  {{ session.in_person_time }} · {{ session.in_person_ta }} · {{ session.in_person_location }}
+                </td>
+                <td data-label="Online session">
+                  <strong>{{ session.online_date }}</strong><br>
+                  {{ session.online_time }} · {{ session.online_ta }}
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% if course.teaching_assistant_online_note %}<p class="course-ta-online-note"><i class="fa fa-video-camera" aria-hidden="true"></i> {{ course.teaching_assistant_online_note }}</p>{% endif %}
+      </div>
+    </details>
+    {% else %}
     <div class="course-ta-grid">
       {% for assistant in course.teaching_assistants %}
       <article class="course-ta-card">
@@ -125,6 +173,7 @@ layout: default
       </article>
       {% endfor %}
     </div>
+    {% endif %}
   </section>
   {% endif %}
 
