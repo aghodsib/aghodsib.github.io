@@ -30,6 +30,7 @@ layout: default
     <a href="#announcements">Announcements</a>
     <a href="#topics">{% if course.lecture_schedule %}Lecture schedule &amp; slides{% else %}Topics &amp; slides{% endif %}</a>
     {% if course.show_resources or course.resources %}<a href="#resources">Code &amp; data</a>{% endif %}
+    {% if page.paper_registration == "stat841" %}<a href="#paper-presentations">Paper presentations</a>{% endif %}
     <a href="#assignments">Assignments</a>
     <a href="#course-platforms">Course platforms</a>
     <a href="#course-information">Course information</a>
@@ -399,6 +400,10 @@ layout: default
   </section>
   {% endif %}
 
+  {% if page.paper_registration == "stat841" %}
+    {% include stat841_paper_registration.html %}
+  {% endif %}
+
   <section class="course-section" id="assignments">
     <div class="course-section-heading">
       <p class="course-section-kicker">Coursework</p>
@@ -561,3 +566,4 @@ layout: default
     </div>
   </aside>
 </main>
+
