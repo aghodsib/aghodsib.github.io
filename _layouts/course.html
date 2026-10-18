@@ -31,7 +31,7 @@ layout: default
     <a href="#topics">{% if course.lecture_schedule %}Lecture schedule &amp; slides{% else %}Topics &amp; slides{% endif %}</a>
     {% if course.show_resources or course.resources %}<a href="#resources">Code &amp; data</a>{% endif %}
     {% if page.paper_registration == "stat841" or page.paper_registration == "stat940" %}<a href="#paper-presentations">Paper presentations</a>{% endif %}
-    {% if page.project_registration == "stat841" %}<a href="#final-projects">Final projects</a>{% endif %}
+    {% if page.project_registration == "stat841" or page.project_registration == "stat940" %}<a href="#final-projects">Final projects</a>{% endif %}
     <a href="#assignments">Assignments</a>
     <a href="#course-platforms">Course platforms</a>
     <a href="#course-information">Course information</a>
@@ -409,6 +409,8 @@ layout: default
 
   {% if page.project_registration == "stat841" %}
     {% include stat841_project_registration.html %}
+  {% elsif page.project_registration == "stat940" %}
+    {% include stat940_project_registration.html %}
   {% endif %}
 
   <section class="course-section" id="assignments">
