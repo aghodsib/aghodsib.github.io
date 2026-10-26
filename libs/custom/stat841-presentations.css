@@ -1,0 +1,25 @@
+/* Scoped to STAT 841; reuse the existing course palette and table styles. */
+#paper-presentations .stat841-presentation-block { margin-top: 3.2rem; scroll-margin-top: 13rem; }
+#paper-presentations .stat841-presentation-session { margin-top: 2.4rem; }
+#paper-presentations .stat841-presentation-session h6 { margin: 0 0 1rem; color: var(--course-blue-dark); font-size: 1.5rem; font-weight: 600; letter-spacing: 0; text-transform: none; }
+#paper-presentations .stat841-presentation-table,
+#paper-presentations .stat841-rubric-table { min-width: 0; }
+#paper-presentations .stat841-presentation-table td:first-child { width: 16rem; white-space: nowrap; }
+#paper-presentations .stat841-presentation-table td:nth-child(2) { width: 10rem; white-space: nowrap; }
+#paper-presentations .stat841-presentation-table a { color: var(--course-blue-dark); text-decoration: none; }
+#paper-presentations .stat841-presentation-table a:hover,
+#paper-presentations .stat841-presentation-table a:focus { text-decoration: underline; }
+#paper-presentations .stat841-rubric-table td:first-child { width: 26%; }
+#paper-presentations .stat841-rubric-table td:last-child { width: 8rem; font-weight: 600; }
+@media (max-width: 600px) {
+  #paper-presentations .stat841-presentation-block { scroll-margin-top: 7rem; }
+  #paper-presentations .stat841-presentation-table thead,
+  #paper-presentations .stat841-rubric-table thead { display: none; }
+  #paper-presentations .stat841-presentation-table tr,
+  #paper-presentations .stat841-rubric-table tr { display: block; padding: 1.2rem 1.5rem; border-bottom: 1px solid var(--course-line); }
+  #paper-presentations .stat841-presentation-table tr:last-child,
+  #paper-presentations .stat841-rubric-table tr:last-child { border: 0; }
+  #paper-presentations .stat841-presentation-table td,
+  #paper-presentations .stat841-rubric-table td { display: block; width: auto !important; border: 0; padding: .3rem 0; white-space: normal; }
+  #paper-presentations .stat841-rubric-table td:last-child::before { content: 'Weight: '; }
+}
