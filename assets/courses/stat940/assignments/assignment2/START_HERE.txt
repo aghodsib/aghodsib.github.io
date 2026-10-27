@@ -1,0 +1,20 @@
+STAT 940 Assignment 2 — student starter
+
+Requirements: Python, NumPy, Matplotlib and PyTorch. Run on CPU.
+
+Q6/data.py generates the prescribed training and held-out data locally.
+No separate dataset download is needed.
+
+1. Complete the five TODOs in Q6/model.py.
+2. Write Q6/check_loss.py as specified in the assignment PDF.
+3. From this directory, run:
+   python Q6/check_loss.py
+   python Q6/run_q6.py
+
+The training script runs the sampling checks and all four experiments,
+then saves CSV tables, plots and diagnostics under Q6/results/.
+It is expected to stop with NotImplementedError until the TODOs are complete.
+Write your Q3 implementation separately.
+
+Submit Q3 and Q6 together in one WatIAM_A2.zip with your own README.md.
+Follow the assignment PDF for the full requirements.

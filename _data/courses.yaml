@@ -222,6 +222,28 @@ stat940:
       ai_survey: "Generative AI use is permitted. After completing the assignment, open Learn and select <strong>Submit → Surveys → Assignment 1: Generative AI Use Survey</strong>. Everyone must complete the survey, including students who used no generative AI; in that case, answer <strong>No</strong> to all five questions. The survey is not anonymous so completion can be checked. Your survey responses do not affect your assignment grade."
       verification: "You may be asked to complete a brief individual quiz or participate in an oral discussion about your assignment. This may include explaining your reasoning and solutions, answering related questions, or explaining and making small modifications to your submitted code. You must demonstrate your own understanding of all submitted work, including work developed with permitted generative AI assistance. These checks must be completed without generative AI or assistance from others. If you cannot demonstrate adequate understanding of your submitted work, your overall assignment mark may be reduced."
       late_policy: "Submissions received up to 24 hours after the deadline receive a 10% penalty. Submissions more than 24 hours late receive a grade of zero."
+    - title: "STAT 940 — Assignment 2: Attention, Transformers, Alignment and VAEs"
+      due: "Monday, November 16, 2026, at 11:59 p.m. Toronto time"
+      description: "Individual assignment · 100 marks"
+      file: "/assets/courses/stat940/assignments/stat940_assignment_2.pdf"
+      support_files:
+        - label: "Student starter ZIP"
+          file: "/assets/courses/stat940/assignments/stat940_assignment_2_starter.zip"
+        - label: "Data generator (data.py)"
+          file: "/assets/courses/stat940/assignments/assignment2/Q6/data.py"
+        - label: "Model starter (model.py)"
+          file: "/assets/courses/stat940/assignments/assignment2/Q6/model.py"
+        - label: "Training script (run_q6.py)"
+          file: "/assets/courses/stat940/assignments/assignment2/Q6/run_q6.py"
+      details_intro: "Download the assignment PDF and student starter ZIP. Extract the ZIP and keep the Q6 files together. The supplied data.py generates the data locally; no separate dataset download is required. The Deliverables box at the end of each question specifies what to submit."
+      submission_instructions:
+        - label: "Crowdmark"
+          text: "Upload written answers, tables, figures and interpretations to the matching question numbers. Do not paste full source code into Crowdmark."
+        - label: "Learn"
+          text: "Submit one combined ZIP named <code>WatIAM_A2.zip</code> to the <strong>Assignment 2 Dropbox</strong>, replacing <code>WatIAM</code> with your Waterloo username. Include both <code>Q3/</code> and <code>Q6/</code>, code and helpers, generated CSV tables and figures, and your own <code>README.md</code> with run commands, package versions and seeds. Use relative paths. Exclude environments, installed packages and trained-model checkpoints. Do not submit separate ZIPs for Q3 and Q6."
+      programming_note: "Use Python with NumPy and Matplotlib for Q3; Q6 also uses PyTorch. Complete the five TODOs in Q6/model.py and write Q6/check_loss.py. The supplied Q6/run_q6.py handles data generation, training, evaluation and plotting. Equivalent independent code is permitted if it follows the PDF's protocol."
+      learn_url: "https://learn.uwaterloo.ca/"
+      late_policy: "Submissions received up to 24 hours after the deadline receive a 10% penalty on the earned mark. Submissions more than 24 hours late receive a grade of zero."
 
 stat841:
   code: "STAT 841 / CM 763"
@@ -417,3 +439,4 @@ stat841:
       ai_survey: "Generative AI use is permitted. After completing the assignment, open Learn and select <strong>Submit → Surveys → Assignment 2: Generative AI Use Survey</strong>. Everyone must complete the survey, including students who used no generative AI; in that case, answer <strong>No</strong> to all five questions. The survey is not anonymous so completion can be checked. Your survey responses do not affect your assignment grade."
       verification: "You may be asked to complete a brief individual quiz or oral discussion about your assignment, including explaining your reasoning, answering related questions, or explaining and making small modifications to your code. You must demonstrate your own understanding of all submitted work, including work developed with permitted generative AI assistance. These checks must be completed without generative AI or assistance from others. If you cannot demonstrate adequate understanding, your overall assignment mark may be reduced."
       late_policy: "Submissions received up to 24 hours after the deadline receive a 10% penalty on the earned mark. Submissions more than 24 hours late receive a grade of zero."
+
