@@ -336,6 +336,24 @@ stat841:
         - label: "Download MATLAB demo (.m)"
           type: "code"
           url: "/assets/courses/stat841/code/classdemo2.m"
+    - title: "Hard-Margin SVM Demo"
+      topics:
+        - "Support vectors"
+        - "Kernel methods"
+      description: "Compare linear, quadratic, and Gaussian kernels on the same data. See when a hard-margin separator exists and how the support vectors determine its boundary. Requires MATLAB with Optimization Toolbox."
+      files:
+        - label: "Download hard-margin demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/hard_margin_svm_demo.m"
+    - title: "Soft-Margin SVM Demo"
+      topics:
+        - "Slack variables"
+        - "Margin violations"
+      description: "Adjust the penalty for margin violations and see how the decision boundary changes on overlapping data. Select a point to inspect its slack and see whether it is a support vector. Requires MATLAB with Optimization Toolbox."
+      files:
+        - label: "Download soft-margin demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/soft_margin_svm_demo.m"
   lecture_schedule:
     - title: "Lecture 1"
       coverage: "Course introduction; classification problems; hypothesis class, loss, and search; Bayes classifier and Bayes error"
