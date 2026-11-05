@@ -136,6 +136,26 @@ stat940:
       due: "Monday, December 21, 11:59 p.m."
   assessment_dates_note: "All dates are tentative and may change. Changes will be announced."
   lecture_schedule_note: "This tentative schedule follows the lecture sequence in the course materials; textbook references provide supporting readings."
+  show_resources: true
+  resources:
+    - title: "Variational Inference and VAE Demo"
+      topics:
+        - "Variational inference"
+        - "Variational autoencoders"
+      description: "Explore posterior approximation, the variational lower bound, and reparameterization. Train a small VAE and compare reconstruction with generation. Run variational_autoencoder_demo in MATLAB R2016b or later; no additional toolboxes are required."
+      files:
+        - label: "Download VAE demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat940/code/variational_autoencoder_demo.m"
+    - title: "DPO Loss Example"
+      topics:
+        - "Direct preference optimization"
+        - "Preference learning"
+      description: "Compute the DPO loss for a preferred and a less-preferred response. Change the current-model probabilities, reference-model probabilities, and beta in the script to compare scenarios. Run DPO in MATLAB."
+      files:
+        - label: "Download DPO example (.m)"
+          type: "code"
+          url: "/assets/courses/stat940/code/DPO.m"
   lecture_schedule:
     - title: "Lecture 1 - Motivation, history, machine-learning foundations, and a neural-network overview"
       alignment: "Ch. 1, Secs. 1-5; Ch. 2, Secs. 2.1-2.7"
