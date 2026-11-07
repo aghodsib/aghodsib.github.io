@@ -357,6 +357,15 @@ stat841:
         - label: "Download MATLAB demo (.m)"
           type: "code"
           url: "/assets/courses/stat841/code/classdemo2.m"
+    - title: "Kernel Mapping Demo"
+      topics:
+        - "Feature maps"
+        - "Kernel methods"
+      description: "Visualize a quadratic feature map, a separating plane in feature space, and the corresponding nonlinear boundary in input space. Compare explicit feature inner products with kernel evaluations. Run kernel_demo in MATLAB; no additional toolboxes are required."
+      files:
+        - label: "Download kernel demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/kernel_demo.m"
     - title: "Hard-Margin SVM Demo"
       topics:
         - "Support vectors"
@@ -375,6 +384,34 @@ stat841:
         - label: "Download soft-margin demo (.m)"
           type: "code"
           url: "/assets/courses/stat841/code/soft_margin_svm_demo.m"
+    - title: "Decision Tree Demo"
+      topics:
+        - "Regression and classification trees"
+        - "Recursive partitioning"
+      description: "Explore split thresholds, constant predictions within regions, tree growth, overfitting, and impurity criteria. Run decision_tree_demo in MATLAB R2016b or later; no additional toolboxes are required."
+      files:
+        - label: "Download decision tree demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/decision_tree_demo.m"
+    - title: "Random Forest Demo"
+      topics:
+        - "Bootstrap sampling"
+        - "Random feature selection"
+        - "Majority voting"
+      description: "Compare identical trees, bagging, and random forests. Inspect sampled observations and candidate features, then click a point to see individual tree votes and the majority prediction. Run random_forest_demo in MATLAB R2016b or later; no additional toolboxes are required."
+      files:
+        - label: "Download random forest demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/random_forest_demo.m"
+    - title: "Tree Pruning Demo"
+      topics:
+        - "Cost-complexity pruning"
+        - "Region merging"
+      description: "Merge regions by collapsing tree branches and see how fitted constants, fitting error, and the leaf-count penalty change. Adjust alpha to compare simpler and more detailed trees. Run pruning_demo in MATLAB R2016b or later; no additional toolboxes are required."
+      files:
+        - label: "Download pruning demo (.m)"
+          type: "code"
+          url: "/assets/courses/stat841/code/pruning_demo.m"
   lecture_schedule:
     - title: "Lecture 1"
       coverage: "Course introduction; classification problems; hypothesis class, loss, and search; Bayes classifier and Bayes error"
