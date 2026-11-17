@@ -271,6 +271,31 @@ stat940:
       learn_url: "https://learn.uwaterloo.ca/"
       late_policy: "Submissions received up to 24 hours after the deadline receive a 10% penalty on the earned mark. Submissions more than 24 hours late receive a grade of zero."
 
+    - title: "STAT 940 - Assignment 3: GANs, Diffusion Models, and Graph Neural Networks"
+      due: "Monday, November 30, 2026, at 11:59 p.m. Toronto time"
+      description: "Individual assignment · 100 marks"
+      file: "/assets/courses/stat940/assignments/stat940_assignment_3.pdf"
+      support_files:
+        - label: "Student starter ZIP"
+          file: "/assets/courses/stat940/assignments/stat940_assignment_3_starter.zip"
+        - label: "Q3 starter (core.py)"
+          file: "/assets/courses/stat940/assignments/assignment3/Q3/core.py"
+        - label: "Q3 data and training (run.py)"
+          file: "/assets/courses/stat940/assignments/assignment3/Q3/run.py"
+        - label: "Q5 starter (core.py)"
+          file: "/assets/courses/stat940/assignments/assignment3/Q5/core.py"
+        - label: "Q5 data and training (run.py)"
+          file: "/assets/courses/stat940/assignments/assignment3/Q5/run.py"
+      details_intro: "Download the assignment PDF and student starter ZIP. Extract the ZIP and keep the <code>Q3/</code> and <code>Q5/</code> folders together. The supplied <code>run.py</code> scripts generate all data locally; no separate dataset download is required. The <strong>Deliverables</strong> box at the end of each question specifies what to submit."
+      submission_instructions:
+        - label: "Crowdmark"
+          text: "Upload written answers, calculations, check tables, results, figures and interpretations to the matching question numbers. Do not paste full source code into Crowdmark."
+        - label: "Learn"
+          text: "Submit one combined ZIP named <code>WatIAM_A3.zip</code> to the <strong>Assignment 3 Dropbox</strong>, replacing <code>WatIAM</code> with your Waterloo username. Include both <code>Q3/</code> and <code>Q5/</code>, your code and checking scripts, <code>Q3/outputs/metrics.csv</code>, <code>Q3/outputs/samples.png</code>, <code>Q5/outputs/metrics.csv</code>, <code>Q5/outputs/identity_intervention.csv</code>, and one student-written <code>README.md</code> with the run commands and package versions. Use relative paths. Exclude environments, installed packages, cache directories and trained-model checkpoints. Do not submit separate ZIPs for Q3 and Q5."
+      programming_note: "Use Python with NumPy, Matplotlib and PyTorch; a CPU is sufficient. Complete the four functions in <code>Q3/core.py</code>, including the diffusion sampling loop, and the two operations in <code>Q5/core.py</code>. Write <code>Q3/checks.py</code> and <code>Q5/checks.py</code>. Use the supplied <code>run.py</code> scripts unchanged for data generation, training, evaluation and plotting. Run <code>python -m Q3.checks</code>, <code>python -m Q3.run</code>, <code>python -m Q5.checks</code> and <code>python -m Q5.run</code> from the extracted starter folder."
+      learn_url: "https://learn.uwaterloo.ca/"
+      late_policy: "Submissions received up to 24 hours after the deadline receive a 10% penalty on the earned mark. Submissions more than 24 hours late receive a grade of zero."
+
 stat841:
   code: "STAT 841 / CM 763"
   title: "Statistical Learning - Classification"
@@ -543,3 +568,4 @@ stat841:
       ai_survey: "Generative AI use is permitted. After completing the assignment, open Learn and select <strong>Submit → Surveys → Assignment 3: Generative AI Use Survey</strong>. Everyone must complete the survey, including students who used no generative AI. The survey is not anonymous so completion can be checked. Your survey responses do not affect your assignment grade."
       verification: "You may be asked to complete a brief individual quiz or oral discussion about your assignment, including explaining your reasoning, answering related questions, or explaining and making small modifications to your code. You must demonstrate your own understanding of all submitted work, including work developed with permitted generative AI assistance. These checks must be completed without generative AI or assistance from others. If you cannot demonstrate adequate understanding, your overall assignment mark may be reduced."
       late_policy: "Submissions received up to 24 hours after the deadline receive a 10% penalty on the earned mark. Submissions more than 24 hours late receive a grade of zero."
+
