@@ -6,7 +6,8 @@ stat940:
   meetings: "Tuesdays and Thursdays, 1:00-2:20 p.m."
   location: "MC 4063"
   description: "A graduate-level course on the foundations, architectures, optimization methods, and modern applications of deep learning."
-  piazza_url: "https://piazza.com/class/mtvh6kt24dj3a8"
+  piazza_url: "https://piazza.com/uwaterloo.ca/fall2026/stat940/home"
+  piazza_signup_url: "https://piazza.com/uwaterloo.ca/fall2026/stat940"
   d2l_url: "https://learn.uwaterloo.ca/"
   outline_url: "/assets/pdfs/stat940_outline.pdf"
   teaching_assistants:

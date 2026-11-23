@@ -515,6 +515,9 @@ layout: default
           <h5>Piazza</h5>
           <p>Use Piazza for announcements, lecture questions, clarifications, and class discussion.</p>
           <a class="button" href="{{ course.piazza_url }}" target="_blank" rel="noopener noreferrer">Go to Piazza</a>
+          {% if course.piazza_signup_url %}
+            <a class="button" href="{{ course.piazza_signup_url }}" target="_blank" rel="noopener noreferrer">Join {{ course.term }} Piazza</a>
+          {% endif %}
         </div>
       </article>
       <article class="course-platform-card course-platform-d2l">
